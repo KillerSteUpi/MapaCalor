@@ -130,7 +130,7 @@ if not df_datos.empty:
     # 5. RENDERIZADO DEL MAPA Y MÉTRICAS
     # ==========================================
     st.pydeck_chart(pdk.Deck(
-        map_style="mapbox://styles/mapbox/dark-v10",
+       map_style="carto-darkmatter",
         initial_view_state=vista_inicial,
         layers=capas_mapa,
         tooltip={"text": "Registro detectado"}
