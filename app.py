@@ -1,3 +1,4 @@
+#Mapa de calor de las alcaldias
 import streamlit as st
 import pandas as pd
 import geopandas as gpd
@@ -130,12 +131,11 @@ if not df_datos.empty:
     # 5. RENDERIZADO DEL MAPA Y MÉTRICAS
     # ==========================================
     st.pydeck_chart(pdk.Deck(
-       map_style="carto-darkmatter",
+       map_style="carto-darkmatter", #mapa gratuito
         initial_view_state=vista_inicial,
         layers=capas_mapa,
         tooltip={"text": "Registro detectado"}
     ))
-
     st.markdown("### Resumen Ejecutivo")
     col1, col2, col3 = st.columns(3)
     col1.metric("Total de Registros", len(df_datos))
