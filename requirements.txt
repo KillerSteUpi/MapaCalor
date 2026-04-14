@@ -1,6 +1,6 @@
 streamlit
 pandas
 geopandas
-pydeck
 shapely
-numpy
+folium
+streamlit-folium
