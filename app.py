@@ -3,7 +3,7 @@ import pandas as pd
 import geopandas as gpd
 from shapely.geometry import Point
 import folium
-from folium.plugins import HeatMap, MarkerCluster # Importamos el MarkerCluster
+from folium.plugins import HeatMap, MarkerCluster
 from streamlit_folium import st_folium
 import json
 
@@ -15,26 +15,29 @@ st.title("📍 Sistema de Inteligencia Territorial")
 st.markdown("---")
 
 # ==========================================
-# 2. CARGA Y LIMPIEZA DE DATOS (CON CAJA GEOGRÁFICA)
+# 2. CARGA Y LIMPIEZA DE DATOS (BLINDAJE OPERATIVO)
 # ==========================================
 @st.cache_data(ttl=300)
 def cargar_datos():
     try:
+        # orient="index" permite que el nombre del sitio sea la llave principal
         df = pd.read_json("mis_datos.json", orient="index")
         
+        # Blindaje 1: Forzar números y quitar nulos
         df['lat'] = pd.to_numeric(df['lat'], errors='coerce')
         df['lon'] = pd.to_numeric(df['lon'], errors='coerce')
         df = df.dropna(subset=['lat', 'lon'])
         
-        # BLINDAJE GEOGRÁFICO: Ignorar coordenadas fuera de la zona centro de México
-        # Esto evita que errores de captura deformen los polígonos
+        # Blindaje 2: Caja Geográfica (Solo Zona Metropolitana)
+        # Ignora coordenadas basura que deforman los polígonos
         df = df[(df['lat'] > 19.0) & (df['lat'] < 19.8) & (df['lon'] > -99.6) & (df['lon'] < -98.8)]
         
+        # Creación de geometría para polígonos
         geometria = [Point(xy) for xy in zip(df['lon'], df['lat'])]
         gdf = gpd.GeoDataFrame(df, geometry=geometria, crs="EPSG:4326")
         return df, gdf
     except Exception as e:
-        st.error(f"⚠️ Error al leer datos: {e}")
+        st.error(f"⚠️ Error al leer el archivo de datos: {e}")
         return pd.DataFrame(), gpd.GeoDataFrame()
 
 df_datos, gdf_datos = cargar_datos()
@@ -44,7 +47,7 @@ if not df_datos.empty:
     modo_vista = st.sidebar.radio(
         "Selecciona la capa de análisis:",
         [
-            "1. Agrupación Dinámica (Clusters)", # La opción que solicitaste
+            "1. Agrupación Dinámica (Clusters)", 
             "2. Radios de Influencia (Operativo)", 
             "3. Sectores Naturales (Huella Real)",
             "4. Mapa de Calor (Densidad)"
@@ -52,32 +55,33 @@ if not df_datos.empty:
     )
 
     # ==========================================
-    # 3. CREACIÓN DEL MAPA FOLIUM
+    # 3. INICIALIZACIÓN DEL MAPA
     # ==========================================
+    # Centramos el mapa basado en los datos válidos
     centro_lat = df_datos['lat'].mean()
     centro_lon = df_datos['lon'].mean()
     
     mapa = folium.Map(
         location=[centro_lat, centro_lon], 
         zoom_start=10, 
-        tiles="cartodbdark_matter" 
+        tiles="cartodbdark_matter" # Mapa oscuro gratuito, no requiere API Key
     )
 
     # ==========================================
-    # 4. CAPAS DEL MAPA
+    # 4. RENDERIZADO DE CAPAS SEGÚN SELECCIÓN
     # ==========================================
     
     if modo_vista == "1. Agrupación Dinámica (Clusters)":
-        st.subheader("Puntos agrupados por concentración (Clusters)")
+        st.subheader("Puntos agrupados por concentración territorial")
         
-        # Inicializamos el cluster
         cluster = MarkerCluster().add_to(mapa)
         
-        # Agregamos los puntos al cluster en lugar de al mapa directamente
-        for _, row in df_datos.iterrows():
+        for index, row in df_datos.iterrows():
+            nombre_sitio = str(index).replace("_", " ") # Limpiamos el nombre para lectura
+            
             folium.Marker(
                 location=[row['lat'], row['lon']],
-                tooltip=f"Delegación: {row.get('delegacion', 'N/A')} | Min: {row.get('min', '-')} Max: {row.get('max', '-')}"
+                tooltip=f"🏢 Sitio: {nombre_sitio} | 📍 Delegación: {row.get('delegacion', 'N/A')} | 📊 Min: {row.get('min', '-')} Max: {row.get('max', '-')}"
             ).add_to(cluster)
 
     elif modo_vista == "2. Radios de Influencia (Operativo)":
@@ -85,7 +89,9 @@ if not df_datos.empty:
         radio_metros = st.sidebar.slider("Ajustar radio (metros):", 50, 2000, 500, step=50)
         st.subheader(f"Zonas de cobertura a {radio_metros} metros")
         
-        for _, row in df_datos.iterrows():
+        for index, row in df_datos.iterrows():
+            nombre_sitio = str(index).replace("_", " ")
+            
             folium.Circle(
                 location=[row['lat'], row['lon']],
                 radius=radio_metros,
@@ -93,15 +99,17 @@ if not df_datos.empty:
                 fill=True,
                 fill_color="#0096FF",
                 fill_opacity=0.4,
-                tooltip=f"Delegación: {row.get('delegacion', 'N/A')}"
+                tooltip=f"🏢 Sitio: {nombre_sitio} | 📍 Delegación: {row.get('delegacion', 'N/A')}"
             ).add_to(mapa)
 
     elif modo_vista == "3. Sectores Naturales (Huella Real)":
         st.subheader("Polígonos de operación real agrupados por Delegación")
         
+        # Agrupamos por delegación y creamos el contorno exterior (convex hull)
         sectores = gdf_datos.dissolve(by='delegacion')
         sectores['geometry'] = sectores.geometry.convex_hull
         
+        # Solo dibujamos aquellos que formaron un polígono válido (min 3 puntos)
         sectores_validos = sectores[sectores.geometry.type.isin(['Polygon', 'MultiPolygon'])]
         
         if not sectores_validos.empty:
@@ -116,23 +124,29 @@ if not df_datos.empty:
                 tooltip=folium.GeoJsonTooltip(fields=['delegacion'], aliases=['Delegación:'])
             ).add_to(mapa)
         else:
-            st.warning("No hay suficientes registros en las delegaciones para formar polígonos cerrados.")
+            st.warning("No hay suficientes registros bien agrupados para trazar sectores poligonales.")
 
     elif modo_vista == "4. Mapa de Calor (Densidad)":
-        st.subheader("Concentración de registros")
+        st.subheader("Concentración histórica de registros")
         
         datos_calor = [[row['lat'], row['lon']] for index, row in df_datos.iterrows() if pd.notna(row['lat']) and pd.notna(row['lon'])]
         if len(datos_calor) > 0:
             HeatMap(datos_calor, radius=15, blur=10).add_to(mapa)
 
     # ==========================================
-    # 5. RENDERIZADO DEL MAPA
+    # 5. DESPLIEGUE DEL MAPA Y MÉTRICAS
     # ==========================================
+    # Renderizamos el mapa en el contenedor de Streamlit
     st_folium(mapa, width=1200, height=600, returned_objects=[])
 
     st.markdown("### Resumen Ejecutivo")
     col1, col2, col3 = st.columns(3)
-    col1.metric("Registros Válidos (Zona Centro)", len(df_datos))
+    col1.metric("Registros Operativos (Zona Centro)", len(df_datos))
+    
+    # Verificamos si la columna 'max' existe antes de promediarla
     if 'max' in df_datos.columns:
         col2.metric("Presión Máx. Promedio", round(df_datos['max'].mean(), 3))
+    else:
+        col2.metric("Presión Máx. Promedio", "N/A")
+        
     col3.metric("Delegaciones Activas", df_datos['delegacion'].nunique())
