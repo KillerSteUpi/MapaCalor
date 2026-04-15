@@ -5,7 +5,6 @@ from shapely.geometry import Point
 import folium
 from folium.plugins import HeatMap, MarkerCluster, Search
 from streamlit_folium import st_folium
-import json
 
 # ==========================================
 # 1. CONFIGURACIÓN
@@ -25,21 +24,15 @@ def cargar_datos():
         if df.empty:
             return pd.DataFrame(), gpd.GeoDataFrame()
 
-        # Buscador
         df['nombre_sitio'] = df.index.astype(str).str.replace("_", " ")
         
-        # Blindaje Extremo: Si por alguna razón el JSON no tiene 'lat' o 'lon', las creamos vacías
-        if 'lat' not in df.columns:
-            df['lat'] = None
-        if 'lon' not in df.columns:
-            df['lon'] = None
+        if 'lat' not in df.columns: df['lat'] = None
+        if 'lon' not in df.columns: df['lon'] = None
             
-        # Forzamos números y quitamos los que no tengan coordenadas
         df['lat'] = pd.to_numeric(df['lat'], errors='coerce')
         df['lon'] = pd.to_numeric(df['lon'], errors='coerce')
         df = df.dropna(subset=['lat', 'lon'])
         
-        # Caja Geográfica (Solo Centro de México)
         df = df[(df['lat'] > 19.0) & (df['lat'] < 19.8) & (df['lon'] > -99.6) & (df['lon'] < -98.8)]
         
         if df.empty:
@@ -52,7 +45,6 @@ def cargar_datos():
         st.error(f"⚠️ Alerta Operativa: El archivo JSON tiene un error de estructura. Detalle: {e}")
         return pd.DataFrame(), gpd.GeoDataFrame()
 
-# AQUÍ ES DONDE SE CREA LA VARIABLE QUE TE FALTABA
 df_datos, gdf_datos = cargar_datos()
 
 if not df_datos.empty:
@@ -79,18 +71,7 @@ if not df_datos.empty:
         tiles="cartodbpositron" 
     )
 
-    # CAPA: PERÍMETRO CDMX
-    url_cdmx = "https://raw.githubusercontent.com/jboscomendoza/rpubs/master/mapas_mexico/cdmx.json"
-    folium.GeoJson(
-        url_cdmx,
-        name="Límite Territorial CDMX",
-        style_function=lambda x: {
-            'fillColor': 'transparent',
-            'color': '#2C3E50',
-            'weight': 2,
-            'dashArray': '5, 5'
-        }
-    ).add_to(mapa)
+    # NOTA: Se removió la capa externa del perímetro CDMX para evitar caídas de red.
 
     # ==========================================
     # 4. BUSCADOR INTELIGENTE
