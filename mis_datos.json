@@ -59,7 +59,7 @@
     "uid": "d31ffdd1-f66a-4a4e-9fae-695529049935",
     "min": 0.4,
     "max": 1.83,
-    "delegacion": "Benito Juarez"
+    "delegacion": "Benito Juarez",
     "lat": 19.47983,
     "lon": -99.12084
   },
@@ -67,7 +67,7 @@
     "uid": "30f482d0-3f28-4599-8a8f-9789e9245b63",
     "min": 0.56,
     "max": 1.96,
-    "delegacion": "Gustavo A Madero"
+    "delegacion": "Gustavo A Madero",
     "lat": 19.46734,
     "lon": -99.06245
   },
@@ -758,7 +758,7 @@
     "delegacion": "Tlahuac",
     "lat": 19.30429,
     "lon": -99.05986
-  }
+  },
    
     "CanalDesague": {
         "uid": "e7f0d033-d201-4635-92d9-7994443727b1",
@@ -5103,7 +5103,7 @@
 
     "AV_CENTRAL_CC_HAWAY": {
             "uid": "1f6b9e1a-655a-4f69-804c-b62a07e14f0e",
-            "min": -07.77, 
+            "min": 0, 
             "max": 1.48,   
 	    "delegacion": "Azcapotzalco", 
             "lat": 19.477380,
