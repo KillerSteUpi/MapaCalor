@@ -3,7 +3,7 @@ import pandas as pd
 import geopandas as gpd
 from shapely.geometry import Point
 import folium
-from folium.plugins import HeatMap, MarkerCluster
+from folium.plugins import HeatMap, MarkerCluster, Search
 from streamlit_folium import st_folium
 import json
 
@@ -15,12 +15,15 @@ st.title("📍 Sistema de Inteligencia Territorial")
 st.markdown("---")
 
 # ==========================================
-# 2. CARGA Y LIMPIEZA DE DATOS (BLINDAJE OPERATIVO)
+# 2. CARGA Y LIMPIEZA DE DATOS
 # ==========================================
 @st.cache_data(ttl=300)
 def cargar_datos():
     try:
         df = pd.read_json("mis_datos.json", orient="index")
+        
+        # Guardamos el nombre del sitio limpio como una columna real para el buscador
+        df['nombre_sitio'] = df.index.astype(str).str.replace("_", " ")
         
         # Blindaje 1: Forzar números y quitar nulos
         df['lat'] = pd.to_numeric(df.get('lat'), errors='coerce')
@@ -52,20 +55,53 @@ if not df_datos.empty:
     )
 
     # ==========================================
-    # 3. INICIALIZACIÓN DEL MAPA (BLANCO / POSITRON)
+    # 3. INICIALIZACIÓN DEL MAPA (BLANCO)
     # ==========================================
     centro_lat = df_datos['lat'].mean()
     centro_lon = df_datos['lon'].mean()
     
-    # CAMBIO A MAPA BLANCO: Usamos cartodbpositron
     mapa = folium.Map(
         location=[centro_lat, centro_lon], 
         zoom_start=10, 
         tiles="cartodbpositron" 
     )
 
+    # CAPA: PERÍMETRO CDMX
+    # Trae el límite territorial oficial mediante un GeoJSON público
+    url_cdmx = "https://raw.githubusercontent.com/jboscomendoza/rpubs/master/mapas_mexico/cdmx.json"
+    folium.GeoJson(
+        url_cdmx,
+        name="Límite Territorial CDMX",
+        style_function=lambda x: {
+            'fillColor': 'transparent',
+            'color': '#2C3E50', # Gris oscuro elegante
+            'weight': 2,
+            'dashArray': '5, 5' # Línea punteada
+        }
+    ).add_to(mapa)
+
     # ==========================================
-    # 4. RENDERIZADO DE CAPAS SEGÚN SELECCIÓN
+    # 4. CAPA DE BUSCADOR INTELIGENTE
+    # ==========================================
+    # Creamos una capa GeoJSON invisible exclusiva para alimentar el buscador
+    capa_busqueda = folium.GeoJson(
+        gdf_datos,
+        name="Buscador de Sitios",
+        marker=folium.CircleMarker(radius=0, fill_opacity=0, opacity=0), # Invisible
+        tooltip=folium.GeoJsonTooltip(fields=['nombre_sitio', 'delegacion'], aliases=['Sitio:', 'Delegación:'])
+    ).add_to(mapa)
+
+    Search(
+        layer=capa_busqueda,
+        geom_type='Point',
+        placeholder="🔍 Buscar nombre de sitio...",
+        collapsed=False,
+        search_label='nombre_sitio',
+        position='topright'
+    ).add_to(mapa)
+
+    # ==========================================
+    # 5. RENDERIZADO DE CAPAS OPERATIVAS
     # ==========================================
     
     if modo_vista == "1. Agrupación Dinámica (Clusters)":
@@ -73,11 +109,9 @@ if not df_datos.empty:
         cluster = MarkerCluster().add_to(mapa)
         
         for index, row in df_datos.iterrows():
-            nombre_sitio = str(index).replace("_", " ")
-            # Usamos row.get() para evitar KeyError si las columnas no existen
             folium.Marker(
                 location=[row['lat'], row['lon']],
-                tooltip=f"🏢 Sitio: {nombre_sitio} | 📍 Delegación: {row.get('delegacion', 'N/A')} | 📊 Min: {row.get('min', '-')} Max: {row.get('max', '-')}"
+                tooltip=f"🏢 Sitio: {row['nombre_sitio']} | 📍 Delegación: {row.get('delegacion', 'N/A')} | 📊 Min: {row.get('min', '-')} Max: {row.get('max', '-')}"
             ).add_to(cluster)
 
     elif modo_vista == "2. Radios de Influencia (Operativo)":
@@ -86,7 +120,6 @@ if not df_datos.empty:
         st.subheader(f"Zonas de cobertura a {radio_metros} metros")
         
         for index, row in df_datos.iterrows():
-            nombre_sitio = str(index).replace("_", " ")
             folium.Circle(
                 location=[row['lat'], row['lon']],
                 radius=radio_metros,
@@ -94,29 +127,30 @@ if not df_datos.empty:
                 fill=True,
                 fill_color="#0096FF",
                 fill_opacity=0.4,
-                tooltip=f"🏢 Sitio: {nombre_sitio} | 📍 Delegación: {row.get('delegacion', 'N/A')}"
+                tooltip=f"🏢 Sitio: {row['nombre_sitio']} | 📍 Delegación: {row.get('delegacion', 'N/A')}"
             ).add_to(mapa)
 
     elif modo_vista == "3. Sectores Naturales (Huella Real)":
         st.subheader("Polígonos de operación real agrupados por Delegación")
         
-        sectores = gdf_datos.dissolve(by='delegacion')
-        sectores['geometry'] = sectores.geometry.convex_hull
-        sectores_validos = sectores[sectores.geometry.type.isin(['Polygon', 'MultiPolygon'])]
-        
-        if not sectores_validos.empty:
-            folium.GeoJson(
-                sectores_validos,
-                style_function=lambda x: {
-                    'fillColor': '#FF6400',
-                    'color': '#FF6400', # Borde naranja en lugar de blanco para que resalte en el mapa claro
-                    'weight': 2,
-                    'fillOpacity': 0.4
-                },
-                tooltip=folium.GeoJsonTooltip(fields=['delegacion'], aliases=['Delegación:'])
-            ).add_to(mapa)
-        else:
-            st.warning("No hay suficientes registros bien agrupados para trazar sectores poligonales.")
+        if 'delegacion' in gdf_datos.columns:
+            sectores = gdf_datos.dissolve(by='delegacion')
+            sectores['geometry'] = sectores.geometry.convex_hull
+            sectores_validos = sectores[sectores.geometry.type.isin(['Polygon', 'MultiPolygon'])]
+            
+            if not sectores_validos.empty:
+                folium.GeoJson(
+                    sectores_validos,
+                    style_function=lambda x: {
+                        'fillColor': '#FF6400',
+                        'color': '#FF6400', 
+                        'weight': 2,
+                        'fillOpacity': 0.4
+                    },
+                    tooltip=folium.GeoJsonTooltip(fields=['delegacion'], aliases=['Delegación:'])
+                ).add_to(mapa)
+            else:
+                st.warning("No hay suficientes registros agrupados para trazar sectores poligonales.")
 
     elif modo_vista == "4. Mapa de Calor (Densidad)":
         st.subheader("Concentración histórica de registros")
@@ -125,7 +159,7 @@ if not df_datos.empty:
             HeatMap(datos_calor, radius=15, blur=10).add_to(mapa)
 
     # ==========================================
-    # 5. DESPLIEGUE DEL MAPA Y MÉTRICAS
+    # 6. DESPLIEGUE DEL MAPA Y MÉTRICAS
     # ==========================================
     st_folium(mapa, width=1200, height=600, returned_objects=[])
 
@@ -133,13 +167,15 @@ if not df_datos.empty:
     col1, col2, col3 = st.columns(3)
     col1.metric("Registros Operativos (Zona Centro)", len(df_datos))
     
-    # BLINDAJE FINAL CONTRA KEYERROR:
-    # Solo calcula si la columna existe y tiene datos numéricos válidos
+    # BLINDAJE EXTREMO CONTRA KEYERROR:
     if 'max' in df_datos.columns:
         max_limpio = pd.to_numeric(df_datos['max'], errors='coerce')
-        col2.metric("Presión Máx. Promedio", round(max_limpio.mean(), 3))
+        if not max_limpio.isna().all():
+            col2.metric("Presión Máx. Promedio", round(max_limpio.mean(), 3))
+        else:
+            col2.metric("Presión Máx. Promedio", "N/A (Sin números)")
     else:
-        col2.metric("Presión Máx. Promedio", "N/A (Sin datos)")
+        col2.metric("Presión Máx. Promedio", "N/A")
         
     if 'delegacion' in df_datos.columns:
         col3.metric("Delegaciones Activas", df_datos['delegacion'].nunique())
