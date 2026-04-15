@@ -3,6 +3,7 @@
     "uid": "6079bbff-392c-40dc-8a5b-589d28671a65",
     "min": 0.3,
     "max": 3.04,
+    "delegacion": "Gustavo A Madero",
     "lat": 19.5192,
     "lon": -99.14274
   },
@@ -10,6 +11,7 @@
     "uid": "518f5b58-098c-4412-9ab6-75e7010ffdc3",
     "min": 0.23,
     "max": 2.58,
+    "delegacion": "Gustavo A Madero",
     "lat": 19.50309,
     "lon": -99.15612
   },
@@ -17,6 +19,7 @@
     "uid": "e9b0bbf7-ed59-4d8b-988c-5bcd9a43e1ff",
     "min": 0.3,
     "max": 1.86,
+    "delegacion": "Gustavo A Madero",
     "lat": 19.50302,
     "lon": -99.13178
   },
@@ -24,6 +27,7 @@
     "uid": "748153bf-4f37-4a6c-827e-480474b58f31",
     "min": 0.38,
     "max": 2.51,
+    "delegacion": "Gustavo A Madero",
     "lat": 19.49871,
     "lon": -99.12479
   },
@@ -31,6 +35,7 @@
     "uid": "69462a3b-7c5c-40f4-8fc7-79187fa9963e",
     "min": 0.4,
     "max": 2.89,
+    "delegacion": "Gustavo A Madero",
     "lat": 19.49669,
     "lon": -99.08372
   },
@@ -38,6 +43,7 @@
     "uid": "7134c92e-5988-4902-86cc-3dc6da4cd522",
     "min": 0.34,
     "max": 1.87,
+    "delegacion": "Gustavo A Madero",
     "lat": 19.47517,
     "lon": -99.11123
   },
@@ -45,6 +51,7 @@
     "uid": "50d2dbf1-43b9-4c11-ae59-db95c1306d2c",
     "min": 0.22,
     "max": 2.46,
+    "delegacion": "Gustavo A Madero",
     "lat": 19.45908,
     "lon": -99.09797
   },
@@ -52,6 +59,7 @@
     "uid": "d31ffdd1-f66a-4a4e-9fae-695529049935",
     "min": 0.4,
     "max": 1.83,
+    "delegacion": "Benito Juarez"
     "lat": 19.47983,
     "lon": -99.12084
   },
@@ -59,6 +67,7 @@
     "uid": "30f482d0-3f28-4599-8a8f-9789e9245b63",
     "min": 0.56,
     "max": 1.96,
+    "delegacion": "Gustavo A Madero"
     "lat": 19.46734,
     "lon": -99.06245
   },
@@ -66,6 +75,7 @@
     "uid": "a1888342-ce84-426b-893d-91cecb44e9ba",
     "min": 1.17,
     "max": 2,
+    "delegacion": "Azcapotzalco",
     "lat": 19.50564,
     "lon": -99.19048
   },
@@ -73,6 +83,7 @@
     "uid": "db5c8017-f09d-4552-b5d3-d8eb2616b362",
     "min": 0.44,
     "max": 1.69,
+    "delegacion": "Azcapotzalco",
     "lat": 19.47401,
     "lon": -99.15903
   },
@@ -80,6 +91,7 @@
     "uid": "8f1cdd84-68ed-4e3b-8a63-9848d2e99be2",
     "min": 0.28,
     "max": 1.63,
+    "delegacion": "Miguel Hidalgo",
     "lat": 19.46423,
     "lon": -99.21304
   },
@@ -87,6 +99,7 @@
     "uid": "ed99caef-50c1-4e78-811a-11db8488871d",
     "min": 0.38,
     "max": 1.06,
+    "delegacion": "Miguel Hidalgo",
     "lat": 19.46065,
     "lon": -99.21374
   },
@@ -94,6 +107,7 @@
     "uid": "ec4eb8d3-79de-4bb8-9286-f7fa1b57cddb",
     "min": 0.69,
     "max": 1.6,
+    "delegacion": "Miguel Hidalgo",
     "lat": 19.45592,
     "lon": -99.17982
   },
@@ -101,6 +115,7 @@
     "uid": "71771a26-fbcc-4c2b-9839-bce5ec878644",
     "min": 0.67,
     "max": 1.77,
+    "delegacion": "Miguel Hidalgo",
     "lat": 19.4355,
     "lon": -99.18774
   },
@@ -108,6 +123,7 @@
     "uid": "5f28086b-ff24-4ec3-a2f9-5daef192cb65",
     "min": 0.34,
     "max": 0.97,
+    "delegacion": "Cuauhtemoc",
     "lat": 19.45592,
     "lon": -99.16348
   },
@@ -115,6 +131,7 @@
     "uid": "c2d01fc4-e6ed-4ade-88ec-2270a0d21715",
     "min": 0.52,
     "max": 1.46,
+    "delegacion": "Cuauhtemoc",
     "lat": 19.4624,
     "lon": -99.15239
   },
@@ -122,6 +139,7 @@
     "uid": "16e3e2b7-cef5-4d52-810a-02d954c9ae2e",
     "min": 0.41,
     "max": 1.32,
+    "delegacion": "Cuauhtemoc",
     "lat": 19.43864,
     "lon": -99.15342
   },
@@ -129,6 +147,7 @@
     "uid": "c2a982d5-475b-4158-ae58-e929707d0c18",
     "min": 0.53,
     "max": 1.98,
+    "delegacion": "Cuauhtemoc",
     "lat": 19.42427,
     "lon": -99.1727
   },
@@ -136,6 +155,7 @@
     "uid": "66ba6bd8-bdf3-41b2-8865-615e8a8664cb",
     "min": 0.21,
     "max": 2.25,
+    "delegacion": "Cuauhtemoc",
     "lat": 19.41164,
     "lon": -99.17509
   },
@@ -143,6 +163,7 @@
     "uid": "07c4017a-9e6b-4b12-947b-f7309b051937",
     "min": 0.71,
     "max": 1.46,
+    "delegacion": "Venustiano Carranza",
     "lat": 19.40517,
     "lon": -99.13021
   },
@@ -150,6 +171,7 @@
     "uid": "9708e455-d01a-450d-b7b3-caad5e18e3ba",
     "min": 0.7,
     "max": 1.49,
+    "delegacion": "Cuauhtemoc",
     "lat": 19.42352,
     "lon": -99.14506
   },
@@ -157,6 +179,7 @@
     "uid": "5574ffd1-00bc-4073-85e1-f611c49087bc",
     "min": 0.32,
     "max": 1.08,
+    "delegacion": "Cuauhtemoc",
     "lat": 19.45031,
     "lon": -99.11085
   },
@@ -164,6 +187,7 @@
     "uid": "6fbdf90a-79c7-457b-8229-888284945d39",
     "min": 0.43,
     "max": 0.95,
+    "delegacion": "Venustiano Carranza",
     "lat": 19.4286,
     "lon": -99.09621
   },
@@ -171,6 +195,7 @@
     "uid": "92a22450-2569-47d3-9d35-9bf1d631df49",
     "min": 0.49,
     "max": 1.06,
+    "delegacion": "Venustiano Carranza",
     "lat": 19.4159,
     "lon": -99.08849
   },
@@ -178,6 +203,7 @@
     "uid": "3be12814-96b2-40be-899b-8023ec3c720b",
     "min": 0.63,
     "max": 1.09,
+    "delegacion": "Venustiano Carranza",
     "lat": 19.42216,
     "lon": -99.12019
   },
@@ -185,6 +211,7 @@
     "uid": "549ce3c7-5281-41b3-9893-7e3fc55718fa",
     "min": 0.99,
     "max": 1.54,
+    "delegacion": "Iztacalco",
     "lat": 19.39632,
     "lon": -99.09922
   },
@@ -192,6 +219,7 @@
     "uid": "e88e4a29-7522-416d-85ea-56d415c95a1d",
     "min": 0.68,
     "max": 1.12,
+    "delegacion": "Iztacalco",
     "lat": 19.40162,
     "lon": -99.08131
   },
@@ -199,6 +227,7 @@
     "uid": "b0a23b8f-d64f-4f36-a1bb-4724a7ccae5c",
     "min": 0.8,
     "max": 1.26,
+    "delegacion": "Iztacalco",
     "lat": 19.39843,
     "lon": -99.06196
   },
@@ -206,6 +235,7 @@
     "uid": "c7e9c945-b7e8-4658-8b95-d4ded443cb83",
     "min": 0.7,
     "max": 1.61,
+    "delegacion": "Benito Juarez",
     "lat": 19.37319,
     "lon": -99.13902
   },
@@ -213,6 +243,7 @@
     "uid": "01ed53df-fcc9-420c-8eb5-f7d930b74e87",
     "min": 1.21,
     "max": 3.28,
+    "delegacion": "Benito Juarez",
     "lat": 19.37265,
     "lon": -99.19019
   },
@@ -220,6 +251,7 @@
     "uid": "10f841f9-7575-47bc-a392-6b6afaf99701",
     "min": 0.3,
     "max": 1.84,
+    "delegacion": "Benito Juarez",
     "lat": 19.36682,
     "lon": -99.17065
   },
@@ -227,6 +259,7 @@
     "uid": "fefd6d77-608b-4ff5-8c82-3bc0fe0d5460",
     "min": 0.37,
     "max": 2.1,
+    "delegacion": "Benito Juarez",
     "lat": 19.36473,
     "lon": -99.15520
   },
@@ -234,6 +267,7 @@
     "uid": "5b443178-a7e2-445d-b89d-5b108c37ac17",
     "min": 0.24,
     "max": 2.19,
+    "delegacion": "Benito Juarez",
     "lat": 19.35917,
     "lon": -99.14516
   },
@@ -241,6 +275,7 @@
     "uid": "d72c597c-70d3-453b-85ae-83862f254faf",
     "min": 1.21,
     "max": 3.52,
+    "delegacion": "Benito Juarez",
     "lat": 19.39464,
     "lon": -99.17511
   },
@@ -248,6 +283,7 @@
     "uid": "db5da880-6331-4051-8c59-9a76f8da060c",
     "min": 0.73,
     "max": 1.6,
+    "delegacion": "Venustiano Carranza", 
     "lat": 19.40205,
     "lon": -99.14187
   },
@@ -255,6 +291,7 @@
     "uid": "3320a0e5-22e5-4f01-b4a2-d66c77cb26a8",
     "min": 0.73,
     "max": 1.71,
+    "delegacion": "Benito Juarez",
     "lat": 19.39539,
     "lon": -99.13540
   },
@@ -262,6 +299,7 @@
     "uid": "c355e12c-677e-40a2-a12b-7843070ad0f2",
     "min": 0.5,
     "max": 2.78,
+    "delegacion": "Alvaro Obregon",
     "lat": 19.33163,
     "lon": -99.20918
   },
@@ -269,6 +307,7 @@
     "uid": "8682555a-f3e8-4f20-975d-10d6c9bd2159",
     "min": 0.48,
     "max": 0.61,
+    "delegacion": "Cuajimalpa",
     "lat": 19.36849,
     "lon": -99.28646
   },
@@ -276,6 +315,7 @@
     "uid": "e29b8d81-d563-47ab-82da-8be2174ed2a7",
     "min": 1.07,
     "max": 2.01,
+    "delegacion": "Coyoacan",
     "lat": 19.34632,
     "lon": -99.17793
   },
@@ -283,6 +323,7 @@
     "uid": "281a896d-bca6-4345-99ff-cfb67833504f",
     "min": 0.51,
     "max": 1.21,
+    "delegacion": "Coyoacan",
     "lat": 19.35835,
     "lon": -99.13003
   },
@@ -290,6 +331,7 @@
     "uid": "402d9819-19d1-45f4-8c79-8c0c4877061c",
     "min": 0.47,
     "max": 1.19,
+    "delegacion": "n",
     "lat": 19.31168,
     "lon": -99.16173
   },
@@ -297,6 +339,7 @@
     "uid": "2ee14bc5-3d78-4a00-80e8-07445f27d502",
     "min": 0.32,
     "max": 0.72,
+    "delegacion": "Coyoacan",
     "lat": 19.32087,
     "lon": -99.11375
   },
@@ -304,6 +347,7 @@
     "uid": "d461d5f6-bf19-4fde-a16d-42f5b1f44b70",
     "min": 0.3,
     "max": 0.96,
+    "delegacion": "Iztapalapa",
     "lat": 19.38161,
     "lon": -99.06067
   },
@@ -311,6 +355,7 @@
     "uid": "ad950c94-3161-4b77-8b2a-06bdace41f4c",
     "min": 0.52,
     "max": 1.18,
+    "delegacion": "Iztapalapa",
     "lat": 19.36847,
     "lon": -99.03303
   },
@@ -318,6 +363,7 @@
     "uid": "5c5ea34b-b7ce-4fda-8cd1-645efa35ae8b",
     "min": 0.3,
     "max": 0.77,
+    "delegacion": "Iztapalapa",
     "lat": 19.35679,
     "lon": -99.10934
   },
@@ -325,6 +371,7 @@
     "uid": "749fdd07-273f-47ca-92a8-aca294b541bc",
     "min": 0.33,
     "max": 2.06,
+    "delegacion": "Iztapalapa",
     "lat": 19.33364,
     "lon": -99.04988
   },
@@ -332,6 +379,7 @@
     "uid": "6c242670-dbd5-412d-8c68-082972138ca3",
     "min": 0.31,
     "max": 2.61,
+    "delegacion": "Iztapalapa",
     "lat": 19.3667,
     "lon": -99.07822
   },
@@ -339,6 +387,7 @@
     "uid": "91cb6692-6d19-4e15-aac7-f05ec3d69107",
     "min": 0.34,
     "max": 1.37,
+    "delegacion": "Iztapalapa",
     "lat": 19.30837,
     "lon": -99.07658
   },
@@ -346,6 +395,7 @@
     "uid": "c1e8df57-6e7a-4252-a0ba-bebf3051a9c7",
     "min": 0.22,
     "max": 0.68,
+    "delegacion": "Iztapalapa",
     "lat": 19.37056,
     "lon": -99.01712
   },
@@ -353,6 +403,7 @@
     "uid": "c8fe388f-6fae-43b4-832f-be889247e18a",
     "min": 0.27,
     "max": 0.78,
+    "delegacion": "Tlahuac",
     "lat": 19.27116,
     "lon": -99.00141
   },
@@ -360,6 +411,7 @@
     "uid": "50aae931-928a-4ab9-880e-0c2c9e6f5e99",
     "min": 0.45,
     "max": 1.67,
+    "delegacion": "Xochimilco",
     "lat": 19.26525,
     "lon": -99.10287
   },
@@ -367,6 +419,7 @@
     "uid": "45fb4112-d1b3-4eb3-aa4f-fe48fd9d3efb",
     "min": 0.58,
     "max": 1.39,
+    "delegacion": "n",
     "lat": 19.29279,
     "lon": -99.12533
   },
@@ -374,6 +427,7 @@
     "uid": "4cb66181-66b3-4348-b2c8-4d06d1a8ed88",
     "min": 1.01,
     "max": 1.88,
+    "delegacion": "n",
     "lat": 19.28882,
     "lon": -99.22782
   },
@@ -381,6 +435,7 @@
     "uid": "718ec875-fe00-4cc0-8af1-fc862aa86919",
     "min": 0.28,
     "max": 3.57,
+    "delegacion": "Iztapalapa",
     "lat": 19.34909,
     "lon": -98.98644
   },
@@ -388,6 +443,7 @@
     "uid": "4e79a00b-bf49-4bd0-8eef-9f8de74834f4",
     "min": 0.34,
     "max": 1.98,
+    "delegacion": "Iztapalapa",
     "lat": 19.32763,
     "lon": -99.05338
   },
@@ -395,6 +451,7 @@
     "uid": "82bc8618-2500-45c2-ae25-c878ab515f5d",
     "min": 0.31,
     "max": 3.57,
+    "delegacion": "Iztapalapa",
     "lat": 19.34658,
     "lon": -99.06084
   },
@@ -402,6 +459,7 @@
     "uid": "8af99d70-b247-4e81-83a5-d5820ce6ac4f",
     "min": 0.75,
     "max": 0.3,
+    "delegacion": "Iztapalapa",
     "lat": 19.36931,
     "lon": -99.12235
   },
@@ -409,6 +467,7 @@
     "uid": "052111df-4518-4805-809d-916f1d07e59e",
     "min": 1,
     "max": 1,
+    "delegacion": "Iztapalapa",
     "lat": 19.35333,
     "lon": -99.01256
   },
@@ -416,6 +475,7 @@
     "uid": "7e0e3e9d-1c9c-4415-8257-387e9863ed89",
     "min": 0.33,
     "max": 3.37,
+    "delegacion": "Iztapalapa",
     "lat": 19.3338,
     "lon": -99.07507
   },
@@ -423,6 +483,7 @@
     "uid": "da59ca4c-e0e8-4f9d-8278-f29d5536dfa6",
     "min": 0.38,
     "max": 0.53,
+    "delegacion": "Iztapalapa",
     "lat": 19.34447,
     "lon": -99.107
   },
@@ -430,6 +491,7 @@
     "uid": "4e7d966d-7c9a-4c1c-8496-5716cf04eaef",
     "min": 0.21,
     "max": 1.77,
+    "delegacion": "Iztapalapa",
     "lat": 19.32056,
     "lon": -99.17389
   },
@@ -437,6 +499,7 @@
     "uid": "34f7ca2e-2966-4629-8803-2340cf4aa019",
     "min": 0.27,
     "max": 1.06,
+    "delegacion": "Tlahuac",
     "lat": 19.28981,
     "lon": -98.99899
   },
@@ -444,6 +507,7 @@
     "uid": "82dbd651-374c-45f6-8db6-695f85a669f7",
     "min": 1.09,
     "max": 1.98,
+    "delegacion": "Tlahuac",
     "lat": 19.29638,
     "lon": -99.03525
   },
@@ -451,6 +515,7 @@
     "uid": "dd17823b-15ca-462c-860d-f990b9222528",
     "min": 0.31,
     "max": 3.38,
+    "delegacion": "Tlahuac",
     "lat": 19.30182,
     "lon": -99.02971
   },
@@ -458,13 +523,15 @@
     "uid": "62aeffea-dbf3-4dca-8b13-c2e6b580b25f",
     "min": 0.43,
     "max": 1.09,
+    "delegacion": "Xochimilco",
     "lat": 19.28339,
     "lon": -99.1261
   },
-  "67_HIDALGO_249": {
+  "67_Hidalgo_249": {
     "uid": "1680af34-e937-4579-91a1-fce20ed7c76e",
     "min": 0.4,
     "max": 1.53,
+    "delegacion": "Azcapotzalco",
     "lat": 19.48139,
     "lon": -99.18861
   },
@@ -472,6 +539,7 @@
     "uid": "10984d05-c98e-44fb-bb5f-095cd5d1c52a",
     "min": 0.38,
     "max": 1.67,
+    "delegacion": "Azcapotzalco",
     "lat": 19.49069,
     "lon": -99.17345
   },
@@ -479,6 +547,7 @@
     "uid": "a5dd722e-169c-4d5e-857f-cc0b43e62378",
     "min": 0.5,
     "max": 1.86,
+    "delegacion": "Azcapotzalco",
     "lat": 19.46468,
     "lon": -99.17551
   },
@@ -486,6 +555,7 @@
     "uid": "a8b2a9a0-ac23-48aa-87e7-fbe0917ad071",
     "min": 0.5,
     "max": 1.75,
+    "delegacion": "Venustiano Carranza",
     "lat": 19.44703,
     "lon": -99.10238
   },
@@ -493,6 +563,7 @@
     "uid": "200ce64d-1a8d-4616-9809-2bd75e9a3c95",
     "min": 0.78,
     "max": 1.4,
+    "delegacion": "Iztacalco",
     "lat": 19.39016,
     "lon": -99.12193
   },
@@ -500,6 +571,7 @@
     "uid": "e01fdb67-b99a-41d5-8e27-9c5504989753",
     "min": 0.74,
     "max": 1.59,
+    "delegacion": "Cuauhtemoc",
     "lat": 19.42631,
     "lon": -99.13094
   },
@@ -507,6 +579,7 @@
     "uid": "96a63277-c58c-4adf-ae71-77cb06468e74",
     "min": 0.5,
     "max": 1.56,
+    "delegacion": "Cuauhtemoc",
     "lat": 19.44653,
     "lon": -99.13621
   },
@@ -514,6 +587,7 @@
     "uid": "54431860-ea5a-4146-858c-b2ced0e1bf91",
     "min": 0.29,
     "max": 1.2,
+    "delegacion": "Cuauhtemoc",
     "lat": 19.46135,
     "lon": -99.12771
   },
@@ -521,6 +595,7 @@
     "uid": "672ccfaf-5749-4473-a7f9-bb44e919f47c",
     "min": 0.35,
     "max": 1.06,
+    "delegacion": "Cuauhtemoc",
     "lat": 19.45715,
     "lon": -99.12416
   },
@@ -528,6 +603,7 @@
     "uid": "216178fd-a8c8-49bf-8577-9e94c7abdac8",
     "min": 1.04,
     "max": 2.19,
+    "delegacion": "Benito Juarez",
     "lat": 19.38875,
     "lon": -99.14237
   },
@@ -535,6 +611,7 @@
     "uid": "71eae2a1-f783-49f5-8022-ae3f44567ab3",
     "min": 0.42,
     "max": 1.36,
+    "delegacion": "Miguel Hidalgo",
     "lat": 19.45604,
     "lon": -99.18922
   },
@@ -542,6 +619,7 @@
     "uid": "c86a541f-4266-411d-b4f5-031145f66fb5",
     "min": 0.3,
     "max": 1.32,
+    "delegacion": "Miguel Hidalgo",
     "lat": 19.45552,
     "lon": -99.20998
   },
@@ -549,6 +627,7 @@
     "uid": "f3d61587-40a1-4c23-8615-5e85657fc0b3",
     "min": 0.58,
     "max": 1.1,
+    "delegacion": "Iztapalapa",
     "lat": 19.37984,
     "lon": -99.1874
   },
@@ -556,6 +635,7 @@
     "uid": "3329d7c8-0331-4388-ba8d-5d3814f44911",
     "min": 1,
     "max": 1,
+    "delegacion": "Azcapotzalco",
     "lat": 19.48944,
     "lon": -99.15522
   },
@@ -563,6 +643,7 @@
     "uid": "e25abe54-bf16-49cb-8306-974474ac4138",
     "min": 1.88,
     "max": 4.17,
+    "delegacion": "Benito Juarez",
     "lat": 19.38145,
     "lon": -99.1903
   },
@@ -570,6 +651,7 @@
     "uid": "24984e48-5e69-4874-9655-e5a4d3d3b873",
     "min": 0.78,
     "max": 1.98,
+    "delegacion": "Benito Juarez",
     "lat": 19.39415,
     "lon": -99.15905
   },
@@ -577,6 +659,7 @@
     "uid": "39ae04ff-ab42-42b5-8649-229d4c08f431",
     "min": 1.83,
     "max": 4.72,
+    "delegacion": "Benito Juarez",
     "lat": 19.38287,
     "lon": -99.16664
   },
@@ -584,6 +667,7 @@
     "uid": "0bd3bb65-9d0f-4913-94e3-70e39667cba1",
     "min": 0.4,
     "max": 2.04,
+    "delegacion": "Benito Juarez",
     "lat": 19.39541,
     "lon": -99.16865
   },
@@ -591,6 +675,7 @@
     "uid": "b5e8dfe3-0451-4edf-8bb1-2c06059faf76",
     "min": 0.78,
     "max": 1.92,
+    "delegacion": "Benito Juarez",
     "lat": 19.38645,
     "lon": -99.15211
   },
@@ -598,6 +683,7 @@
     "uid": "b94be7f9-39ab-477e-aacf-781c5cf0f0f9",
     "min": 1.29,
     "max": 2.46,
+    "delegacion": "Coyoacan",
     "lat": 19.41105,
     "lon": -99.10056
   },
@@ -605,6 +691,7 @@
     "uid": "dffaa692-4007-4667-8b46-9d4ef24817d2",
     "min": 1.15,
     "max": 2.38,
+    "delegacion": "Cuauhtemoc",
     "lat": 19.4464,
     "lon": -99.13704
   },
@@ -612,6 +699,7 @@
     "uid": "ffe1a917-02f9-484f-8bad-43f5410fa385",
     "min": 0.04,
     "max": 1,
+    "delegacion": "Gustavo A Madero",
     "lat": 19.50189,
     "lon": -99.0939
   },
@@ -619,6 +707,7 @@
     "uid": "0bad7bfa-6a62-48f2-8800-c4d361717626",
     "min": 0.12,
     "max": 1.98,
+    "delegacion": "Gustavo A Madero",
     "lat": 19.44685,
     "lon": -99.06748
   },
@@ -626,6 +715,7 @@
     "uid": "b3141642-24c8-4fdb-9a5d-8f94fe99faee",
     "min": 0.38,
     "max": 1.7,
+    "delegacion": "Gustavo A Madero",
     "lat": 19.48075,
     "lon": -99.13569
   },
@@ -633,6 +723,7 @@
     "uid": "f227e7e7-4cc1-40be-bc48-9c4baece67fa",
     "min": 0.84,
     "max": 1.65,
+    "delegacion": "Iztacalco",
     "lat": 19.40777,
     "lon": -99.0672
   },
@@ -640,6 +731,7 @@
     "uid": "5616fcd5-adca-4edd-89bc-3bec1d1051d4",
     "min": 0.04,
     "max": 1.32,
+    "delegacion": "Iztapalapa",
     "lat": 19.35783,
     "lon": -99.03319
   },
@@ -647,6 +739,7 @@
     "uid": "60093cdc-174c-47da-9102-375abd44361f",
     "min": 0.88,
     "max": 0.4,
+    "delegacion": "Iztapalapa",
     "lat": 19.39021,
     "lon": -99.04561
   },
@@ -654,6 +747,7 @@
     "uid": "732911bf-9ef1-49d7-8ce8-6b5ce25886eb",
     "min": 0.15,
     "max": 1.3,
+    "delegacion": "Miguel Hidalgo",
     "lat": 19.45947,
     "lon": -99.18922
   },
@@ -661,9 +755,10 @@
     "uid": "7ffe2ba0-cc3b-4d7a-ad4a-bcbf7be48628",
     "min": 1,
     "max": 2.06,
+    "delegacion": "Tlahuac",
     "lat": 19.30429,
     "lon": -99.05986
-  },
+  }
    
     "CanalDesague": {
         "uid": "e7f0d033-d201-4635-92d9-7994443727b1",
@@ -804,7 +899,7 @@
         "uid": "93e4dcd6-e77f-448c-93d0-6f5ac456ad26",
         "min": 0.0, 
         "max": 2.0, 
-	"delegacion": "Tlalpan", 
+	"delegacion": "n", 
         "lat": 19.289078, 
         "lon": -99.24167
     },
@@ -813,7 +908,7 @@
         "uid": "72b6d5f6-4224-410c-a2de-37968becfc60",
         "min": 0.0, 
         "max": 0.7, 
-	"delegacion": "Tlalpan", 
+	"delegacion": "n", 
         "lat": 19.27013, 
         "lon": -99.14558
     },
@@ -840,7 +935,7 @@
         "uid": "fcc5d5cb-9456-4720-9a95-dc2daa1a2e96",
         "min": 0.0, 
         "max": 3.5, 
-	"delegacion": "Tlalpan", 
+	"delegacion": "n", 
         "lat": 19.272462, 
         "lon": -99.177871
     },
@@ -931,7 +1026,7 @@
         "uid": "9399465b-6ead-4674-ace9-2cc15103a4e7",
         "min": 0.0, 
         "max": 1.0, 
-	"delegacion": "Tlalpan", 
+	"delegacion": "n", 
         "lat": 19.2701425, 
         "lon": -99.1746096
     },
@@ -949,7 +1044,7 @@
         "uid": "56ce172b-4b16-49a5-9192-072c931586af",
         "min": 0.0, 
         "max": 3.8, 
-	"delegacion": "Tlalpan", 
+	"delegacion": "n", 
         "lat": 19.26881, 
         "lon": -99.1602
     },
@@ -1121,7 +1216,7 @@
         "uid": "70d2d705-2c68-4ccc-8189-279abc302ea3",
         "min": 0.0, 
         "max": 1.0, 
-	"delegacion": "", 
+	"delegacion": "Iztapalapa", 
         "lat": 19.392844, 
         "lon": -99.044203
     },
@@ -1193,7 +1288,7 @@
         "uid": "f44d4fa3-da59-4260-9295-72eb4075cbb8",
         "min": 0.0, 
         "max": 0.7, 
-	"delegacion": "", 
+	"delegacion": "Iztapalapa", 
         "lat": 19.382459, 
         "lon": -99.0431
     },
@@ -1283,7 +1378,7 @@
         "uid": "91a6e099-d25b-405b-80c6-d26b87252e95",
         "min": 0.0, 
         "max": 3.2, 
-	"delegacion": "Tlalpan", 
+	"delegacion": "n", 
         "lat": 19.27056, 
         "lon": -99.18453
     },
@@ -1301,7 +1396,7 @@
             "uid": "c5b6e747-5a6e-4155-8322-20626c5fafa4",
             "min": 0.1,  
             "max": 2.0,  
-	    "delegacion": "Tlalpan", 
+	    "delegacion": "n", 
             "lat": 19.270868, 
             "lon": -99.172504      
     },
@@ -1463,7 +1558,7 @@
             "uid": "09dbf9a4-83f9-4cfe-88fb-46d7739ed82a",
             "min": 0.0,  
             "max": 2.1,  
-	    "delegacion": "", 
+	    "delegacion": "Azcapotzalco", 
             "lat": 19.51419, 
             "lon": -99.206136       
      },
@@ -1472,7 +1567,7 @@
             "uid": "a221bf76-d207-493b-9920-6cefa2c28010",
             "min": 0.0,  
             "max": 4.0,  
-	    "delegacion": "Tlalpan", 
+	    "delegacion": "n", 
             "lat": 19.280017, 
             "lon": -99.206136      
      },
@@ -1486,7 +1581,7 @@
             "lon": -99.188348       
     },
 
-"MAURILIO_MEJIA_Y_MIGUEL_HIDALGO": {
+"MAURILIO_MEJIA_Y_MIGUEL_Hidalgo": {
             "uid": "287d3fdc-39d7-4811-8960-4eba773421ce",
             "min": 0.0,  
             "max": 2.0,  
@@ -1562,7 +1657,7 @@
             "uid": "8011f9a1-1aff-4a40-93ad-cbd7a43602a2",
             "min": 0.0,  
             "max": 1.0,  
-	    "delegacion": "Miguel hidalgo", 
+	    "delegacion": "Miguel Hidalgo", 
             "lat": 19.40454, 
             "lon": -99.19405        
     },
@@ -1571,7 +1666,7 @@
             "uid": "2edb5750-7a67-4800-8213-ac8b4e2e8526",
             "min": 0.1,  
             "max": 1.7,  
-	    "delegacion": "Miguel hidalgo", 
+	    "delegacion": "Miguel Hidalgo", 
             "lat": 19.45654, 
             "lon": -99.18767        
     },
@@ -1634,7 +1729,7 @@
             "uid": "0289a9d4-608f-4bad-8dc8-94a4685488d8",
             "min": 1.2,  
             "max": 3.2,  
-	    "delegacion": "Miguel hidalgo", 
+	    "delegacion": "Miguel Hidalgo", 
             "lat": 19.40154, 
             "lon": -99.19143        
     },
@@ -1895,7 +1990,7 @@
             "uid": "ec95aef0-7465-435b-a5d3-861e4cf64f20",
             "min": 0.0,   
             "max": 8.01,  
-	    "delegacion": "Magdalena Contreras ", 
+	    "delegacion": "Magdalena Contreras", 
             "lat": 19.3025517, 
             "lon": -99.2696981        
     },
@@ -1940,7 +2035,7 @@
             "uid": "572b2af3-f87d-4d2e-bf80-405a58a68504",
             "min": 0.0,    
             "max": 4.55,   
-	    "delegacion": "Tlalpan", 
+	    "delegacion": "n", 
             "lat": 19.234944, 
             "lon": -99.181661      
   
@@ -2003,7 +2098,7 @@
             "uid": "c9536a40-80fe-4566-90e3-fc8bcbe42df1",
             "min": 0.0,   
             "max": 1.0,   
-	    "delegacion": "Tlalpan", 
+	    "delegacion": "n", 
             "lat": 19.233955, 
             "lon": -99.183751        
     },
@@ -2048,7 +2143,7 @@
             "uid": "10407b04-4803-438f-a140-9ce553f0a10b",
             "min": 0.0,   
             "max": 1.0,   
-	    "delegacion": "", 
+	    "delegacion": "Magdalena Contreras", 
             "lat": 19.29733868934661, 
             "lon": -99.25219475343448      
     },
@@ -2101,7 +2196,7 @@
             "uid": "31baecdd-4458-4ea0-9a92-50c43a3636f7",
             "min": 0.0,   
             "max": 1.0,   
-	    "delegacion": "", 
+	    "delegacion": "Magdalena Contreras", 
             "lat": 19.29733868934661, 
             "lon": -99.25219475343448     
     },
@@ -2119,7 +2214,7 @@
             "uid": "62775677-1710-4bd3-8ec2-03d19c2809ef",
             "min": 0.0,  
             "max": 1.0,  
-	    "delegacion": "", 
+	    "delegacion": "Miguel Hidalgo", 
             "lat": 19.467668867437233, 
             "lon": -99.2078425744919        
     },
@@ -2146,7 +2241,7 @@
             "uid": "d488e35c-4674-488a-8e69-3d06c375c384",
             "min": 1.0,   
             "max": 0.0,   
-	    "delegacion": "", 
+	    "delegacion": "Magdalena Contreras", 
             "lat": 19.3023623522184, 
             "lon": -99.26886234864548         
     },
@@ -2191,9 +2286,9 @@
             "uid": "2bc3de87-6218-4c55-ab14-ffe479e39392",
             "min": 0.0,    
             "max": 4.45,   
-	    "delegacion": "", 
+	    "delegacion": "Magdalena Contreras", 
             "lat":  19.3023623522184,
-            "lon":   - 99.25219475343448     
+            "lon": -99.25219475343448     
     },
 
 "Presiones_INGENIEROS_MECANICOS_Y_TOPOGRAFOS": {
@@ -2209,7 +2304,7 @@
             "uid": "47b557eb-8a00-4284-89b5-f0326b65e06c",
             "min": 0.0,   
             "max": 1.0,   
-	    "delegacion": "", 
+	    "delegacion": "Coyoacan", 
             "lat": 19.30577565072559, 
             "lon": -99.1784667280164        
     },
@@ -2497,7 +2592,7 @@
             "uid": "327b8455-21ae-4ff8-a363-fa16e6b499ff",
             "min": 0.0,   
             "max": 0.0,   
-	    "delegacion": "", 
+	    "delegacion": "n", 
             "lat":  19.26665959377814, 
             "lon": -99.1478429458637
     },
@@ -2695,9 +2790,9 @@
             "uid": "4f87c3d5-e46a-4867-9bf2-92c478fcf304",
             "min": 0.0,  
             "max": 1.0,  
-	    "delegacion": "", 
-            "lat":19.3630571792143,  
-            "lon":  -99.15723679406516  
+	    "delegacion": "Benito Juarez", 
+            "lat": 19.3630571792143,  
+            "lon": -99.15723679406516  
     },     
 
 "Gasto_LineaA": {
@@ -2722,7 +2817,7 @@
             "uid": "eec687e4-e4e9-4697-86d3-5dd685257f8f",
             "min": 0.0,   
             "max": 2.35,  
-	    "delegacion": "", 
+	    "delegacion": "Naucalpan", 
             "lat": 19.50055189789585,
             "lon": -99.26642861720482         
      },
@@ -2740,7 +2835,7 @@
             "uid": "1dcbf327-c17e-4e90-b9f3-da993f309266",
             "min": 0.0,   
             "max": 2.62,  
-	    "delegacion": "", 
+	    "delegacion": "Naucalpan", 
             "lat":  19.49278461158297,
             "lon":  -99.26711526267839         
      },
@@ -2794,7 +2889,7 @@
             "uid": "e8e8ef93-d744-4300-b6fa-637e6fc5337f",
             "min": 228,   
             "max": 3292,  
-	    "delegacion": "", 
+	    "delegacion": "Nezahualcoyotl", 
             "lat":  19.395742119875585,
             "lon":  -99.04507132250808        
       },
@@ -2855,7 +2950,7 @@
             "uid": "b4ae7925-3a0b-4ae1-b3a5-2295034c8c85",
             "min": 0.09,   
             "max": 0.91,   
-      	    "delegacion": "Tlalpan", 
+      	    "delegacion": "n", 
             "lat": 19.28874, 
             "lon": -99.12212
         },
@@ -2864,7 +2959,7 @@
             "uid": "d1e9f4de-619c-4bac-9eb8-855cc8ac10a7",
             "min": 0.4,   
             "max": 1.17,   
-	    "delegacion": "Tlalpan", 
+	    "delegacion": "n", 
             "lat": 19.289314, 
             "lon": -99.123487
         },
@@ -2873,7 +2968,7 @@
             "uid": "f7f3c97b-8588-453e-8514-ed5c5956ecd6",
             "min": 0.7,   
             "max": 3.6,   
-	    "delegacion": "Tlalpan", 
+	    "delegacion": "n", 
             "lat": 19.29961, 
             "lon": -99.1624
         },
@@ -2882,7 +2977,7 @@
             "uid": "683cc851-751c-4577-8745-aa8aac4d5f7c",
             "min": 0.5,   
             "max": 3.3,   
-	    "delegacion": "Tlalpan", 
+	    "delegacion": "n", 
             "lat": 19.29388, 
             "lon": -99.1657
         },
@@ -2891,7 +2986,7 @@
             "uid": "4115cc07-da47-4836-9ca1-c94c707f33e6",
             "min": 0.8,   
             "max": 3.7,   
-	    "delegacion": "Tlalpan", 
+	    "delegacion": "n", 
             "lat": 19.29855, 
             "lon": -99.17464
         },
@@ -2900,7 +2995,7 @@
             "uid": "c78e5c52-06d3-443e-8953-91dd368ac161",
             "min": 0.8,   
             "max": 4.7,   
-	    "delegacion": "Tlalpan", 
+	    "delegacion": "n", 
             "lat": 19.29997, 
             "lon": -99.17279
         },
@@ -2909,7 +3004,7 @@
             "uid": "7604b4ce-b1e3-4f33-8bd5-2a9fd0bd1f9c",
             "min": 1.5,   
             "max": 4.0,   
-	    "delegacion": "Tlalpan", 
+	    "delegacion": "n", 
             "lat": 19.28226, 
             "lon": -99.17603
         },
@@ -3119,7 +3214,7 @@
             "uid": "59ceaf60-264e-4025-8086-0c54091153be",
             "min": 0.56,   
             "max": 1.56,   
-	    "delegacion": "Tlalpan", 
+	    "delegacion": "n", 
             "lat": 19.19873, 
             "lon": -99.14138
         },
@@ -3128,7 +3223,7 @@
             "uid": "9610755e-f077-4a73-a057-d93345ee531c",
             "min": -0.2,  
             "max": 1.8,   
-	    "delegacion": "Tlalpan", 
+	    "delegacion": "n", 
             "lat": 19.269854, 
             "lon": -99.235275
         },
@@ -3137,7 +3232,7 @@
             "uid": "29cd07c8-fc5e-4e3e-bf74-0274fb638d01",
             "min": -0.5,  
             "max": 4.5,   
-	    "delegacion": "Tlalpan", 
+	    "delegacion": "n", 
             "lat": 19.273791, 
             "lon": -99.2362302
         },
@@ -3146,7 +3241,7 @@
             "uid": "9ee570ae-7803-4dd6-9ef5-626bfb800e26",
             "min": -0.5,  
             "max": 3.0,   
-	    "delegacion": "Tlalpan", 
+	    "delegacion": "n", 
             "lat": 19.2850395, 
             "lon": -99.2387486
         },
@@ -3169,7 +3264,7 @@
             "lon": -99.270535
         },
 
-    "FC_HIDALGO_CC_AV_RIO_CONSULADO": {
+    "FC_Hidalgo_CC_AV_RIO_CONSULADO": {
             "uid": "ae5d56b2-58c0-4302-8d26-db68a9ecb91b",
             "min": -0.03,  
             "max": 1.42,   
@@ -3182,7 +3277,7 @@
             "uid": "898377ea-ddfc-4b97-aa6c-7aabe337241c",
             "min": 0.5,   
             "max": 3.4,   
-	    "delegacion": "Tlalpan", 
+	    "delegacion": "n", 
             "lat": 19.298372, 
             "lon": -99.165161
         },
@@ -3191,7 +3286,7 @@
             "uid": "5f6b1899-d1f5-44d3-b357-c73e3ba89155",
             "min": 0.47,   
             "max": 3.85,   
-	    "delegacion": "Tlalpan", 
+	    "delegacion": "n", 
             "lat": 19.301949, 
             "lon": -99.17528
         },
@@ -3551,7 +3646,7 @@
             "uid": "149739ce-b78c-43e9-8d49-f48259e40719",
             "min": -0.5,   
             "max": 4.6,   
-	    "delegacion": "Tlalpan", 
+	    "delegacion": "n", 
             "lat": 19.2733351, 
             "lon": -99.2404513
         },
@@ -3560,12 +3655,12 @@
             "uid": "c123334f-9457-4fe5-98d0-37d2161f32e1",
             "min": 0.0,   
             "max": 8.0,   
-	    "delegacion": "Tlalpan", 
+	    "delegacion": "n", 
             "lat": 19.2755256, 
             "lon": -99.2364934
         },
 
-    "CLAZ_DE_TLALPAN_Y_C_GALEANA": {
+    "CLAZ_DE_N_Y_C_GALEANA": {
             "uid": "02e8d5f9-b990-4329-8061-66ea25491183",
             "min": 0.5,   
             "max": 4.4,   
@@ -3637,7 +3732,7 @@
             "lon": -99.18255
         },
 
-    "ARANGO_Y_ESCANDON_CC_1ERA_CERRADA_MIGUEL_HIDALGO": {
+    "ARANGO_Y_ESCANDON_CC_1ERA_CERRADA_MIGUEL_Hidalgo": {
             "uid": "3fe2d3d2-7c5b-4d38-8afd-6274b67f4536",
             "min": 0.2,   
             "max": 1.0,   
@@ -3893,7 +3988,7 @@
             "uid": "b4aae577-a363-4801-88fc-073c5ab83f87",
             "min": 0.0,   
             "max": 0.0,   
-	    "delegacion": "Tlalpa", 
+	    "delegacion": "Tlalpan", 
             "lat": 19.28015, 
             "lon": -99.17665
         },
@@ -4847,7 +4942,7 @@
             "lon": -99.124717
         },
 
-    "MIGUEL_HIDALGO_Y_MANUEL_LOPEZ_PORTILLO": {
+    "MIGUEL_Hidalgo_Y_MANUEL_LOPEZ_PORTILLO": {
             "uid": "321ab71c-54d3-4aa8-802c-1c56ad972bba",
             "min": 0.01,   
             "max": 1.69,   
@@ -5055,7 +5150,7 @@
             "uid": "26a8ceaf-6165-422d-8ee1-19b852afc91a",
             "min": -0.01,  
             "max": 1.56,   
-	    "delegacion": "Coyoacán",
+	    "delegacion": "Coyoacan",
             "lat": 19.335900,
             "lon": -99.173040
         },
@@ -5064,7 +5159,7 @@
             "uid": "4f0fe0ae-081f-4c29-85ce-06d20830b864",
             "min": 1.42,   
             "max": 2.89,   
-	    "delegacion": "Coyoacán",
+	    "delegacion": "Coyoacan",
             "lat": 19.305890,
             "lon": -99.154000
         },
@@ -5149,7 +5244,7 @@
             "lon": -99.03271
         },
 
-    "AV_DOLORES_HIDALGO_CC_APATZINGAN": {
+    "AV_DOLORES_Hidalgo_CC_APATZINGAN": {
             "uid": "0df0b3e3-6bf7-4eb4-8b58-852e8452ee6e",
             "min": 0.09,  
             "max": 2.31,  
@@ -5266,7 +5361,7 @@
             "lon": -99.1254
         },
 
-    "AV_DE_LAS_TORRES_Y_MIGUEL_HIDALGO": {
+    "AV_DE_LAS_TORRES_Y_MIGUEL_Hidalgo": {
             "uid": "207a711e-0689-4487-8e0f-8ddf589589fb",
             "min": -0.02,   
             "max": 2.18,    
@@ -6515,7 +6610,7 @@
         "uid": "433032aa-196f-46c5-86be-a14e75f2fd0e",
         "min": 0.0,   
         "max": 0.2,   
-	"delegacion": "Gustavo A. Madero", 
+	"delegacion": "Gustavo A Madero", 
         "lat": 19.51325417, 
         "lon": -99.12409222
     },
@@ -6533,7 +6628,7 @@
         "uid": "c343459c-8b21-4c93-9a7f-80f044136b49",
         "min": 0.0,   
         "max": 0.2,   
-	"delegacion": "Gustavo A. Madero", 
+	"delegacion": "Gustavo A Madero", 
         "lat": 19.51425612, 
         "lon": -99.13284849
     },
@@ -6560,7 +6655,7 @@
         "uid": "baaa1644-4d3c-48e1-819d-35143c67fbda",
         "min": 0.0,   
         "max": 0.2,   
-	"delegacion": "Gustavo A. Madero", 
+	"delegacion": "Gustavo A Madero", 
         "lat": 19.5106859, 
         "lon": -99.13284511
     },
@@ -6587,7 +6682,7 @@
         "uid": "b106f258-1fc7-4f2a-815c-6632addd1aa9",
         "min": 0.0,   
         "max": 0.2,   
-	"delegacion": "Gustavo A. Madero", 
+	"delegacion": "Gustavo A Madero", 
         "lat": 19.47517203, 
         "lon": -99.11674
     },
@@ -6799,7 +6894,7 @@
         "lon": -99.14663708
     },
 
-"MIGUEL_HIDALGO_Y_C_5_DE_MAYO": {
+"MIGUEL_Hidalgo_Y_C_5_DE_MAYO": {
         "uid": "a19565af-a10d-44fa-b419-77e1e6bd2f40",
         "min": 0.0,   
         "max": 0.2,   
@@ -6970,7 +7065,7 @@
         "lon": -99.01411546
     },
 
-"AZUCAR_Y_AV_HIDALGO": {
+"AZUCAR_Y_AV_Hidalgo": {
         "uid": "d592b326-6a5c-40ad-8682-a369fa29d1fc",
         "min": 0.0,   
         "max": 0.2,   
@@ -7416,7 +7511,7 @@
         "uid": "2ec40a00-5d8d-4e52-a88b-a6a4b1f2c5d4",
         "min": 0.0, 
         "max": 0.1, 
-	"delegacion": "Gustavo A.Madero", 
+	"delegacion": "Gustavo A Madero", 
         "lat": 19.550010257599403, 
         "lon": -99.15585749494343
     },
@@ -7632,7 +7727,7 @@
         "uid": "33b87598-a552-4bfe-8993-781033207f86",
         "min": 0.3, 
         "max": 0.4, 
-	"delegacion": "Azcapotzalco ", 
+	"delegacion": "Azcapotzalco", 
         "lat": 19.504504, 
         "lon": -99.201222
     },
@@ -7722,7 +7817,7 @@
         "uid": "38864f4c-92e5-4e41-8d56-4c2133ef087f",
         "min": 0.9, 
         "max": 1.1, 
-	"delegacion": "Azcapotzalco ", 
+	"delegacion": "Azcapotzalco", 
         "lat": 19.493310, 
         "lon": -99.191049
     },
@@ -7731,7 +7826,7 @@
         "uid": "7959a0c4-f4c9-49c8-bcd0-ca158bea0e71",
         "min": 0.6, 
         "max": 1.6, 
-	"delegacion": "Azcapotzalco ", 
+	"delegacion": "Azcapotzalco", 
         "lat": 19.485636, 
         "lon": -99.201442
     },
@@ -7740,7 +7835,7 @@
         "uid": "a07fc04d-7d60-4b14-8a80-5fbeb99e881f",
         "min": 0.1, 
         "max": 0.2, 
-	"delegacion": "Azcapotzalco ", 
+	"delegacion": "Azcapotzalco", 
         "lat": 19.453960109559645, 
         "lon": -99.13393956712522 
     },
@@ -7758,7 +7853,7 @@
         "uid": "bfeb3679-5778-493f-8d8f-e548d526bcdb",
         "min": 0.0, 
         "max": 14.2, 
-	"delegacion": " Gustavo A Madero", 
+	"delegacion": "Gustavo A Madero", 
         "lat": 19.549917322268794, 
         "lon": -99.15610958205036
     },
@@ -7767,7 +7862,7 @@
         "uid": "33444060-a940-4b68-81dd-bcda14c8def4",
         "min": -0.06, 
         "max": 1.0  , 
-	"delegacion": "Azcapotzalco ", 
+	"delegacion": "Azcapotzalco", 
         "lat": 19.498253, 
         "lon": -99.202987
     },
@@ -7776,7 +7871,7 @@
         "uid": "0faa26eb-80e6-4a9e-8bd3-e0c3db2f932e",
         "min": 0.1, 
         "max": 0.2, 
-	"delegacion": "Azcapotzalco ", 
+	"delegacion": "Azcapotzalco", 
         "lat": 19.477248, 
         "lon": -99.162073
     },
@@ -7785,7 +7880,7 @@
         "uid": "5d7e997c-b54e-4344-815a-66479bd1c149",
         "min": -0.01, 
         "max": 2.8, 
-	"delegacion": "Azcapotzalco ", 
+	"delegacion": "Azcapotzalco", 
         "lat": 19.511771, 
         "lon": -99.204815
     },
@@ -7794,7 +7889,7 @@
         "uid": "6d19e88c-931f-4910-bbf2-ce78e41dd15e",
         "min": 0.0, 
         "max": 0.8, 
-	"delegacion": "Azcapotzalco ", 
+	"delegacion": "Azcapotzalco", 
         "lat": 19.480027823634217, 
         "lon": -99.20094582449174
     },
@@ -7803,7 +7898,7 @@
         "uid": "58cfc7a8-fd0e-42ee-8b80-b2b81c36cac4",
         "min": 0.0, 
         "max": 2.0, 
-	"delegacion": "Tlalpan ", 
+	"delegacion": "Tlalpan", 
         "lat": 19.292698, 
         "lon": -99.153203
     },
@@ -7947,7 +8042,7 @@
         "uid": "8a6520e2-999f-499e-bed9-3ca056393366",
         "min": 0.0, 
         "max": 0.4, 
-	"delegacion": "Azcapotzalco ", 
+	"delegacion": "Azcapotzalco", 
         "lat": 19.507648, 
         "lon": -99.206704
     },
