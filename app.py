@@ -15,29 +15,30 @@ st.title("📍 Sistema de Inteligencia Territorial")
 st.markdown("---")
 
 # ==========================================
-# 2. CARGA Y LIMPIEZA DE DATOS
+# 2. CARGA Y LIMPIEZA DE DATOS (BLINDADA)
 # ==========================================
 @st.cache_data(ttl=300)
 def cargar_datos():
     try:
         df = pd.read_json("mis_datos.json", orient="index")
         
-        # Guardamos el nombre del sitio limpio como una columna real para el buscador
+        # Guardamos el nombre del sitio limpio para el buscador
         df['nombre_sitio'] = df.index.astype(str).str.replace("_", " ")
         
-        # Blindaje 1: Forzar números y quitar nulos
+        # Blindaje 1: Forzar números y quitar coordenadas nulas
         df['lat'] = pd.to_numeric(df.get('lat'), errors='coerce')
         df['lon'] = pd.to_numeric(df.get('lon'), errors='coerce')
         df = df.dropna(subset=['lat', 'lon'])
         
-        # Blindaje 2: Caja Geográfica (Solo Zona Metropolitana)
+        # Blindaje 2: Caja Geográfica (Solo Centro de México)
         df = df[(df['lat'] > 19.0) & (df['lat'] < 19.8) & (df['lon'] > -99.6) & (df['lon'] < -98.8)]
         
         geometria = [Point(xy) for xy in zip(df['lon'], df['lat'])]
         gdf = gpd.GeoDataFrame(df, geometry=geometria, crs="EPSG:4326")
         return df, gdf
     except Exception as e:
-        st.error(f"⚠️ Error al leer el archivo de datos: {e}")
+        # Si el JSON está roto, muestra el error pero no colapsa la app
+        st.error(f"⚠️ Alerta de Datos: No se pudo leer el archivo JSON. Verifica que no falten comas o llaves. Detalle técnico: {e}")
         return pd.DataFrame(), gpd.GeoDataFrame()
 
 df_datos, gdf_datos = cargar_datos()
@@ -67,27 +68,25 @@ if not df_datos.empty:
     )
 
     # CAPA: PERÍMETRO CDMX
-    # Trae el límite territorial oficial mediante un GeoJSON público
     url_cdmx = "https://raw.githubusercontent.com/jboscomendoza/rpubs/master/mapas_mexico/cdmx.json"
     folium.GeoJson(
         url_cdmx,
         name="Límite Territorial CDMX",
         style_function=lambda x: {
             'fillColor': 'transparent',
-            'color': '#2C3E50', # Gris oscuro elegante
+            'color': '#2C3E50',
             'weight': 2,
-            'dashArray': '5, 5' # Línea punteada
+            'dashArray': '5, 5'
         }
     ).add_to(mapa)
 
     # ==========================================
-    # 4. CAPA DE BUSCADOR INTELIGENTE
+    # 4. BUSCADOR INTELIGENTE
     # ==========================================
-    # Creamos una capa GeoJSON invisible exclusiva para alimentar el buscador
     capa_busqueda = folium.GeoJson(
         gdf_datos,
         name="Buscador de Sitios",
-        marker=folium.CircleMarker(radius=0, fill_opacity=0, opacity=0), # Invisible
+        marker=folium.CircleMarker(radius=0, fill_opacity=0, opacity=0),
         tooltip=folium.GeoJsonTooltip(fields=['nombre_sitio', 'delegacion'], aliases=['Sitio:', 'Delegación:'])
     ).add_to(mapa)
 
@@ -103,7 +102,6 @@ if not df_datos.empty:
     # ==========================================
     # 5. RENDERIZADO DE CAPAS OPERATIVAS
     # ==========================================
-    
     if modo_vista == "1. Agrupación Dinámica (Clusters)":
         st.subheader("Puntos agrupados por concentración territorial")
         cluster = MarkerCluster().add_to(mapa)
@@ -167,7 +165,7 @@ if not df_datos.empty:
     col1, col2, col3 = st.columns(3)
     col1.metric("Registros Operativos (Zona Centro)", len(df_datos))
     
-    # BLINDAJE EXTREMO CONTRA KEYERROR:
+    # Blindaje contra la columna "max" faltante
     if 'max' in df_datos.columns:
         max_limpio = pd.to_numeric(df_datos['max'], errors='coerce')
         if not max_limpio.isna().all():
@@ -181,3 +179,5 @@ if not df_datos.empty:
         col3.metric("Delegaciones Activas", df_datos['delegacion'].nunique())
     else:
         col3.metric("Delegaciones Activas", "N/A")
+else:
+    st.info("Esperando a que se carguen datos válidos para generar el mapa.")
