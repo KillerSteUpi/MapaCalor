@@ -52,6 +52,7 @@ def cargar_datos():
         st.error(f"⚠️ Alerta Operativa: El archivo JSON tiene un error de estructura. Detalle: {e}")
         return pd.DataFrame(), gpd.GeoDataFrame()
 
+# AQUÍ ES DONDE SE CREA LA VARIABLE QUE TE FALTABA
 df_datos, gdf_datos = cargar_datos()
 
 if not df_datos.empty:
@@ -190,4 +191,4 @@ if not df_datos.empty:
     else:
         col3.metric("Delegaciones Activas", "N/A")
 else:
-    st.info("💡 La plataforma está en línea, pero el archivo JSON actual no contiene registros con coordenadas válidas para CDMX. Sube datos nuevos para visualizar el mapa.")
+    st.info("💡 La plataforma está en línea. Esperando registros con coordenadas válidas para CDMX.")
