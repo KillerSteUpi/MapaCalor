@@ -758,7 +758,7 @@
     "delegacion":"Tlahuac",
     "lat": 19.30429,
     "lon": -99.05986
-    }
+    },
     
     "CanalDesague": {
         "uid":"e7f0d033-d201-4635-92d9-7994443727b1",
@@ -2288,7 +2288,7 @@
             "max": 4.45,   
         "delegacion":"Magdalena Contreras", 
             "lat":  19.3023623522184,
-            "lon":   - 99.25219475343448     
+            "lon":-99.25219475343448     
         },
 
     "Presiones_INGENIEROS_MECANICOS_Y_TOPOGRAFOS": {
@@ -5103,7 +5103,7 @@
 
     "AV_CENTRAL_CC_HAWAY": {
             "uid":"1f6b9e1a-655a-4f69-804c-b62a07e14f0e",
-            "min": -07.77, 
+            "min": 0.12, 
             "max": 1.48,   
         "delegacion":"Azcapotzalco", 
             "lat": 19.477380,
