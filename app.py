@@ -15,30 +15,41 @@ st.title("📍 Sistema de Inteligencia Territorial")
 st.markdown("---")
 
 # ==========================================
-# 2. CARGA Y LIMPIEZA DE DATOS (BLINDADA)
+# 2. CARGA Y LIMPIEZA DE DATOS (BLINDAJE ABSOLUTO)
 # ==========================================
 @st.cache_data(ttl=300)
 def cargar_datos():
     try:
         df = pd.read_json("mis_datos.json", orient="index")
         
-        # Guardamos el nombre del sitio limpio para el buscador
+        if df.empty:
+            return pd.DataFrame(), gpd.GeoDataFrame()
+
+        # Buscador
         df['nombre_sitio'] = df.index.astype(str).str.replace("_", " ")
         
-        # Blindaje 1: Forzar números y quitar coordenadas nulas
-        df['lat'] = pd.to_numeric(df.get('lat'), errors='coerce')
-        df['lon'] = pd.to_numeric(df.get('lon'), errors='coerce')
+        # Blindaje Extremo: Si por alguna razón el JSON no tiene 'lat' o 'lon', las creamos vacías
+        if 'lat' not in df.columns:
+            df['lat'] = None
+        if 'lon' not in df.columns:
+            df['lon'] = None
+            
+        # Forzamos números y quitamos los que no tengan coordenadas
+        df['lat'] = pd.to_numeric(df['lat'], errors='coerce')
+        df['lon'] = pd.to_numeric(df['lon'], errors='coerce')
         df = df.dropna(subset=['lat', 'lon'])
         
-        # Blindaje 2: Caja Geográfica (Solo Centro de México)
+        # Caja Geográfica (Solo Centro de México)
         df = df[(df['lat'] > 19.0) & (df['lat'] < 19.8) & (df['lon'] > -99.6) & (df['lon'] < -98.8)]
         
+        if df.empty:
+            return pd.DataFrame(), gpd.GeoDataFrame()
+
         geometria = [Point(xy) for xy in zip(df['lon'], df['lat'])]
         gdf = gpd.GeoDataFrame(df, geometry=geometria, crs="EPSG:4326")
         return df, gdf
     except Exception as e:
-        # Si el JSON está roto, muestra el error pero no colapsa la app
-        st.error(f"⚠️ Alerta de Datos: No se pudo leer el archivo JSON. Verifica que no falten comas o llaves. Detalle técnico: {e}")
+        st.error(f"⚠️ Alerta Operativa: El archivo JSON tiene un error de estructura. Detalle: {e}")
         return pd.DataFrame(), gpd.GeoDataFrame()
 
 df_datos, gdf_datos = cargar_datos()
@@ -165,13 +176,12 @@ if not df_datos.empty:
     col1, col2, col3 = st.columns(3)
     col1.metric("Registros Operativos (Zona Centro)", len(df_datos))
     
-    # Blindaje contra la columna "max" faltante
     if 'max' in df_datos.columns:
         max_limpio = pd.to_numeric(df_datos['max'], errors='coerce')
         if not max_limpio.isna().all():
             col2.metric("Presión Máx. Promedio", round(max_limpio.mean(), 3))
         else:
-            col2.metric("Presión Máx. Promedio", "N/A (Sin números)")
+            col2.metric("Presión Máx. Promedio", "N/A")
     else:
         col2.metric("Presión Máx. Promedio", "N/A")
         
@@ -180,4 +190,4 @@ if not df_datos.empty:
     else:
         col3.metric("Delegaciones Activas", "N/A")
 else:
-    st.info("Esperando a que se carguen datos válidos para generar el mapa.")
+    st.info("💡 La plataforma está en línea, pero el archivo JSON actual no contiene registros con coordenadas válidas para CDMX. Sube datos nuevos para visualizar el mapa.")
