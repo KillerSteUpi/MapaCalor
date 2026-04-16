@@ -331,7 +331,7 @@
     "uid": "402d9819-19d1-45f4-8c79-8c0c4877061c",
     "min": 0.47,
     "max": 1.19,
-    "delegacion": "n",
+    "delegacion": "Tlalpan",
     "lat": 19.31168,
     "lon": -99.16173
   },
@@ -419,7 +419,7 @@
     "uid": "45fb4112-d1b3-4eb3-aa4f-fe48fd9d3efb",
     "min": 0.58,
     "max": 1.39,
-    "delegacion": "n",
+    "delegacion": "Tlalpan",
     "lat": 19.29279,
     "lon": -99.12533
   },
@@ -427,7 +427,7 @@
     "uid": "4cb66181-66b3-4348-b2c8-4d06d1a8ed88",
     "min": 1.01,
     "max": 1.88,
-    "delegacion": "n",
+    "delegacion": "Tlalpan",
     "lat": 19.28882,
     "lon": -99.22782
   },
@@ -872,7 +872,7 @@
         "uid": "68ec13ba-61d3-40bb-8eaf-18c36014d668",
         "min": 0.0,  
         "max": 14.5, 
-	"delegacion": "TlahuaC", 
+	"delegacion": "Tlahuac", 
         "lat": 19.291088, 
         "lon": -99.008124
     },
@@ -899,7 +899,7 @@
         "uid": "93e4dcd6-e77f-448c-93d0-6f5ac456ad26",
         "min": 0.0, 
         "max": 2.0, 
-	"delegacion": "n", 
+	"delegacion": "Tlalpan", 
         "lat": 19.289078, 
         "lon": -99.24167
     },
@@ -908,7 +908,7 @@
         "uid": "72b6d5f6-4224-410c-a2de-37968becfc60",
         "min": 0.0, 
         "max": 0.7, 
-	"delegacion": "n", 
+	"delegacion": "Tlalpan", 
         "lat": 19.27013, 
         "lon": -99.14558
     },
@@ -935,7 +935,7 @@
         "uid": "fcc5d5cb-9456-4720-9a95-dc2daa1a2e96",
         "min": 0.0, 
         "max": 3.5, 
-	"delegacion": "n", 
+	"delegacion": "Tlalpan", 
         "lat": 19.272462, 
         "lon": -99.177871
     },
@@ -1026,7 +1026,7 @@
         "uid": "9399465b-6ead-4674-ace9-2cc15103a4e7",
         "min": 0.0, 
         "max": 1.0, 
-	"delegacion": "n", 
+	"delegacion": "Tlalpan", 
         "lat": 19.2701425, 
         "lon": -99.1746096
     },
@@ -1044,7 +1044,7 @@
         "uid": "56ce172b-4b16-49a5-9192-072c931586af",
         "min": 0.0, 
         "max": 3.8, 
-	"delegacion": "n", 
+	"delegacion": "Tlalpan", 
         "lat": 19.26881, 
         "lon": -99.1602
     },
@@ -1378,7 +1378,7 @@
         "uid": "91a6e099-d25b-405b-80c6-d26b87252e95",
         "min": 0.0, 
         "max": 3.2, 
-	"delegacion": "n", 
+	"delegacion": "Tlalpan", 
         "lat": 19.27056, 
         "lon": -99.18453
     },
@@ -1396,7 +1396,7 @@
             "uid": "c5b6e747-5a6e-4155-8322-20626c5fafa4",
             "min": 0.1,  
             "max": 2.0,  
-	    "delegacion": "n", 
+	    "delegacion": "Tlalpan", 
             "lat": 19.270868, 
             "lon": -99.172504      
     },
@@ -1567,7 +1567,7 @@
             "uid": "a221bf76-d207-493b-9920-6cefa2c28010",
             "min": 0.0,  
             "max": 4.0,  
-	    "delegacion": "n", 
+	    "delegacion": "Tlalpan", 
             "lat": 19.280017, 
             "lon": -99.206136      
      },
@@ -1855,7 +1855,7 @@
             "uid": "e194cdf8-2a43-400c-8528-ebfe9f00ec42",
             "min": 0.0,   
             "max": 1.0,   
-	    "delegacion": "Xochimilco ", 
+	    "delegacion": "Xochimilco", 
             "lat": 19.26731, 
             "lon": -99.1155        
     },
@@ -2035,7 +2035,7 @@
             "uid": "572b2af3-f87d-4d2e-bf80-405a58a68504",
             "min": 0.0,    
             "max": 4.55,   
-	    "delegacion": "n", 
+	    "delegacion": "Tlalpan", 
             "lat": 19.234944, 
             "lon": -99.181661      
   
@@ -2089,7 +2089,7 @@
             "uid": "054edc4f-f3c5-420c-8f08-0a780632f01b",
             "min": 0.37,  
             "max": 1.0,   
-	    "delegacion": "Alvaro Obregon ", 
+	    "delegacion": "Alvaro Obregon", 
             "lat": 19.368077, 
             "lon": -99.23522        
     },
@@ -2098,7 +2098,7 @@
             "uid": "c9536a40-80fe-4566-90e3-fc8bcbe42df1",
             "min": 0.0,   
             "max": 1.0,   
-	    "delegacion": "n", 
+	    "delegacion": "Tlalpan", 
             "lat": 19.233955, 
             "lon": -99.183751        
     },
@@ -2592,7 +2592,7 @@
             "uid": "327b8455-21ae-4ff8-a363-fa16e6b499ff",
             "min": 0.0,   
             "max": 0.0,   
-	    "delegacion": "n", 
+	    "delegacion": "Tlalpan", 
             "lat":  19.26665959377814, 
             "lon": -99.1478429458637
     },
@@ -2844,7 +2844,7 @@
             "uid": "34dc1f60-efbd-4939-814c-c03fadd92bb9",
             "min": 0.0,    
             "max": 1.26,   
-	    "delegacion": "Xochimilco ", 
+	    "delegacion": "Xochimilco", 
             "lat": 19.261675, 
             "lon": -99.129693        
      },
@@ -2950,7 +2950,7 @@
             "uid": "b4ae7925-3a0b-4ae1-b3a5-2295034c8c85",
             "min": 0.09,   
             "max": 0.91,   
-      	    "delegacion": "n", 
+      	    "delegacion": "Tlalpan", 
             "lat": 19.28874, 
             "lon": -99.12212
         },
@@ -2959,7 +2959,7 @@
             "uid": "d1e9f4de-619c-4bac-9eb8-855cc8ac10a7",
             "min": 0.4,   
             "max": 1.17,   
-	    "delegacion": "n", 
+	    "delegacion": "Tlalpan", 
             "lat": 19.289314, 
             "lon": -99.123487
         },
@@ -2968,7 +2968,7 @@
             "uid": "f7f3c97b-8588-453e-8514-ed5c5956ecd6",
             "min": 0.7,   
             "max": 3.6,   
-	    "delegacion": "n", 
+	    "delegacion": "Tlalpan", 
             "lat": 19.29961, 
             "lon": -99.1624
         },
@@ -2977,7 +2977,7 @@
             "uid": "683cc851-751c-4577-8745-aa8aac4d5f7c",
             "min": 0.5,   
             "max": 3.3,   
-	    "delegacion": "n", 
+	    "delegacion": "Tlalpan", 
             "lat": 19.29388, 
             "lon": -99.1657
         },
@@ -2986,7 +2986,7 @@
             "uid": "4115cc07-da47-4836-9ca1-c94c707f33e6",
             "min": 0.8,   
             "max": 3.7,   
-	    "delegacion": "n", 
+	    "delegacion": "Tlalpan", 
             "lat": 19.29855, 
             "lon": -99.17464
         },
@@ -2995,7 +2995,7 @@
             "uid": "c78e5c52-06d3-443e-8953-91dd368ac161",
             "min": 0.8,   
             "max": 4.7,   
-	    "delegacion": "n", 
+	    "delegacion": "Tlalpan", 
             "lat": 19.29997, 
             "lon": -99.17279
         },
@@ -3004,7 +3004,7 @@
             "uid": "7604b4ce-b1e3-4f33-8bd5-2a9fd0bd1f9c",
             "min": 1.5,   
             "max": 4.0,   
-	    "delegacion": "n", 
+	    "delegacion": "Tlalpan", 
             "lat": 19.28226, 
             "lon": -99.17603
         },
@@ -3214,7 +3214,7 @@
             "uid": "59ceaf60-264e-4025-8086-0c54091153be",
             "min": 0.56,   
             "max": 1.56,   
-	    "delegacion": "n", 
+	    "delegacion": "Tlalpan", 
             "lat": 19.19873, 
             "lon": -99.14138
         },
@@ -3223,7 +3223,7 @@
             "uid": "9610755e-f077-4a73-a057-d93345ee531c",
             "min": -0.2,  
             "max": 1.8,   
-	    "delegacion": "n", 
+	    "delegacion": "Tlalpan", 
             "lat": 19.269854, 
             "lon": -99.235275
         },
@@ -3232,7 +3232,7 @@
             "uid": "29cd07c8-fc5e-4e3e-bf74-0274fb638d01",
             "min": -0.5,  
             "max": 4.5,   
-	    "delegacion": "n", 
+	    "delegacion": "Tlalpan", 
             "lat": 19.273791, 
             "lon": -99.2362302
         },
@@ -3241,7 +3241,7 @@
             "uid": "9ee570ae-7803-4dd6-9ef5-626bfb800e26",
             "min": -0.5,  
             "max": 3.0,   
-	    "delegacion": "n", 
+	    "delegacion": "Tlalpan", 
             "lat": 19.2850395, 
             "lon": -99.2387486
         },
@@ -3277,7 +3277,7 @@
             "uid": "898377ea-ddfc-4b97-aa6c-7aabe337241c",
             "min": 0.5,   
             "max": 3.4,   
-	    "delegacion": "n", 
+	    "delegacion": "Tlalpan", 
             "lat": 19.298372, 
             "lon": -99.165161
         },
@@ -3286,7 +3286,7 @@
             "uid": "5f6b1899-d1f5-44d3-b357-c73e3ba89155",
             "min": 0.47,   
             "max": 3.85,   
-	    "delegacion": "n", 
+	    "delegacion": "Tlalpan", 
             "lat": 19.301949, 
             "lon": -99.17528
         },
@@ -3646,7 +3646,7 @@
             "uid": "149739ce-b78c-43e9-8d49-f48259e40719",
             "min": -0.5,   
             "max": 4.6,   
-	    "delegacion": "n", 
+	    "delegacion": "Tlalpan", 
             "lat": 19.2733351, 
             "lon": -99.2404513
         },
@@ -3655,7 +3655,7 @@
             "uid": "c123334f-9457-4fe5-98d0-37d2161f32e1",
             "min": 0.0,   
             "max": 8.0,   
-	    "delegacion": "n", 
+	    "delegacion": "Tlalpan", 
             "lat": 19.2755256, 
             "lon": -99.2364934
         },
@@ -4490,7 +4490,7 @@
             "uid": "4afa3e15-3037-4573-82b3-f71901dc62bb",
             "min": 3.72,   
             "max": 6.77,   
-	    "delegacion": "MAGDALENA CONTRERAS", 
+	    "delegacion": "Magdalena Contreras", 
             "lat": 19.328156, 
             "lon": -99.214933
         },
@@ -7592,7 +7592,7 @@
         "uid": "c6aa7dd5-8b80-45ed-9421-f17b13b163b3",
         "min": 0.0, 
         "max": 0.7, 
-	"delegacion": "Iztacalco ", 
+	"delegacion": "Iztacalco", 
         "lat": 19.327761, 
         "lon": -99.046303
     },
