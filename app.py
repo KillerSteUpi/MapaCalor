@@ -75,6 +75,42 @@ if not df_datos.empty:
     )
 
     # NOTA: Se removió la capa externa del perímetro CDMX para evitar caídas de red.
+    
+    # ==========================================
+    # 4. CAPAS TERRITORIALES OFICIALES (BLINDADAS)
+    # ==========================================
+    # Estas capas se leen desde los archivos que subiste a GitHub, eliminando la dependencia de internet.
+    
+    # Capa 1: Límite Estatal CDMX (Línea elegante)
+    try:
+        folium.GeoJson(
+            "perimetro_cdmx.json",
+            name="Límite Ciudad de México",
+            style_function=lambda x: {
+                'fillColor': 'transparent',
+                'color': '#2C3E50', # Gris oscuro
+                'weight': 3,
+                'dashArray': '5, 5' # Línea punteada
+            }
+        ).add_to(mapa)
+    except:
+        st.sidebar.warning("⚠️ No se encontró el archivo del perímetro de CDMX.")
+
+    # Capa 2: División de Alcaldías (Líneas finas)
+    try:
+        folium.GeoJson(
+            "alcaldias_cdmx.json",
+            name="División de Alcaldías",
+            style_function=lambda x: {
+                'fillColor': 'transparent',
+                'color': '#BDC3C7', # Gris muy claro
+                'weight': 1,
+                'opacity': 0.6
+            }
+        ).add_to(mapa)
+    except:
+        st.sidebar.warning("⚠️ No se encontró el archivo de las alcaldías.")
+    
 
     # ==========================================
     # 4. BUSCADOR INTELIGENTE
@@ -171,8 +207,8 @@ if not df_datos.empty:
         col2.metric("Presión Máx. Promedio", "N/A")
         
     if 'delegacion' in df_datos.columns:
-        col3.metric("Delegaciones Activas", df_datos['delegacion'].nunique())
+        col3.metric("Demarcaciones Operativas", df_datos['delegacion'].nunique())
     else:
-        col3.metric("Delegaciones Activas", "N/A")
+        col3.metric("Demarcaciones Operativas", "N/A")
 else:
     st.info("💡 La plataforma está en línea. Esperando registros con coordenadas válidas para CDMX.")
