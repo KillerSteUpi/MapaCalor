@@ -200,7 +200,7 @@ if not df_datos.empty:
     if 'max' in df_datos.columns:
         max_limpio = pd.to_numeric(df_datos['max'], errors='coerce')
         if not max_limpio.isna().all():
-            col2.metric("Presión Máx. Promedio", round(max_limpio.mean(), 3))
+            #col2.metric("Presión Máx. Promedio", round(max_limpio.mean(), 3))
         else:
             col2.metric("Presión Máx. Promedio", "N/A")
     else:
