@@ -1,6 +1,3 @@
-
-
-#Mpa de alcaldias Unidas
 import streamlit as st
 import pandas as pd
 import geopandas as gpd
@@ -8,6 +5,7 @@ from shapely.geometry import Point
 import folium
 from folium.plugins import HeatMap, MarkerCluster, Search
 from streamlit_folium import st_folium
+import json
 
 # ==========================================
 # 1. CONFIGURACIÓN
@@ -17,15 +15,13 @@ st.title("📍 Sistema de Inteligencia Territorial")
 st.markdown("---")
 
 # ==========================================
-# 2. CARGA Y LIMPIEZA DE DATOS (BLINDAJE ABSOLUTO)
+# 2. CARGA Y LIMPIEZA DE DATOS
 # ==========================================
 @st.cache_data(ttl=300)
 def cargar_datos():
     try:
         df = pd.read_json("mis_datos.json", orient="index")
-        
-        if df.empty:
-            return pd.DataFrame(), gpd.GeoDataFrame()
+        if df.empty: return pd.DataFrame(), gpd.GeoDataFrame()
 
         df['nombre_sitio'] = df.index.astype(str).str.replace("_", " ")
         
@@ -36,10 +32,10 @@ def cargar_datos():
         df['lon'] = pd.to_numeric(df['lon'], errors='coerce')
         df = df.dropna(subset=['lat', 'lon'])
         
+        # Caja Geográfica Metrópoli
         df = df[(df['lat'] > 19.0) & (df['lat'] < 19.8) & (df['lon'] > -99.6) & (df['lon'] < -98.8)]
         
-        if df.empty:
-            return pd.DataFrame(), gpd.GeoDataFrame()
+        if df.empty: return pd.DataFrame(), gpd.GeoDataFrame()
 
         geometria = [Point(xy) for xy in zip(df['lon'], df['lat'])]
         gdf = gpd.GeoDataFrame(df, geometry=geometria, crs="EPSG:4326")
@@ -63,7 +59,7 @@ if not df_datos.empty:
     )
 
     # ==========================================
-    # 3. INICIALIZACIÓN DEL MAPA (BLANCO)
+    # 3. INICIALIZACIÓN DEL MAPA
     # ==========================================
     centro_lat = df_datos['lat'].mean()
     centro_lon = df_datos['lon'].mean()
@@ -74,52 +70,49 @@ if not df_datos.empty:
         tiles="cartodbpositron" 
     )
 
-    # NOTA: Se removió la capa externa del perímetro CDMX para evitar caídas de red.
-    
     # ==========================================
-    # 4. CAPAS TERRITORIALES OFICIALES (BLINDADAS)
+    # 4. CAPAS TERRITORIALES OFICIALES (EN LA NUBE)
     # ==========================================
-    # Estas capas se leen desde los archivos que subiste a GitHub, eliminando la dependencia de internet.
-    
-    # Capa 1: Límite Estatal CDMX (Línea elegante)
+    # Enlaces de alta disponibilidad. Si fallan, el mapa sigue funcionando.
+    url_perimetro = "https://raw.githubusercontent.com/npalomin/shi_dataset_cdmx/main/cdmx.geojson"
+    url_alcaldias = "https://raw.githubusercontent.com/npalomin/shi_dataset_cdmx/main/alcaldias.geojson"
+
     try:
         folium.GeoJson(
-            "perimetro_cdmx.json",
+            url_perimetro,
             name="Límite Ciudad de México",
             style_function=lambda x: {
                 'fillColor': 'transparent',
-                'color': '#2C3E50', # Gris oscuro
+                'color': '#2C3E50',
                 'weight': 3,
-                'dashArray': '5, 5' # Línea punteada
+                'dashArray': '5, 5'
             }
         ).add_to(mapa)
-    except:
-        st.sidebar.warning("⚠️ No se encontró el archivo del perímetro de CDMX.")
+    except Exception as e:
+        st.sidebar.warning("⚠️ Límite CDMX no disponible en este momento.")
 
-    # Capa 2: División de Alcaldías (Líneas finas)
     try:
         folium.GeoJson(
-            "alcaldias_cdmx.json",
+            url_alcaldias,
             name="División de Alcaldías",
             style_function=lambda x: {
                 'fillColor': 'transparent',
-                'color': '#BDC3C7', # Gris muy claro
+                'color': '#BDC3C7',
                 'weight': 1,
                 'opacity': 0.6
             }
         ).add_to(mapa)
-    except:
-        st.sidebar.warning("⚠️ No se encontró el archivo de las alcaldías.")
-    
+    except Exception as e:
+        st.sidebar.warning("⚠️ División de Alcaldías no disponible en este momento.")
 
     # ==========================================
-    # 4. BUSCADOR INTELIGENTE
+    # 5. BUSCADOR INTELIGENTE
     # ==========================================
     capa_busqueda = folium.GeoJson(
         gdf_datos,
         name="Buscador de Sitios",
         marker=folium.CircleMarker(radius=0, fill_opacity=0, opacity=0),
-        tooltip=folium.GeoJsonTooltip(fields=['nombre_sitio', 'delegacion'], aliases=['Sitio:', 'Delegación:'])
+        tooltip=folium.GeoJsonTooltip(fields=['nombre_sitio', 'delegacion'], aliases=['Sitio:', 'Demarcación:'])
     ).add_to(mapa)
 
     Search(
@@ -132,7 +125,7 @@ if not df_datos.empty:
     ).add_to(mapa)
 
     # ==========================================
-    # 5. RENDERIZADO DE CAPAS OPERATIVAS
+    # 6. RENDERIZADO DE CAPAS OPERATIVAS
     # ==========================================
     if modo_vista == "1. Agrupación Dinámica (Clusters)":
         st.subheader("Puntos agrupados por concentración territorial")
@@ -141,7 +134,7 @@ if not df_datos.empty:
         for index, row in df_datos.iterrows():
             folium.Marker(
                 location=[row['lat'], row['lon']],
-                tooltip=f"🏢 Sitio: {row['nombre_sitio']} | 📍 Delegación: {row.get('delegacion', 'N/A')} | 📊 Min: {row.get('min', '-')} Max: {row.get('max', '-')}"
+                tooltip=f"🏢 Sitio: {row['nombre_sitio']} | 📍 Demarcación: {row.get('delegacion', 'N/A')} | 📊 Min: {row.get('min', '-')} Max: {row.get('max', '-')}"
             ).add_to(cluster)
 
     elif modo_vista == "2. Radios de Influencia (Operativo)":
@@ -157,11 +150,11 @@ if not df_datos.empty:
                 fill=True,
                 fill_color="#0096FF",
                 fill_opacity=0.4,
-                tooltip=f"🏢 Sitio: {row['nombre_sitio']} | 📍 Delegación: {row.get('delegacion', 'N/A')}"
+                tooltip=f"🏢 Sitio: {row['nombre_sitio']} | 📍 Demarcación: {row.get('delegacion', 'N/A')}"
             ).add_to(mapa)
 
     elif modo_vista == "3. Sectores Naturales (Huella Real)":
-        st.subheader("Polígonos de operación real agrupados por Delegación")
+        st.subheader("Polígonos de operación real agrupados")
         
         if 'delegacion' in gdf_datos.columns:
             sectores = gdf_datos.dissolve(by='delegacion')
@@ -177,7 +170,7 @@ if not df_datos.empty:
                         'weight': 2,
                         'fillOpacity': 0.4
                     },
-                    tooltip=folium.GeoJsonTooltip(fields=['delegacion'], aliases=['Delegación:'])
+                    tooltip=folium.GeoJsonTooltip(fields=['delegacion'], aliases=['Demarcación:'])
                 ).add_to(mapa)
             else:
                 st.warning("No hay suficientes registros agrupados para trazar sectores poligonales.")
@@ -189,18 +182,17 @@ if not df_datos.empty:
             HeatMap(datos_calor, radius=15, blur=10).add_to(mapa)
 
     # ==========================================
-    # 6. DESPLIEGUE DEL MAPA Y MÉTRICAS
+    # 7. DESPLIEGUE DEL MAPA Y MÉTRICAS
     # ==========================================
     st_folium(mapa, width=1200, height=600, returned_objects=[])
 
     st.markdown("### Resumen Ejecutivo")
     col1, col2, col3 = st.columns(3)
-    col1.metric("Registros Operativos (Zona Centro)", len(df_datos))
+    col1.metric("Registros Operativos", len(df_datos))
     
     if 'max' in df_datos.columns:
         max_limpio = pd.to_numeric(df_datos['max'], errors='coerce')
         if not max_limpio.isna().all():
-            #col2.metric("Presión Máx. Promedio")
             col2.metric("Presión Máx. Promedio", round(max_limpio.mean(), 3))
         else:
             col2.metric("Presión Máx. Promedio", "N/A")
@@ -212,4 +204,4 @@ if not df_datos.empty:
     else:
         col3.metric("Demarcaciones Operativas", "N/A")
 else:
-    st.info("💡 La plataforma está en línea. Esperando registros con coordenadas válidas para CDMX.")
+    st.info("💡 La plataforma está en línea. Esperando registros con coordenadas válidas.")
