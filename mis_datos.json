@@ -5987,13 +5987,6 @@
 "lat": 19.413237468728585, 
 "lon": -99.17884174848434
 },
-"Calle_Villa_Conejos_Mz9_Lt19": {
-"min": 0.0, 
-"max": 0.7, 
-"delegacion": "Iztacalco", 
-"lat": 19.327761, 
-"lon": -99.046303
-},
 "Calle20yPiramide": {
 "min": 0.0, 
 "max": 1.0, 
@@ -7122,5 +7115,13 @@
 	"delegacion": "Iztapalapa", 
         "lat": 19.34691, 
         "lon": -99.00558
+   },
+    "Calle_Villa_Conejos_Mz9_Lt19": {
+        "uid": "ef4256b2-4196-40c0-8133-903c22c14a61",
+        "min": -0.1,
+        "max": 0.6,  
+	"delegacion": "Iztacalco ", 
+        "lat": 19.327761, 
+        "lon": -99.046303
     }
 }
