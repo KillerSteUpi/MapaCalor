@@ -160,7 +160,7 @@ if not df_datos.empty:
                 tooltip=f"🏢 Sitio: {row['nombre_sitio']} | 📍 Delegación: {row.get('delegacion', 'N/A')}"
             ).add_to(mapa)
 
-    elif modo_vista == "3. Sectores Naturales (Huella Real)":
+   """ elif modo_vista == "3. Sectores Naturales (Huella Real)":
         st.subheader("Polígonos de operación real agrupados por Delegación")
         
         if 'delegacion' in gdf_datos.columns:
@@ -181,7 +181,7 @@ if not df_datos.empty:
                 ).add_to(mapa)
             else:
                 st.warning("No hay suficientes registros agrupados para trazar sectores poligonales.")
-
+"""
     elif modo_vista == "4. Mapa de Calor (Densidad)":
         st.subheader("Concentración histórica de registros")
         datos_calor = [[row['lat'], row['lon']] for index, row in df_datos.iterrows() if pd.notna(row['lat']) and pd.notna(row['lon'])]
