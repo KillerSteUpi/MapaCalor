@@ -1,6 +1,3 @@
-
-
-#Mpa de alcaldias Unidas
 import streamlit as st
 import pandas as pd
 import geopandas as gpd
@@ -76,37 +73,31 @@ if not df_datos.empty:
         zoom_start=10, 
         tiles="cartodbpositron" 
     )
-
-    # NOTA: Se removió la capa externa del perímetro CDMX para evitar caídas de red.
     
     # ==========================================
     # 4. CAPAS TERRITORIALES OFICIALES (BLINDADAS)
     # ==========================================
-    # Estas capas se leen desde los archivos que subiste a GitHub, eliminando la dependencia de internet.
-    
-    # Capa 1: Límite Estatal CDMX (Línea elegante)
     try:
         folium.GeoJson(
             "perimetro_cdmx.json",
             name="Límite Ciudad de México",
             style_function=lambda x: {
                 'fillColor': 'transparent',
-                'color': '#2C3E50', # Gris oscuro
+                'color': '#2C3E50', 
                 'weight': 3,
-                'dashArray': '5, 5' # Línea punteada
+                'dashArray': '5, 5' 
             }
         ).add_to(mapa)
     except:
         st.sidebar.warning("⚠️ No se encontró el archivo del perímetro de CDMX.")
 
-    # Capa 2: División de Alcaldías (Líneas finas)
     try:
         folium.GeoJson(
             "alcaldias_cdmx.json",
             name="División de Alcaldías",
             style_function=lambda x: {
                 'fillColor': 'transparent',
-                'color': '#BDC3C7', # Gris muy claro
+                'color': '#BDC3C7', 
                 'weight': 1,
                 'opacity': 0.6
             }
@@ -114,9 +105,8 @@ if not df_datos.empty:
     except:
         st.sidebar.warning("⚠️ No se encontró el archivo de las alcaldías.")
     
-
     # ==========================================
-    # 4. BUSCADOR INTELIGENTE
+    # 5. BUSCADOR INTELIGENTE
     # ==========================================
     capa_busqueda = folium.GeoJson(
         gdf_datos,
@@ -135,7 +125,7 @@ if not df_datos.empty:
     ).add_to(mapa)
 
     # ==========================================
-    # 5. RENDERIZADO DE CAPAS OPERATIVAS
+    # 6. RENDERIZADO DE CAPAS OPERATIVAS
     # ==========================================
     if modo_vista == "1. Agrupación Dinámica (Clusters)":
         st.subheader("Puntos agrupados por concentración territorial")
@@ -190,45 +180,47 @@ if not df_datos.empty:
         datos_calor = [[row['lat'], row['lon']] for index, row in df_datos.iterrows() if pd.notna(row['lat']) and pd.notna(row['lon'])]
         if len(datos_calor) > 0:
             HeatMap(datos_calor, radius=15, blur=10).add_to(mapa)
+
+    elif modo_vista == "5. Áreas de Influencia (Voronoi)":
+        st.subheader("Zonas de Jurisdicción Exacta (Polígonos de Voronoi)")
+        st.markdown("Cada polígono define el área geográfica donde ese punto de monitoreo es el más cercano.")
+        
+        try:
+            # 1. Agrupar puntos
+            puntos = MultiPoint(gdf_datos.geometry.tolist())
             
-    elif modo_vista == "5. Áreas de Influencia (Voronoi/Thiessen)":
-        st.subheader("Zonas de Cobertura Exacta por Sitio (Voronoi)")
-        st.markdown("Cada polígono define el área de jurisdicción exacta donde ese sitio es el más cercano.")
-        
-        # 1. Agrupamos todas las coordenadas en una sola "nube" de puntos
-        puntos = MultiPoint(gdf_datos.geometry.tolist())
-        
-        # 2. Generamos el diagrama matemático de Voronoi
-        # (Usa la caja de la CDMX/Metrópoli para que los bordes no se vayan al infinito)
-        regiones_voronoi = voronoi_diagram(puntos)
-        
-        # 3. Convertimos los polígonos matemáticos a un formato geográfico (GeoDataFrame)
-        gdf_voronoi = gpd.GeoDataFrame(geometry=[geom for geom in regiones_voronoi.geoms], crs="EPSG:4326")
-        
-        # 4. Dibujamos los polígonos en el mapa
-        folium.GeoJson(
-            gdf_voronoi,
-            style_function=lambda x: {
-                'fillColor': '#28B463', # Verde analítico
-                'color': '#196F3D',     # Verde oscuro para los bordes
-                'weight': 2,
-                'fillOpacity': 0.2
-            }
-        ).add_to(mapa)
-        
-        # 5. Colocamos un marcador rojo en el "corazón" de cada polígono para identificar al dueño de la zona
-        for index, row in df_datos.iterrows():
-            folium.CircleMarker(
-                location=[row['lat'], row['lon']],
-                radius=4,
-                color='#E74C3C',
-                fill=True,
-                fill_opacity=1,
-                tooltip=f"🏢 Responsable de zona: {row['nombre_sitio']}"
-            ).add_to(mapa)        
+            # 2. Generar el diagrama matemático
+            regiones_voronoi = voronoi_diagram(puntos)
+            
+            # 3. Convertir a formato geográfico
+            gdf_voronoi = gpd.GeoDataFrame(geometry=[geom for geom in regiones_voronoi.geoms], crs="EPSG:4326")
+            
+            # 4. Dibujar los polígonos
+            folium.GeoJson(
+                gdf_voronoi,
+                style_function=lambda x: {
+                    'fillColor': '#28B463', # Verde analítico
+                    'color': '#196F3D',     # Borde oscuro
+                    'weight': 2,
+                    'fillOpacity': 0.2
+                }
+            ).add_to(mapa)
+            
+            # 5. Colocar un marcador central identificador
+            for index, row in df_datos.iterrows():
+                folium.CircleMarker(
+                    location=[row['lat'], row['lon']],
+                    radius=4,
+                    color='#E74C3C', # Rojo de advertencia/control
+                    fill=True,
+                    fill_opacity=1,
+                    tooltip=f"🏢 Responsable de zona: {row['nombre_sitio']}"
+                ).add_to(mapa)
+        except Exception as e:
+            st.error(f"⚠️ No fue posible calcular la geometría de Voronoi con los datos actuales: {e}")
 
     # ==========================================
-    # 6. DESPLIEGUE DEL MAPA Y MÉTRICAS
+    # 7. DESPLIEGUE DEL MAPA Y MÉTRICAS
     # ==========================================
     st_folium(mapa, width=1200, height=600, returned_objects=[])
 
@@ -239,7 +231,6 @@ if not df_datos.empty:
     if 'max' in df_datos.columns:
         max_limpio = pd.to_numeric(df_datos['max'], errors='coerce')
         if not max_limpio.isna().all():
-            #col2.metric("Presión Máx. Promedio")
             col2.metric("Presión Máx. Promedio", round(max_limpio.mean(), 3))
         else:
             col2.metric("Presión Máx. Promedio", "N/A")
