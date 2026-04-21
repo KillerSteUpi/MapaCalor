@@ -8,6 +8,8 @@ from shapely.geometry import Point
 import folium
 from folium.plugins import HeatMap, MarkerCluster, Search
 from streamlit_folium import st_folium
+from shapely.geometry import Point, MultiPoint
+from shapely.ops import voronoi_diagram
 
 # ==========================================
 # 1. CONFIGURACIÓN
@@ -58,7 +60,8 @@ if not df_datos.empty:
             "1. Agrupación Dinámica (Clusters)", 
             "2. Radios de Influencia (Operativo)", 
             "3. Sectores Naturales (Huella Real)",
-            "4. Mapa de Calor (Densidad)"
+            "4. Mapa de Calor (Densidad)",
+            "5. Áreas de Influencia (Voronoi)"
         ]
     )
 
@@ -187,6 +190,42 @@ if not df_datos.empty:
         datos_calor = [[row['lat'], row['lon']] for index, row in df_datos.iterrows() if pd.notna(row['lat']) and pd.notna(row['lon'])]
         if len(datos_calor) > 0:
             HeatMap(datos_calor, radius=15, blur=10).add_to(mapa)
+            
+    elif modo_vista == "5. Áreas de Influencia (Voronoi/Thiessen)":
+        st.subheader("Zonas de Cobertura Exacta por Sitio (Voronoi)")
+        st.markdown("Cada polígono define el área de jurisdicción exacta donde ese sitio es el más cercano.")
+        
+        # 1. Agrupamos todas las coordenadas en una sola "nube" de puntos
+        puntos = MultiPoint(gdf_datos.geometry.tolist())
+        
+        # 2. Generamos el diagrama matemático de Voronoi
+        # (Usa la caja de la CDMX/Metrópoli para que los bordes no se vayan al infinito)
+        regiones_voronoi = voronoi_diagram(puntos)
+        
+        # 3. Convertimos los polígonos matemáticos a un formato geográfico (GeoDataFrame)
+        gdf_voronoi = gpd.GeoDataFrame(geometry=[geom for geom in regiones_voronoi.geoms], crs="EPSG:4326")
+        
+        # 4. Dibujamos los polígonos en el mapa
+        folium.GeoJson(
+            gdf_voronoi,
+            style_function=lambda x: {
+                'fillColor': '#28B463', # Verde analítico
+                'color': '#196F3D',     # Verde oscuro para los bordes
+                'weight': 2,
+                'fillOpacity': 0.2
+            }
+        ).add_to(mapa)
+        
+        # 5. Colocamos un marcador rojo en el "corazón" de cada polígono para identificar al dueño de la zona
+        for index, row in df_datos.iterrows():
+            folium.CircleMarker(
+                location=[row['lat'], row['lon']],
+                radius=4,
+                color='#E74C3C',
+                fill=True,
+                fill_opacity=1,
+                tooltip=f"🏢 Responsable de zona: {row['nombre_sitio']}"
+            ).add_to(mapa)        
 
     # ==========================================
     # 6. DESPLIEGUE DEL MAPA Y MÉTRICAS
