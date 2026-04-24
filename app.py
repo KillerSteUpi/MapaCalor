@@ -243,3 +243,18 @@ if not df_datos.empty:
         col3.metric("Demarcaciones Operativas", "N/A")
 else:
     st.info("💡 La plataforma está en línea. Esperando registros con coordenadas válidas para CDMX.")
+    
+    # ==========================================
+    # 8. AUDITORÍA DE CALIDAD DE DATOS
+    # ==========================================
+    st.markdown("---")
+    st.subheader("🛑 Auditoría Operativa: Sitios descartados")
+    
+    # Cargamos el archivo original sin filtros para hacer el cruce
+    df_crudo = pd.read_json("mis_datos.json", orient="index")
+    
+    # Buscamos qué nombres del original no lograron pasar el blindaje
+    descartados = df_crudo[~df_crudo.index.isin(df_datos.index)]
+    
+    st.warning(f"Se aislaron {len(descartados)} registros por errores de captura en coordenadas:")
+    st.dataframe(descartados[['delegacion', 'lat', 'lon']])
