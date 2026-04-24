@@ -6355,7 +6355,6 @@
 "lon": -99.207711
 },
 "CARR_MEXICOTOLUCA_Y_LOMA_DE_VISTA_HERMOSA": {
-        "uid": "ce72c3db-662e-4ad1-8c32-96079bd0f9e7",
         "min": -0.1,
         "max": 2.9,
 	"delegacion": "Cuajimalpa",
@@ -6363,7 +6362,6 @@
         "lon": -99.27899
     },
 "BLVD_REFORMA_Y_PROL_VISTA_HERMOSA": {
-        "uid": "b3eb8ae5-47a8-4ed7-8bde-b03c2d06ce83",
         "min": 0.1,
         "max": 2.7,
 	"delegacion": "Cuajimalpa",
@@ -6371,7 +6369,6 @@
         "lon": -99.27903
     },
 "AV_ARTEAGA_Y_SALAZAR_Y_CAM_DEL_BOSQUE": {
-        "uid": "92cd8fa1-f75c-46f5-8434-610843047406",
         "min": 1.1,
         "max": 1.5,
 	"delegacion": "Cuajimalpa",
@@ -6379,7 +6376,6 @@
         "lon": -99.3071
     },
 "AV_RIO_CONSULADO_Y_MEZQUITAL": {
-        "uid": "fc33750f-8ed1-45f5-8017-5a43af07205a",
         "min": 0.1,
         "max": 0.8,
 	"delegacion": "Cuauhtemoc",
@@ -6387,7 +6383,6 @@
         "lon": -99.12297
     },
 "JOAQUIN_LEAZQUEZ_DE_LEON_Y_JOAQUIN_GARCIA_ICAZBALCETA": {
-        "uid": "328957ab-5195-496e-830b-78921466ff53",
         "min": -0.02,
         "max": 1.1,  
 	"delegacion": "Cuauhtemoc",
@@ -6395,7 +6390,6 @@
         "lon": -99.16516
     },
 "C_28_Y_C_2": {
-        "uid": "68a0a423-dd86-4d2f-837d-4affcc77da37",
         "min": 0.0,
         "max": 0.9,
 	"delegacion": "Gustavo A Madero",
@@ -6403,7 +6397,6 @@
         "lon": -99.162645
     },
 "FUENTES_ALPUCHE_Y_AV_SAN_FRANCISCO_TLALTENCO": {
-        "uid": "ae277d39-6f21-41dc-851b-29393f4350ad",
         "min": 0.0,
         "max": 0.4,
 	"delegacion": "Iztapalapa",
@@ -6411,7 +6404,6 @@
         "lon": -99.04414
     },
 "PLANTA_LA_CALDERA": {
-        "uid": "719859e0-3ab3-43a0-8f21-30c1aa0da4c7",
         "min": 4.8,
         "max": 5.1,
 	"delegacion": "Tlahuac",
@@ -6419,7 +6411,6 @@
         "lon": -98.9663
     },
 "AV_PIPILA_Y_CONCEPCION": {
-        "uid": "4767c066-aaf3-4602-892a-090a5d47e7e8",
         "min": 0.3,
         "max": 0.8,
 	"delegacion": "Tlahuac",
@@ -6427,7 +6418,6 @@
         "lon": -98.96604 
     },
 "EDUCACION_DOCTORADO_Y_EDUCACION_POLITECNICA": {
-        "uid": "6a614947-0a96-438d-a3ee-3aca8f996065",
         "min": -0.02,
         "max": 3.1,  
 	"delegacion": "Tlahuac",
@@ -6435,7 +6425,6 @@
         "lon": -99.00049
     },
 "ALTAVISTA_Y_MONTE_ALBAN_V1": {
-        "uid": "3e1a9009-cb02-45ca-a95b-3865ae859cdb",
         "min": 0.0,
         "max": 3.0,
 	"delegacion": "Tlahuac",
@@ -6443,7 +6432,6 @@
         "lon": -99.00813 
     },
 "ALTAVISTA_Y_ESCUDO_NACIONAL": {
-        "uid": "6265579a-0b1b-458d-b32d-a484e9d41625",
         "min": 0.0,
         "max": 1.1,
 	"delegacion": "Tlahuac",
@@ -6451,7 +6439,6 @@
         "lon": -99.01063
     },
 "MORESLOS_Y_EMILIANO_ZAPATA": {
-        "uid": "a9bdf543-204c-4209-8261-298b2f084f2f",
         "min": 0.0,
         "max": 3.5,
 	"delegacion": "Tlahuac",
@@ -6459,7 +6446,6 @@
         "lon": -98.99412
     },
 "DEL_PATO_Y_CDA_BENITO_JUAREZ": {
-        "uid": "37abff54-7303-4cdf-ac5c-9978d26b675a",
         "min": -0.04,
         "max": 1.2,  
 	"delegacion": "Tlahuac",
@@ -6467,7 +6453,6 @@
         "lon": -98.99642 
     },
 "TOMAS_ELENA_Y_MA_DOLORES_OBREGON": {
-        "uid": "21d7246c-37fe-4545-8cb6-b9314e38491e",
         "min": 0.2,
         "max": 1.5,
 	"delegacion": "Tlahuac",
@@ -6475,7 +6460,6 @@
         "lon": -99.00724 
     },
 "RAFAEL_CASTLE_Y_NICOLAS_BRAVO": {
-        "uid": "b5a0e975-a508-45fe-87f4-538a8de75c17",
         "min": -0.02,
         "max": 0.6,  
 	"delegacion": "Tlahuac",
@@ -6483,7 +6467,6 @@
         "lon": -98.99835  
     },
 "AV_MIGUEL_HIDALGO_Y_SAN_RAFAEL": {
-        "uid": "d1eddebc-7cd6-4efa-b434-ceb36c262a5f",
         "min": -0.02,
         "max": 1.0,  
 	"delegacion": "Tlahuac",
@@ -6491,7 +6474,6 @@
         "lon": -99.00547
     },
 "RIACHUELO_SERPENTINO_Y_AV_TIERRA_Y_LIBERTAD": {
-        "uid": "a2917081-a33c-4444-9a7b-edc5c1d60a1f",
         "min": -0.02,
         "max": 0.5,
 	"delegacion": "Tlahuac",
@@ -6499,7 +6481,6 @@
         "lon": -99.00112 
     },
 "MAR_DE_LAS_CRISIS_Y_MONTES_CAUCASO": {
-        "uid": "c03ff047-89ab-40d8-942a-1f1560bbca17",
         "min": 0.3,
         "max": 2.1,
 	"delegacion": "Tlahuac",
@@ -6507,7 +6488,6 @@
         "lon": -99.00425 
     },
 "MAR_DE_LLUVIAS_Y_MONTES_CAUCASO": {
-        "uid": "a4c61bb3-9841-4685-8494-963f3235fc58",
         "min": 0.2,
         "max": 2.1,
 	"delegacion": "Tlahuac",
@@ -6515,7 +6495,6 @@
         "lon": -99.00408 
     },
 "OCEANO_DE_LAS_TEMPESTADES_Y_CRATER_KEPLER": {
-        "uid": "a0b74bf0-c45a-4684-b1d1-2cb0ee959f0f",
         "min": 0.0,
         "max": 1.0,
 	"delegacion": "Tlahuac",
@@ -6523,7 +6502,6 @@
         "lon": -98.9966 
     },
 "MAR_DE_LLUVIAS_Y_CRATER_ARQUIMIDES": {
-        "uid": "cc9e018f-4c58-4ee4-b20b-155864514f94",
         "min": -0.03,
         "max": 1.0,  
 	"delegacion": "Tlahuac",
@@ -6531,7 +6509,6 @@
         "lon": -98.99237 
     },
 "AV_LA_TURBA_Y_GITANA_V1": {
-        "uid": "83b16f26-bfc4-44a7-9931-abe9f3105dc6",
         "min": 0.2,
         "max": 1.0,
 	"delegacion": "Tlahuac",
@@ -6539,7 +6516,6 @@
         "lon": -99.05959 
     },
 "CHUIBURNA_Y_TIXMEHUAC": {
-        "uid": "ebe3f88b-bc2e-4b1d-827c-9a1668359962",
         "min": 0.0,
         "max": 0.1,
 	"delegacion": "Tlalpan",
@@ -6547,7 +6523,6 @@
         "lon": -99.23607
     },
 "CHUBURNA_Y_HOCABA": {
-        "uid": "08093734-1746-4018-863c-b522c3d90143",
         "min": 0.0,
         "max": 0.5,
 	"delegacion": "Tlalpan",
@@ -6555,7 +6530,6 @@
         "lon": -99.23627
     },
 "SEYE_Y_TENOSIQUE": {
-        "uid": "dfb8ebcc-9600-42dd-8cfe-01bcd662888f",
         "min": 0.0,
         "max": 1.0,
 	"delegacion": "Tlalpan",
@@ -6563,7 +6537,6 @@
         "lon": -99.22889
     },
 "CONSTANTINOPLA_Y_SACALUM": {
-        "uid": "188b7375-f313-403e-828f-af9598b493e7",
         "min": 0.0,
         "max": 1.0,
 	"delegacion": "Tlalpan",
@@ -6571,7 +6544,6 @@
         "lon": -99.22675
     },
 "AV_CHICOASEN_Y_HOUMUN": {
-        "uid": "aa030e75-4acd-43a7-9a9c-77b8e82552ea",
         "min": 0.0,
         "max": 1.7,
 	"delegacion": "Tlalpan",
@@ -6579,7 +6551,6 @@
         "lon": -99.22951
     },
 "BECAL_Y_OPICHEN": {
-        "uid": "fd924092-8b06-4809-8b79-0f714ed357b6",
         "min": 0.3,
         "max": 0.5,
 	"delegacion": "Tlalpan",
@@ -6587,7 +6558,6 @@
         "lon": -99.22599 
     },
 "SACALUM_Y_GRECIA": {
-        "uid": "c1b79306-ad83-4979-8ac6-4fca55a927b0",
         "min": 0.0,
         "max": 2.3,
 	"delegacion": "Tlalpan",
@@ -6595,7 +6565,6 @@
         "lon": -99.22691
     },
 "DISTRIBUCION_SAN_NICOLAS": {
-    "uid": "cd1498fd-a453-4092-8bf3-8fd8cdabc082",
     "min": 0.0,
     "max": 7.0,
     "delegacion": "Tlalpan",
@@ -6603,7 +6572,6 @@
     "lon": -99.234451
 },
   "OPICHEN": {
-    "uid": "fea34cbe-0fa1-431f-9931-dc328d842528",
     "min": 0.0,
     "max": 2.0,
     "delegacion": "Tlalpan",
@@ -6611,7 +6579,6 @@
     "lon": -99.235504
 },
   "HOMUN_Y_HOLCA": {
-    "uid": "6d7d8f1d-94f0-4b40-b4b8-8be448c3716d",
     "min": -0.0,
     "max":  0.0,
     "delegacion": "Tlalpan",
@@ -6619,7 +6586,6 @@
     "lon": -99.240405
 },
   "ENCINOS_Y_2DA_CDA_DE_TZUCACAB": {
-    "uid": "9bf3b019-7720-4b5c-8403-351cca792e2e",
     "min": -0.01,
     "max":  0.04,
     "delegacion": "Tlalpan",
@@ -6627,7 +6593,6 @@
     "lon": -99.24355
 },
   "ENCINOS_Y_PIRUL": {
-    "uid": "a85216fd-10fb-40a3-97a8-6eddf8191ad0",
     "min": -0.03,
     "max":  2.00,
     "delegacion": "Tlalpan",
@@ -6635,7 +6600,6 @@
     "lon": -99.24428
 },
   "YAXCABA_Y_TIZIMIN": {
-    "uid": "53dfbb65-01b8-4f7e-93fe-f9bccd1e1dfc",
     "min": 0.02,
     "max": 2.00,
     "delegacion": "Tlalpan",
@@ -6643,7 +6607,6 @@
     "lon": -99.23954
 },
   "TENOSIQUE_Y_HOLCA": {
-    "uid": "ce2d191f-5cbd-4344-9658-e01b1a85a58d",
     "min": 0.0,
     "max": 0.0,
     "delegacion": "Tlalpan",
@@ -6651,7 +6614,6 @@
     "lon": -99.24051
 },
   "DZMUL_Y_KANTUNIL": {
-    "uid": "5b5b1a93-4428-40c4-a212-cb38060cc4a0",
     "min":  0.02,
     "max": -0.02,
     "delegacion": "Tlalpan",
@@ -6659,7 +6621,6 @@
     "lon": -99.23536
 },
   "KINCHIL_Y_BALANCAN": {
-    "uid": "d496bd69-3b08-477b-98f1-82fcae1751a0",
     "min": 0.0,
     "max": 3.0,
     "delegacion": "Tlalpan",
@@ -6667,7 +6628,6 @@
     "lon": -99.22036
 },
   "TULUM_Y_TIZIMIN": {
-    "uid": "3dacdb2c-1df8-46ab-87f7-010c190c5478",
     "min": 1.47,
     "max": 2.23,
     "delegacion": "Tlalpan",
@@ -6675,7 +6635,6 @@
     "lon": -99.22726
 },
   "CALKIN_Y_MEXCANU": {
-    "uid": "26ceab6c-92ce-441f-814e-33235883d168",
     "min": -0.04,
     "max":  0.32,
     "delegacion": "Tlalpan",
@@ -6683,7 +6642,6 @@
     "lon": -99.21773
 },
   "TEKAL_Y_HUEHUETAN": {
-    "uid": "97c1c1d5-5eb1-4240-81f1-f5786bab0c83",
     "min": -0.01,
     "max":  0.01,
     "delegacion": "Tlalpan",
@@ -6691,7 +6649,6 @@
     "lon": -99.2187
 },
   "BOCHIL_Y_OPICHEN": {
-    "uid": "45ffa713-fa87-4283-9183-22d68012789e",
     "min": 1.59,
     "max": 0.76,
     "delegacion": "Tlalpan",
@@ -6699,7 +6656,6 @@
     "lon": -99.22536
 },
   "TIXMEHUAC_Y_DZITAS": {
-    "uid": "e4f70ffa-470e-400b-987d-1d5764459400",
     "min": -0.01,
     "max":  1.15,
     "delegacion": "Tlalpan",
@@ -6707,7 +6663,6 @@
     "lon": -99.23805
 },
   "KAUA_Y_CONKAL": {
-    "uid": "9ca6e1b6-b5e8-42aa-abc5-8a9e660b818b",
     "min": 0.89,
     "max": 0.01,
     "delegacion": "Tlalpan",
@@ -6715,7 +6670,6 @@
     "lon": -99.24126
 },
   "FERROCARRIL_DE_CUERNAVACA_Y_CONKAL": {
-    "uid": "c5b536b9-50b2-4a6f-8261-488a2a39677c",
     "min": -0.13,
     "max":  0.48,
     "delegacion": "Tlalpan",
@@ -6723,7 +6677,6 @@
     "lon": -99.244068
 },
   "COCOXOCHITL_Y_CUETLAXOCHITL": {
-    "uid": "33c8da1f-2c0f-4748-9c63-eafaa36e7799",
     "min": -0.05,
     "max":  2.53,
     "delegacion": "Xochimilco",
@@ -6731,7 +6684,6 @@
     "lon": -99.08666
 },
   "AXOCHITL_Y_SAN_JERONIMO": {
-    "uid": "4df557f1-f23e-45ad-bc7f-a17a3d1f332a",
     "min": -0.04,
     "max":  2.61,
     "delegacion": "Xochimilco",
@@ -6739,7 +6691,6 @@
     "lon": -99.08819
 },
   "CARR_XOCHIMILCO_Y_TULYEHUALCO": {
-    "uid": "8b9907b1-e31b-4a55-84fa-8ab95ed3335a",
     "min": -0.37,
     "max":  2.19,
     "delegacion": "Xochimilco",
@@ -6750,7 +6701,6 @@
 # Desde aquí se encuentran en la vista de variables Sebalogs D4-2
 
   "BUGAMBILIAS_Y_LOVELIA": {
-    "uid": "507382a9-d4e6-456e-aa21-e65277228eaa",
     "min": -0.21,
     "max": 0.63,
     "delegacion": "Xochimilco",
@@ -6758,7 +6708,6 @@
     "lon": -99.10358
 },
   "CDA_NINOS_HEROES": {
-    "uid": "c74fcf01-46ef-4963-a614-1e4f0893d180",
     "min": 0.0,
     "max": 0.0,
     "delegacion": "Xochimilco",
@@ -6766,7 +6715,6 @@
     "lon": -99.12004
 },
   "BENITO_JUAREZ_Y_CDA_IGNACION_ZARAGOZA": {
-    "uid": "ea90b142-e204-4fb1-9c6c-1421f5b0548b",
     "min": -0.02,
     "max":  0.22,
     "delegacion": "Xochimilco",
@@ -6774,7 +6722,6 @@
     "lon": -99.12274
 },
   "TEPEYAC_Y_GALEANA": {
-    "uid": "59341b02-313f-443b-8ab1-f7698ad48f10",
     "min": 0.04,
     "max": 1.67,
     "delegacion": "Xochimilco",
@@ -6782,7 +6729,6 @@
     "lon": -99.05698
 },
   "INSURGENTES_Y_VICENTE_GUERRERO": {
-    "uid": "dd1a4564-0e6f-4fb0-8d97-a1a391cc78c9",
     "min": 0.04,
     "max": 1.68,
     "delegacion": "Xochimilco",
@@ -6790,7 +6736,6 @@
     "lon": -99.05834
 },
   "MZ_68_LT_35": {
-    "uid": "ea479193-3a65-4208-83f5-067332b20be2",
     "min": 0.02,
     "max": 1.03,
     "delegacion": "Gustavo A Madero",
@@ -6798,7 +6743,6 @@
     "lon": -99.13159
 },
   "JAVIER_SOLIS_MZ_128_LT_28": {
-    "uid": "7683b452-f9af-416f-9c48-e6a49e99a1a7",
     "min": 2.74,
     "max": 0.76,
     "delegacion": "Iztapalapa",
@@ -6806,7 +6750,6 @@
     "lon": -98.97919
 },
   "CERRADA_PEDRO_INFANTE_MZ_150_LT3": {
-    "uid": "d9a555d2-a179-4ae3-8321-4cdf9e60042a",
     "min": -0.08,
     "max": 4.68,
     "delegacion": "Iztapalapa",
@@ -6814,7 +6757,6 @@
     "lon": -98.9809
 },
   "MIGUEL_ACEVES_MZ_4_LT_8": {
-    "uid": "68a5dbde-a219-4a36-b977-d1f3e011ff37",
     "min": 0.06,
     "max": 4.05,
     "delegacion": "Iztapalapa",
@@ -6822,7 +6764,6 @@
     "lon": -98.98212
 },
   "RETAMA_MZ_14_LT_1": {
-    "uid": "68eba353-6d85-4357-8869-88a8cfcda575",
     "min": 0.01,
     "max": 1.48,
     "delegacion": "Iztapalapa",
