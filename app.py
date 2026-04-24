@@ -1,12 +1,13 @@
 import streamlit as st
 import pandas as pd
 import geopandas as gpd
-from shapely.geometry import Point
+from shapely.geometry import Point, MultiPoint
+from shapely.ops import voronoi_diagram
 import folium
 from folium.plugins import HeatMap, MarkerCluster, Search
 from streamlit_folium import st_folium
-from shapely.geometry import Point, MultiPoint
-from shapely.ops import voronoi_diagram
+import json
+import os
 
 # ==========================================
 # 1. CONFIGURACIÓN
@@ -89,7 +90,7 @@ if not df_datos.empty:
             }
         ).add_to(mapa)
     except:
-        st.sidebar.warning("⚠️ No se encontró el archivo del perímetro de CDMX.")
+        pass # Silenciado para no saturar la barra lateral si no existe el archivo
 
     try:
         folium.GeoJson(
@@ -103,7 +104,7 @@ if not df_datos.empty:
             }
         ).add_to(mapa)
     except:
-        st.sidebar.warning("⚠️ No se encontró el archivo de las alcaldías.")
+        pass
     
     # ==========================================
     # 5. BUSCADOR INTELIGENTE
@@ -186,42 +187,36 @@ if not df_datos.empty:
         st.markdown("Cada polígono define el área geográfica donde ese punto de monitoreo es el más cercano.")
         
         try:
-            # 1. Agrupar puntos
             puntos = MultiPoint(gdf_datos.geometry.tolist())
-            
-            # 2. Generar el diagrama matemático
             regiones_voronoi = voronoi_diagram(puntos)
-            
-            # 3. Convertir a formato geográfico
             gdf_voronoi = gpd.GeoDataFrame(geometry=[geom for geom in regiones_voronoi.geoms], crs="EPSG:4326")
             
-            # 4. Dibujar los polígonos
             folium.GeoJson(
                 gdf_voronoi,
                 style_function=lambda x: {
-                    'fillColor': '#28B463', # Verde analítico
-                    'color': '#196F3D',     # Borde oscuro
+                    'fillColor': '#28B463',
+                    'color': '#196F3D',
                     'weight': 2,
                     'fillOpacity': 0.2
                 }
             ).add_to(mapa)
             
-            # 5. Colocar un marcador central identificador
             for index, row in df_datos.iterrows():
                 folium.CircleMarker(
                     location=[row['lat'], row['lon']],
                     radius=4,
-                    color='#E74C3C', # Rojo de advertencia/control
+                    color='#E74C3C',
                     fill=True,
                     fill_opacity=1,
                     tooltip=f"🏢 Responsable de zona: {row['nombre_sitio']}"
                 ).add_to(mapa)
         except Exception as e:
-            st.error(f"⚠️ No fue posible calcular la geometría de Voronoi con los datos actuales: {e}")
+            st.error(f"⚠️ No fue posible calcular la geometría de Voronoi: {e}")
 
     # ==========================================
     # 7. DESPLIEGUE DEL MAPA Y MÉTRICAS
     # ==========================================
+    # Estas líneas ya están correctamente alineadas a la izquierda (fuera de las opciones del menú)
     st_folium(mapa, width=1200, height=600, returned_objects=[])
 
     st.markdown("### Resumen Ejecutivo")
@@ -241,9 +236,7 @@ if not df_datos.empty:
         col3.metric("Demarcaciones Operativas", df_datos['delegacion'].nunique())
     else:
         col3.metric("Demarcaciones Operativas", "N/A")
-else:
-    st.info("💡 La plataforma está en línea. Esperando registros con coordenadas válidas para CDMX.")
-    
+
     # ==========================================
     # 8. AUDITORÍA DE CALIDAD DE DATOS
     # ==========================================
@@ -256,5 +249,11 @@ else:
     # Buscamos qué nombres del original no lograron pasar el blindaje
     descartados = df_crudo[~df_crudo.index.isin(df_datos.index)]
     
-    st.warning(f"Se aislaron {len(descartados)} registros por errores de captura en coordenadas:")
-    st.dataframe(descartados[['delegacion', 'lat', 'lon']])
+    if not descartados.empty:
+        st.warning(f"Se aislaron {len(descartados)} registros por errores de captura en coordenadas:")
+        st.dataframe(descartados[['delegacion', 'lat', 'lon']])
+    else:
+        st.success("Todos los registros tienen coordenadas correctas.")
+
+else:
+    st.info("💡 La plataforma está en línea. Esperando registros con coordenadas válidas para CDMX.")
