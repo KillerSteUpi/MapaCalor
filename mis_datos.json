@@ -5135,7 +5135,7 @@
                 "max": 1.0,
                 "delegacion": "Gustavo A Madero",
                 "lat": 19.797187497389707,
-                "lon": -9.53628207838779
+                "lon": -99.53628207838779
         },
         "Presiones_PROF_OTILIO_MONTANO_CC_1ERO_DE_MAYO": {
                 "min": 0.0,
@@ -5491,7 +5491,7 @@
                 "min": 0.14,
                 "max": 0.29,
                 "delegacion": "Azcapotzalco",
-                "lat": -19.467813,
+                "lat": 19.467813,
                 "lon": -99.165864
         },
         "Nivel_UH_Vallejo": {
