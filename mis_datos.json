@@ -1697,8 +1697,8 @@
                 "min": 0,
                 "max": 1.48,
                 "delegacion": "Azcapotzalco",
-                "lat": 19.477380,
-                "lon": -99.916203
+                "lat": 19.47739,
+                "lon":  -99.16208
         },
         "CALZADA_DEL_HUESO_CC_CANAL_DE_MIRAMONTES": {
                 "min": 0.12,
@@ -5141,8 +5141,8 @@
                 "min": 0.0,
                 "max": 0.47,
                 "delegacion": "Iztapalapa",
-                "lat": 19.92339177816115,
-                "lon": -99.17425670538896
+                "lat": 19.36016,
+                "lon":  -99.02266
         },
         "Presiones_AV_18_CC_CALLE_21": {
                 "min": 0.0,
