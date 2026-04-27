@@ -305,7 +305,7 @@
                 "max": 2.3,
                 "delegacion": "Gustavo A Madero",
                 "lat": 19.46883,
-                "lon": -99.05911
+                "lon": -9905911
         },
         "ABASOLO_CC_5_DE_MAYO": {
                 "min": 0.05,
@@ -466,7 +466,7 @@
                 "max": 1.0,
                 "delegacion": "Benito Juarez",
                 "lat": 19.40008,
-                "lon": -99.15141
+                "lon": 19.40008
         },
         "LA_MORENA_CC_PITAGORAS": {
                 "min": 0.3,
@@ -1341,7 +1341,7 @@
                 "max": 2.23,
                 "delegacion": "Gustavo A Madero",
                 "lat": 19.512945,
-                "lon": -99.124295
+                "lon": 99.124295
         },
         "VILLA_CONANCIO_Y_VILLA_FEDERAL": {
                 "min": 0.1,
@@ -1694,11 +1694,11 @@
                 "lon": -99.1667035
         },
         "AV_CENTRAL_CC_HAWAY": {
-                "min": 0.77,
+                "min": 0,
                 "max": 1.48,
                 "delegacion": "Azcapotzalco",
-                "lat": 19.49297322,
-                "lon": -99.16205054
+                "lat": 19.477380,
+                "lon": -9.916203
         },
         "CALZADA_DEL_HUESO_CC_CANAL_DE_MIRAMONTES": {
                 "min": 0.12,
@@ -3413,28 +3413,28 @@
                 "max": 0.2,
                 "delegacion": "Iztapalapa",
                 "lat": 19.36280902,
-                "lon": -99.01150245
+                "lon": 19.36280902
         },
         "CERRADA_JUVILA_2": {
                 "min": 0.0,
                 "max": 0.2,
                 "delegacion": "Tlalpan",
-                "lat": 19.1993538,
-                "lon": -99.1433007
+                "lat": 19.36280902,
+                "lon": 19.36280902
         },
         "MARIANO_ABASOLO_16": {
                 "min": 0.0,
                 "max": 0.2,
                 "delegacion": "Tlalpan",
-                "lat": 19.20034982,
+                "lat": 19.36280902,
                 "lon": 19.36280902
         },
         "TETEQUILO_23": {
                 "min": 0.0,
                 "max": 0.2,
                 "delegacion": "Tlalpan",
-                "lat": 19.2043854,
-                "lon": -99.1474069
+                "lat": 19.36280902,
+                "lon": 19.36280902
         },
         "MAVRP2_1": {
                 "min": 0.0,
@@ -4728,8 +4728,8 @@
                 "min": 0.0,
                 "max": 1.19,
                 "delegacion": "Cuauhtemoc",
-                "lat": 19.46154,
-                "lon": -99.149143
+                "lat": 1946154,
+                "lon": -99149143
         },
         "AV_DE_LOS_MAESTROS_Y_SOR_JUANA": {
                 "min": 0.16,
@@ -4742,8 +4742,8 @@
                 "min": 0.0,
                 "max": 1.1,
                 "delegacion": "Miguel Hidalgo",
-                "lat": 19.44416,
-                "lon": -99.18682
+                "lat": 1944416,
+                "lon": -9918682
         },
         "ALFA_Y_CERRO_DEL_ABANICO": {
                 "min": 0.84,
@@ -5030,7 +5030,7 @@
                 "max": 4.45,
                 "delegacion": "Magdalena Contreras",
                 "lat": 19.3023623522184,
-                "lon":-99.25219475343448
+                "lon": -99.25219475343448
         },
         "Presiones_INGENIEROS_MECANICOS_Y_TOPOGRAFOS": {
                 "min": 0.0,
@@ -6691,7 +6691,7 @@
                 "lat": 19.24768,
                 "lon": -99.08916
         },
-  "BUGAMBILIAS_Y_LOVELIA": {
+        "BUGAMBILIAS_Y_LOVELIA": {
                 "min": -0.21,
                 "max": 0.63,
                 "delegacion": "Xochimilco",
