@@ -991,7 +991,7 @@
                 "max": 6.0,
                 "delegacion": "Cuajimalpa",
                 "lat": 19.3857904,
-                "lon": -90.2619611
+                "lon": -99.2619611
         },
         "ESPERANZA_CC_ERMITAO": {
                 "min": 0.0,
@@ -3412,29 +3412,29 @@
                 "min": 0.0,
                 "max": 0.2,
                 "delegacion": "Iztapalapa",
-                "lat": 19.36280902,
-                "lon": 19.36280902
+                "lat": 19.362891767786138,
+                "lon": -99.01155566108075    
         },
         "CERRADA_JUVILA_2": {
                 "min": 0.0,
                 "max": 0.2,
                 "delegacion": "Tlalpan",
-                "lat": 19.36280902,
-                "lon": 19.36280902
+                "lat": 19.203159904287265,    
+                "lon": -99.14869067864903
         },
         "MARIANO_ABASOLO_16": {
                 "min": 0.0,
                 "max": 0.2,
                 "delegacion": "Tlalpan",
-                "lat": 19.36280902,
-                "lon": 19.36280902
+                "lat": 19.279584188772223,  
+                "lon": -99.17800134232745
         },
         "TETEQUILO_23": {
                 "min": 0.0,
                 "max": 0.2,
                 "delegacion": "Tlalpan",
-                "lat": 19.36280902,
-                "lon": 19.36280902
+                "lat": 19.20428888624301,  
+                "lon": -99.14713196108409
         },
         "MAVRP2_1": {
                 "min": 0.0,
@@ -4280,8 +4280,8 @@
                 "min": 1.0,
                 "max": 2.5,
                 "delegacion": "Alavaro Obregon",
-                "lat": 19.9347491,
-                "lon": -99.229944
+                "lat": 19.34764645715677, 
+                "lon": -99.2299027880635
         },
         "VIOLETA_Y_BUGAMBILIAS": {
                 "min": 0.0,
@@ -5001,15 +5001,15 @@
                 "min": 0.0,
                 "max": 0.69,
                 "delegacion": "Alavaro Obregon",
-                "lat": 19.21231,
-                "lon": 99.17015
+                "lat": 19.380435574512553,  
+                "lon": -99.24339559177052
         },
         "Gastos_VascoQuiroga": {
                 "min": 0.0,
                 "max": 1.0,
                 "delegacion": "Alavaro Obregon",
-                "lat": 19.21231,
-                "lon": 99.17015
+                "lat": 19.380435574512553,  
+                "lon": -99.24339559177052
         },
         "Presiones_VascoDeQuiroga": {
                 "min": 0.0,
@@ -5135,13 +5135,13 @@
                 "max": 1.0,
                 "delegacion": "Gustavo A Madero",
                 "lat": 19.797187497389707,
-                "lon": -97.53628207838779
+                "lon": -99.53628207838779
         },
         "Presiones_PROF_OTILIO_MONTANO_CC_1ERO_DE_MAYO": {
                 "min": 0.0,
                 "max": 0.47,
                 "delegacion": "Iztapalapa",
-                "lat": 18.92339177816115,
+                "lat": 19.92339177816115,
                 "lon": -99.17425670538896
         },
         "Presiones_AV_18_CC_CALLE_21": {
@@ -5491,7 +5491,7 @@
                 "min": 0.14,
                 "max": 0.29,
                 "delegacion": "Azcapotzalco",
-                "lat": -19.467813,
+                "lat": 19.467813,
                 "lon": -99.165864
         },
         "Nivel_UH_Vallejo": {
