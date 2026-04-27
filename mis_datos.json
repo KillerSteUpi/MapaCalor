@@ -305,7 +305,7 @@
                 "max": 2.3,
                 "delegacion": "Gustavo A Madero",
                 "lat": 19.46883,
-                "lon": -9905911
+                "lon": -99.05911
         },
         "ABASOLO_CC_5_DE_MAYO": {
                 "min": 0.05,
@@ -466,7 +466,7 @@
                 "max": 1.0,
                 "delegacion": "Benito Juarez",
                 "lat": 19.40008,
-                "lon": 19.40008
+                "lon": -99.16285
         },
         "LA_MORENA_CC_PITAGORAS": {
                 "min": 0.3,
@@ -1341,7 +1341,7 @@
                 "max": 2.23,
                 "delegacion": "Gustavo A Madero",
                 "lat": 19.512945,
-                "lon": 99.124295
+                "lon": -99.124295
         },
         "VILLA_CONANCIO_Y_VILLA_FEDERAL": {
                 "min": 0.1,
@@ -1698,7 +1698,7 @@
                 "max": 1.48,
                 "delegacion": "Azcapotzalco",
                 "lat": 19.477380,
-                "lon": -9.916203
+                "lon": -99.916203
         },
         "CALZADA_DEL_HUESO_CC_CANAL_DE_MIRAMONTES": {
                 "min": 0.12,
@@ -4728,8 +4728,8 @@
                 "min": 0.0,
                 "max": 1.19,
                 "delegacion": "Cuauhtemoc",
-                "lat": 1946154,
-                "lon": -99149143
+                "lat": 19.46154,
+                "lon": -99.149143
         },
         "AV_DE_LOS_MAESTROS_Y_SOR_JUANA": {
                 "min": 0.16,
@@ -4742,8 +4742,8 @@
                 "min": 0.0,
                 "max": 1.1,
                 "delegacion": "Miguel Hidalgo",
-                "lat": 1944416,
-                "lon": -9918682
+                "lat": 19.44416,
+                "lon": -99.18682
         },
         "ALFA_Y_CERRO_DEL_ABANICO": {
                 "min": 0.84,
@@ -5135,7 +5135,7 @@
                 "max": 1.0,
                 "delegacion": "Gustavo A Madero",
                 "lat": 19.797187497389707,
-                "lon": -99.53628207838779
+                "lon": -9.53628207838779
         },
         "Presiones_PROF_OTILIO_MONTANO_CC_1ERO_DE_MAYO": {
                 "min": 0.0,
@@ -5491,7 +5491,7 @@
                 "min": 0.14,
                 "max": 0.29,
                 "delegacion": "Azcapotzalco",
-                "lat": 19.467813,
+                "lat": -19.467813,
                 "lon": -99.165864
         },
         "Nivel_UH_Vallejo": {
