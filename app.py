@@ -90,7 +90,7 @@ if not df_datos.empty:
             }
         ).add_to(mapa)
     except:
-        pass # Silenciado para no saturar la barra lateral si no existe el archivo
+        pass 
 
     try:
         folium.GeoJson(
@@ -216,7 +216,6 @@ if not df_datos.empty:
     # ==========================================
     # 7. DESPLIEGUE DEL MAPA Y MÉTRICAS
     # ==========================================
-    # Estas líneas ya están correctamente alineadas a la izquierda (fuera de las opciones del menú)
     st_folium(mapa, width=1200, height=600, returned_objects=[])
 
     st.markdown("### Resumen Ejecutivo")
@@ -238,15 +237,27 @@ if not df_datos.empty:
         col3.metric("Demarcaciones Operativas", "N/A")
 
     # ==========================================
-    # 8. AUDITORÍA DE CALIDAD DE DATOS
+    # 8. DESGLOSE POR DEMARCACIÓN (NUEVA FUNCIÓN)
+    # ==========================================
+    st.markdown("---")
+    st.subheader("📊 Distribución de Sensores por Demarcación")
+    if 'delegacion' in df_datos.columns:
+        # Contamos y ordenamos de mayor a menor
+        conteo_delegaciones = df_datos['delegacion'].value_counts().reset_index()
+        conteo_delegaciones.columns = ['Demarcación', 'Total de Sensores Operativos']
+        
+        # Mostramos la tabla en pantalla completa
+        st.dataframe(conteo_delegaciones, use_container_width=True)
+    else:
+        st.info("💡 No hay datos de delegación disponibles para realizar el conteo.")
+
+    # ==========================================
+    # 9. AUDITORÍA DE CALIDAD DE DATOS
     # ==========================================
     st.markdown("---")
     st.subheader("🛑 Auditoría Operativa: Sitios descartados")
     
-    # Cargamos el archivo original sin filtros para hacer el cruce
     df_crudo = pd.read_json("mis_datos.json", orient="index")
-    
-    # Buscamos qué nombres del original no lograron pasar el blindaje
     descartados = df_crudo[~df_crudo.index.isin(df_datos.index)]
     
     if not descartados.empty:
