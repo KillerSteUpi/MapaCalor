@@ -4636,7 +4636,7 @@
         "GAM_Chihuahua_115": {
                 "min": 0.0,
                 "max": 14.2,
-                "delegacion": " Gustavo A Madero",
+                "delegacion": "Gustavo A Madero",
                 "lat": 19.549917322268794,
                 "lon": -99.15610958205036
         },
@@ -4783,7 +4783,7 @@
         "OsaMayoryAndadorSagitario": {
                 "min": 0.0,
                 "max": 0.4,
-                "delegacion": "Azcapotzalco ",
+                "delegacion": "Azcapotzalco",
                 "lat": 19.507648,
                 "lon": -99.206704
         },
@@ -6834,7 +6834,7 @@
         "16_DE_SEPTIEMBRE_E__INDEPENDENCIA": {
                 "min": 0.0,
                 "max": 2.3,
-                "delegacion": "Cuahtemoc",
+                "delegacion": "Cuauhtemoc",
                 "lat": 19.432848,
                 "lon": -99.141172
         }
