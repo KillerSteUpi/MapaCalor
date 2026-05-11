@@ -6837,5 +6837,236 @@
                 "delegacion": "Cuauhtemoc",
                 "lat": 19.432848,
                 "lon": -99.141172
+        },
+        "ANTIGUO_CAMINO_A_SANTIAGO_Y_AV_ACUEDUCTO": {
+                "min": 2.6,
+                "max": 4.4,
+                "delegacion": "Xochimilco",
+                "lat": 19.24449,
+                "lon": -99.11384
+        },
+        "CAM_NACIONAL_Y_AV_ACUEDUCTO": {
+                "min": 2.0,
+                "max": 4.5,
+                "delegacion": "Xochimilco",
+                "lat": 19.2442,
+                "lon": -99.11119
+        },
+        "CAMINO_NACIONAL_Y_7A_CDA_CAMINO_NACIONAL": {
+                "min": 2.25,
+                "max": 4.75,
+                "delegacion": "Xochimilco",
+                "lat": 19.24459,
+                "lon": -99.11184
+        },
+        "LA_CANADA_Y_LA_CIMA": {
+                "min": 0.30,
+                "max": 0.40,
+                "delegacion": "Xochimilco",
+                "lat": 19.2386,
+                "lon": 19.2386
+        },
+        "CDA_EMILIANO_ZAPATAY_1A_CDA_EMILIANO_ZAPATA": {
+                "min": 0.29,
+                "max": 0.37,
+                "delegacion": "Xochimilco",
+                "lat": 19.238,
+                "lon": -99.117
+        },
+        "DURAZNO_Y_MORA": {
+                "min": 0.0,
+                "max": 0.7,
+                "delegacion": "Xochimilco",
+                "lat": 19.23525,
+                "lon": -99.11604
+        },
+        "CDA_NICOLAS_BRAVO_Y_CAM_ANTIGUO_A_SAN_ANDRES": {
+                "min": 0.0,
+                "max": 0.8,
+                "delegacion": "Xochimilco",
+                "lat": 19.23411,
+                "lon": -99.11802
+        },
+        "PICHUCALCO_Y_SINANCHE": {
+                "min": -0.02,
+                "max": 0.0,
+                "delegacion": "Tlalpan",
+                "lat": 19.29372,
+                "lon": -99.21763
+        },
+        "PICHUCALCO_Y_ACANCHE": {
+                "min": -0.01,
+                "max": -0.06,
+                "delegacion": "Tlalpan",
+                "lat": 19.29102,
+                "lon": -99.21739
+        },
+        "POMUCH_Y_TIZIMIN": {
+                "min": 0.4,
+                "max": 1.8,
+                "delegacion": "Tlalpan",
+                "lat": 19.28855,
+                "lon": -99.22852
+        },
+        "AKIL_Y_LABNA": {
+                "min": 0.6,
+                "max": 0.9,
+                "delegacion": "Tlalpan",
+                "lat": 19.30182,
+                "lon": -99.22336
+        },
+        "2A_CDA_TARASQUILLO_Y_CTO_NAHUI": {
+                "min": 0.0,
+                "max": 3.0,
+                "delegacion": "Tlalpan",
+                "lat": 19.28222,
+                "lon": -99.24242
+        },
+        "CDA_BOKOBA_Y_TIXKOKOB": {
+                "min": 0.0,
+                "max": 0.1,
+                "delegacion": "Tlalpan",
+                "lat": 19.28368,
+                "lon": -99.23026
+        },
+        "TIXKOKOB_Y_CELESTUM": {
+                "min": 0.0,
+                "max": 0.2,
+                "delegacion": "Tlalpan",
+                "lat": 19.27685,
+                "lon": -99.2138
+        },
+        "DZIBALCHEN_Y_AKIL": {
+                "min": 0.0,
+                "max": 0.3,
+                "delegacion": "Tlalpan",
+                "lat": 19.27811,
+                "lon": -99.22111
+        },
+        "AV_35_Y_FERROCARRIL_DE_CUERNAVACA": {
+                "min": 0.15,
+                "max": 0.16,
+                "delegacion": "Tlalpan",
+                "lat": 19.27468,
+                "lon": -99.23195
+        },
+        "TEKAX_Y_GRECIA": {
+                "min": 0.0,
+                "max": 1.0,
+                "delegacion": "Tlalpan",
+                "lat": 19.27743,
+                "lon": -99.22558
+        },
+        "AKIL_Y_CHANAL": {
+                "min": -0.02,
+                "max": 1.4,
+                "delegacion": "Tlalpan",
+                "lat": 19.2766,
+                "lon": -99.22121
+        },
+        "JALAPA_Y_JALAPA": {
+                "min": 0.5,
+                "max": 4.0,
+                "delegacion": "Magdalena Contreras",
+                "lat": 19.32177,
+                "lon": -99.2242
+        },
+        "JALAPA_Y_TAMIAHUA": {
+                "min": 2.0,
+                "max": 4.0,
+                "delegacion": "Magdalena Contreras",
+                "lat": 19.32124,
+                "lon": -99.22587
+        },
+        "VERACRUZ_Y_AV_LUIS_CABRERA": {
+                "min": 3.95,
+                "max": 4.25,
+                "delegacion": "Magdalena Contreras",
+                "lat": 19.32029,
+                "lon": -99.22804
+        },
+        "JALAPA_Y_NARANJOS": {
+                "min": 1.6,
+                "max": 3.2,
+                "delegacion": "Magdalena Contreras",
+                "lat": 19.31898,
+                "lon": -99.22859
+        },
+        "COATZACOALCOS_Y_FORTIN": {
+                "min": 1.0,
+                "max": 2.8,
+                "delegacion": "Magdalena Contreras",
+                "lat": 19.31713,
+                "lon": -99.22776
+        },
+        "VERACRUZ_Y_AV_OAXACA": {
+                "min": -0.07,
+                "max": 1.0,
+                "delegacion": "Magdalena Contreras",
+                "lat": 19.3153,
+                "lon": -99.22571
+        },
+        "SONORA_Y_JALISCO": {
+                "min": 2.4,
+                "max": 7.4,
+                "delegacion": "Magdalena Contreras",
+                "lat": 19.31406,
+                "lon": -99.22547
+        },
+        "ZACATECAS_Y_AV_MEXICO": {
+                "min": 1.0,
+                "max": 4.5,
+                "delegacion": "Magdalena Contreras",
+                "lat": 19.31265,
+                "lon": -99.22551
+        },
+        "CIRCUITO_CUEMANCO_NTE_Y_AV_MUYUGUARDA": {
+                "min": 0.6,
+                "max": 0.85,
+                "delegacion": "Xochimilco",
+                "lat": 19.28079,
+                "lon": -99.11671
+        },
+        "CAMINO_REAL_A_XOCHITEPEC_Y_C5": {
+                "min": 0.0,
+                "max": 1.8,
+                "delegacion": "Xochimilco",
+                "lat": 19.2646,
+                "lon": -99.13496
+        },
+        "TEXMIOCA_Y_CDA_AGUSTIN_LARA": {
+                "min": 6.0,
+                "max": 12.0,
+                "delegacion": "Xochimilco",
+                "lat": 19.24746,
+                "lon": -99.01583
+        },
+        "FLORICULTOR_Y_ACUEDUCTO": {
+                "min": 2.6,
+                "max": 3.5,
+                "delegacion": "Xochimilco",
+                "lat": 19.25506,
+                "lon": -99.03752
+        },
+        "GOLONDRINA_Y_NACIONES_UNIDAS": {
+                "min": 0.0,
+                "max": 1.0,
+                "delegacion": "Xochimilco",
+                "lat": 19.24744,
+                "lon": -99.02732
+        },
+        "FRANCISCO_SARABIA_Y_22_DE_NOVIEMBRE": {
+                "min": -1.0,
+                "max": 5.0,
+                "delegacion": "Xochimilco",
+                "lat": 19.2182,
+                "lon": -99.09897
+        },
+        "CDA_GENERAL_MIGUEL_ENRIQUE_GUZMAN_Y_FRANCISCO_VILLA": {
+                "min": 0.0,
+                "max": 2.5,
+                "delegacion": "Xochimilco",
+                "lat": 19.24992,
+                "lon": -99.02066
         }
 }
