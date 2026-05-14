@@ -176,16 +176,37 @@ if not df_datos.empty:
             HeatMap(datos_calor, radius=15, blur=10).add_to(mapa)
 
         elif modo_vista == "5. Voronoi":
+            # REPARACIÓN VORONOI: Nombre correcto de variable y escudo de error visible
             if len(df_f) > 3:
                 try:
                     puntos = MultiPoint([(r.lon, r.lat) for i, r in df_f.iterrows()])
-                    regiones = voronoi_diagram(puntos)
+                    regiones_voronoi = voronoi_diagram(puntos)
+                    
                     gdf_voronoi = gpd.GeoDataFrame(geometry=[geom for geom in regiones_voronoi.geoms], crs="EPSG:4326")
-                    folium.GeoJson(gdf_voronoi, style_function=lambda x: {'fillColor': '#28B463', 'opacity': 0.2}).add_to(mapa)
+                    
+                    folium.GeoJson(
+                        gdf_voronoi, 
+                        style_function=lambda x: {
+                            'fillColor': '#28B463', 
+                            'color': '#196F3D',
+                            'weight': 2, 
+                            'fillOpacity': 0.2
+                        }
+                    ).add_to(mapa)
+                    
                     for i, r in df_f.iterrows():
-                        folium.CircleMarker([r['lat'], r['lon']], radius=4, color='#E74C3C', fill=True, tooltip=f"🏢 {r['nombre_sitio']}").add_to(mapa)
-                except:
-                    pass
+                        folium.CircleMarker(
+                            [r['lat'], r['lon']], 
+                            radius=4, 
+                            color='#E74C3C', 
+                            fill=True, 
+                            fill_opacity=1,
+                            tooltip=f"🏢 {r['nombre_sitio']}"
+                        ).add_to(mapa)
+                except Exception as e:
+                    st.error(f"⚠️ Error matemático al calcular polígonos de Voronoi: {e}")
+            else:
+                st.warning("Se requieren al menos 4 puntos en pantalla para calcular áreas de Voronoi.")
 
     st_folium(mapa, width=1200, height=550)
 
@@ -214,7 +235,7 @@ if not df_datos.empty:
         st.dataframe(conteo_delegaciones, use_container_width=True)
 
     # ==========================================
-    # 7. AUDITORÍA DE CALIDAD DE DATOS (RESTAURADA)
+    # 7. AUDITORÍA DE CALIDAD DE DATOS
     # ==========================================
     st.markdown("---")
     st.subheader("🛑 Auditoría Operativa: Sitios descartados del total original")
