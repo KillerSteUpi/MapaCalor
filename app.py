@@ -22,6 +22,7 @@ st.markdown("---")
 @st.cache_data(ttl=300)
 def cargar_datos():
     try:
+        if not os.path.exists("mis_datos.json"): return pd.DataFrame(), gpd.GeoDataFrame()
         df = pd.read_json("mis_datos.json", orient="index")
         if df.empty: return pd.DataFrame(), gpd.GeoDataFrame()
 
@@ -44,7 +45,7 @@ def cargar_datos():
         return pd.DataFrame(), gpd.GeoDataFrame()
 
 # ==========================================
-# NUEVO: CARGA DE CAPA DE COLONIAS OFICIALES
+# 3. CARGA DE CAPA DE COLONIAS OFICIALES
 # ==========================================
 @st.cache_data(ttl=3600)
 def cargar_colonias():
@@ -60,7 +61,6 @@ def cargar_colonias():
             feat = item.get("geo_shape")
             if not feat: continue
             
-            # El JSON tiene los nombres dentro de listas, los extraemos
             nombre = item.get("col_name", [""])[0] if isinstance(item.get("col_name"), list) else item.get("col_name", "")
             alcaldia = item.get("mun_name", [""])[0] if isinstance(item.get("mun_name"), list) else item.get("mun_name", "")
             
@@ -70,12 +70,10 @@ def cargar_colonias():
             }
             features.append(feat)
             
-        # Convertimos a formato geográfico
         gdf_col = gpd.GeoDataFrame.from_features({"type": "FeatureCollection", "features": features})
         gdf_col = gdf_col.set_crs("EPSG:4326")
         return gdf_col
     except Exception as e:
-        st.error(f"⚠️ Error en capa de colonias: {e}")
         return gpd.GeoDataFrame()
 
 df_datos, gdf_datos = cargar_datos()
@@ -85,7 +83,7 @@ if not df_datos.empty:
     st.sidebar.header("⚙️ Panel de Control")
     
     # ------------------------------------------
-    # BUSCADOR GLOBAL DE COLONIAS (CAPA DORADA)
+    # BUSCADOR GLOBAL DE COLONIAS 
     # ------------------------------------------
     st.sidebar.markdown("### 🏘️ Visor de Colonias")
     if not gdf_colonias.empty:
@@ -97,7 +95,6 @@ if not df_datos.empty:
         )
     else:
         colonias_seleccionadas = []
-        st.sidebar.warning("⚠️ Archivo de colonias no encontrado.")
         
     st.sidebar.markdown("---")
     
@@ -122,12 +119,10 @@ if not df_datos.empty:
     )
 
     # ==========================================
-    # 3. CONSTRUCCIÓN DEL MAPA
+    # 4. CONSTRUCCIÓN DEL MAPA
     # ==========================================
-    # Sistema de Auto-Enfoque: Si busca una colonia, la cámara vuela hacia allá
     if colonias_seleccionadas and not gdf_colonias.empty:
         gdf_col_filtradas = gdf_colonias[gdf_colonias['colonia'].isin(colonias_seleccionadas)]
-        # Usamos warning capture para el centroid de zonas no proyectadas
         import warnings
         with warnings.catch_warnings():
             warnings.simplefilter("ignore")
@@ -140,30 +135,23 @@ if not df_datos.empty:
         
     mapa = folium.Map(location=[c_lat, c_lon], zoom_start=13 if colonias_seleccionadas else 11, tiles="cartodbpositron")
     
-    # Capa Perimetral CDMX
     try:
         folium.GeoJson("perimetro_cdmx.json", name="CDMX", style_function=lambda x: {'color': '#2C3E50', 'weight': 2, 'dashArray': '5, 5'}).add_to(mapa)
     except: pass
 
-    # ------------------------------------------
-    # DIBUJO DE POLÍGONOS DE COLONIAS (NUEVO)
-    # ------------------------------------------
     if colonias_seleccionadas and not gdf_colonias.empty:
         folium.GeoJson(
             gdf_col_filtradas,
             name="Colonias Seleccionadas",
             style_function=lambda x: {
-                'fillColor': '#F1C40F', # Color dorado
-                'color': '#E67E22',     # Borde naranja
+                'fillColor': '#F1C40F',
+                'color': '#E67E22',
                 'weight': 3,
                 'fillOpacity': 0.3
             },
             tooltip=folium.GeoJsonTooltip(fields=['colonia', 'alcaldia'], aliases=['Colonia:', 'Demarcación:'])
         ).add_to(mapa)
 
-    # ------------------------------------------
-    # DIBUJO DE SENSORES OPERATIVOS
-    # ------------------------------------------
     if not df_f.empty:
         if modo_vista == "1. Clusters":
             cluster = MarkerCluster().add_to(mapa)
@@ -202,7 +190,7 @@ if not df_datos.empty:
     st_folium(mapa, width=1200, height=550)
 
     # ==========================================
-    # 4. MÉTRICAS EJECUTIVAS
+    # 5. MÉTRICAS EJECUTIVAS
     # ==========================================
     st.markdown("---")
     c1, c2, c3 = st.columns(3)
@@ -212,8 +200,35 @@ if not df_datos.empty:
     c3.metric("Demarcaciones Filtradas", df_f['delegacion'].nunique())
 
     if not df_f.empty:
-        st.markdown("### 📋 Listado de Sensores")
+        st.markdown("### 📋 Listado de Sensores en Pantalla")
         st.dataframe(df_f[['nombre_sitio', 'delegacion', 'max']].sort_values(by='nombre_sitio'), use_container_width=True)
+
+    # ==========================================
+    # 6. DESGLOSE POR DEMARCACIÓN 
+    # ==========================================
+    st.markdown("---")
+    st.subheader("📊 Distribución de la Búsqueda")
+    if 'delegacion' in df_f.columns and not df_f.empty:
+        conteo_delegaciones = df_f['delegacion'].value_counts().reset_index()
+        conteo_delegaciones.columns = ['Demarcación', 'Sensores Encontrados']
+        st.dataframe(conteo_delegaciones, use_container_width=True)
+
+    # ==========================================
+    # 7. AUDITORÍA DE CALIDAD DE DATOS (RESTAURADA)
+    # ==========================================
+    st.markdown("---")
+    st.subheader("🛑 Auditoría Operativa: Sitios descartados del total original")
+    try:
+        df_crudo = pd.read_json("mis_datos.json", orient="index")
+        descartados = df_crudo[~df_crudo.index.isin(df_datos.index)]
+        
+        if not descartados.empty:
+            st.warning(f"Se aislaron {len(descartados)} registros por errores de captura en coordenadas:")
+            st.dataframe(descartados[['delegacion', 'lat', 'lon']])
+        else:
+            st.success("Todos los registros del archivo original tienen coordenadas correctas.")
+    except Exception as e:
+        st.info("No se pudo realizar la auditoría de captura en este momento.")
 
 else:
     st.info("💡 Cargue registros operativos con coordenadas válidas para iniciar el tablero.")
