@@ -152,11 +152,20 @@ if not df_datos.empty:
             tooltip=folium.GeoJsonTooltip(fields=['colonia', 'alcaldia'], aliases=['Colonia:', 'Demarcación:'])
         ).add_to(mapa)
 
-    if not df_f.empty:
+   if not df_f.empty:
         if modo_vista == "1. Clusters":
             cluster = MarkerCluster().add_to(mapa)
             for i, r in df_f.iterrows():
-                folium.Marker([r['lat'], r['lon']], tooltip=f"🏢 {r['nombre_sitio']}").add_to(cluster)
+                # Reemplazamos el PNG bloqueado por un vector nativo inbloqueable
+                folium.CircleMarker(
+                    location=[r['lat'], r['lon']],
+                    radius=7,                 # Tamaño del punto
+                    color="#2C3E50",          # Borde oscuro elegante
+                    fill=True,
+                    fill_color="#922A27",     # Azul institucional
+                    fill_opacity=0.9,         # Opacidad
+                    tooltip=f"🏢 {r['nombre_sitio']}"
+                ).add_to(cluster)
         
         elif modo_vista == "2. Radios":
             for i, r in df_f.iterrows():
