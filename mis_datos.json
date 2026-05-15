@@ -2543,9 +2543,9 @@
         "AV_DEL_TEPEYAC_Y_AV_VICTORIA": {
                 "min": 0.0,
                 "max": 1.2,
-                "delegacion": "Iztapalapa",
-                "lat": 19.474145,
-                "lon": -99.123997
+                "delegacion": "Gustavo A Madero",
+                "lat": 19.474216,
+                "lon": -99.124082
         },
         "CALLE_3_MZ_H_LT_163": {
                 "min": -0.03,
@@ -5091,16 +5091,16 @@
         "Calle20EjeCentral": {
                 "min": 0.0,
                 "max": 2.6,
-                "delegacion": "Benito Juarez",
-                "lat": 19.517813,
-                "lon": -99.156237
+                "delegacion": "Gustavo A Madero",
+                "lat": 19.517861,
+                "lon": -99.156199
         },
         "JoseLoretoAcces1": {
                 "min": 0.0,
                 "max": 0.2,
-                "delegacion": "Xochimilco",
-                "lat": 19.46023,
-                "lon": -99.0806
+                "delegacion": "Gustavo A Madero",
+                "lat": 19.460329,
+                "lon": -99.080613
         },
         "Escoperna": {
                 "min": 0.0,
