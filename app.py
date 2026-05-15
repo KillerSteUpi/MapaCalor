@@ -152,7 +152,7 @@ if not df_datos.empty:
             tooltip=folium.GeoJsonTooltip(fields=['colonia', 'alcaldia'], aliases=['Colonia:', 'Demarcación:'])
         ).add_to(mapa)
 
-   if not df_f.empty:
+    if not df_f.empty:
         if modo_vista == "1. Clusters":
             cluster = MarkerCluster().add_to(mapa)
             for i, r in df_f.iterrows():
