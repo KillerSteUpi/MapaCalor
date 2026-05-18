@@ -248,8 +248,8 @@
                 "min": -0.3,
                 "max": 3.0,
                 "delegacion": "Cuajimalpa",
-                "lat": 19.385731,
-                "lon": -99.263438
+                "lat": 19.392235,
+                "lon": -99.259772
         },
         "TENANGO_Y_RIO_BRAVO": {
                 "min": -0.3,
@@ -1270,7 +1270,7 @@
                 "min": 0.02,
                 "max": 4.84,
                 "delegacion": "Magdalena Contreras",
-                "lat": 19.45032,
+                "lat": 19.296611,
                 "lon": -99.245166
         },
         "LAS_FLORES_Y_CDA_CLAVEL": {
@@ -2816,7 +2816,7 @@
         "TLATILCO_Y_AV_JARDN": {
                 "min": 0.0,
                 "max": 0.2,
-                "delegacion": "Cuauhtemoc",
+                "delegacion": "Azcapotzalco",
                 "lat": 19.46503208,
                 "lon": -99.16018265
         },
@@ -5890,8 +5890,8 @@
                 "min": -0.2,
                 "max": 0.02,
                 "delegacion": "Cuajimalpa",
-                "lat": 19.3848,
-                "lon": -99.305601
+                "lat": 19.34212,
+                "lon": -99.276617
         },
         "LAGUNA_DE_MAYRAN_Y_LAGO_LADOGA": {
                 "min": 0.13,
