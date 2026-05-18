@@ -3908,9 +3908,9 @@
         "PLANTA_LA_CALDERA": {
                 "min": 4.8,
                 "max": 5.1,
-                "delegacion": "Tlahuac",
-                "lat": 19.32927,
-                "lon": -98.9663
+                "delegacion": "Iztapalapa",
+                "lat": 19.330304759329824,  
+                "lon": -98.96674221959118
         },
         "AV_PIPILA_Y_CONCEPCION": {
                 "min": 0.3,
@@ -6267,9 +6267,9 @@
         "Presiones_ZIHUATLAN_Y_AMEZQUITE": {
                 "min": 0.0,
                 "max": 1.43,
-                "delegacion": "Gustavo A Madero",
-                "lat": 19.32021267615803,
-                "lon": -99.1703082302251
+                "delegacion": "Coyoacan",
+                "lat": 19.320026,
+                "lon": -99.17037
         },
         "Presiones_SALVADOR_LIMA_CC_CIRIACO_CRUZ": {
                 "min": 0.0,
