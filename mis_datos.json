@@ -5259,7 +5259,7 @@
         "TEPETL_Y_CHANTEPEC": {
                 "min": 0.0,
                 "max": 4.5,
-                "delegacion": "Xochimilco",
+                "delegacion": "Tlalpan",
                 "lat": 19.277331,
                 "lon": -99.185221
         },
@@ -5693,7 +5693,7 @@
         "TEPETZINGO_Y_TEPETONGO": {
                 "min": 0.0,
                 "max": 2.1,
-                "delegacion": "Xochimilco",
+                "delegacion": "Tlalpan",
                 "lat": 19.271419,
                 "lon": -99.188348
         },
@@ -6484,9 +6484,9 @@
         "Presiones_MANUEL_BALLESTEROS_CC_CIRCUNVALACION": {
                 "min": 0.0,
                 "max": 0.0,
-                "delegacion": "Xochimilco",
-                "lat": 19.26665959377814,
-                "lon": -99.1478429458637
+                "delegacion": "Iztapalapa",
+                "lat": 19.366756,
+                "lon": -99.034544
         },
         "Presiones_NORTE_94_CC_ANOTONIO_RUIZ_GALINDO": {
                 "min": 0.05,
