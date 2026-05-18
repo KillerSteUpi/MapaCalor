@@ -198,9 +198,9 @@
         "CTO_COEMANCO_NTE_Y_CDA_DE_CANAL_NACIONAL": {
                 "min": 0.07,
                 "max": 0.62,
-                "delegacion": "Iztacalco",
-                "lat": 19.281098,
-                "lon": -99.115287
+                "delegacion": "Xochimilco",
+                "lat": 19.281092, 
+                "lon": -99.115298
         },
         "QUINTERO_MENDOZA_CC_REMIGIO_JIMENEZ": {
                 "min": -0.01,
@@ -1271,7 +1271,7 @@
                 "max": 4.84,
                 "delegacion": "Magdalena Contreras",
                 "lat": 19.45032,
-                "lon": -99.09653
+                "lon": -99.245166
         },
         "LAS_FLORES_Y_CDA_CLAVEL": {
                 "min": 0.4,
@@ -1990,9 +1990,9 @@
         "AV_CANAL_DE_CHALCO_CC_PIRANA": {
                 "min": 0.73,
                 "max": 2.26,
-                "delegacion": "Coyoacan",
-                "lat": 19.28507,
-                "lon": -99.069
+                "delegacion": "Iztapalapa",
+                "lat": 19.285034,
+                "lon": -99.068951
         },
         "SAN_FELIPE_Y_SAN_LEON": {
                 "min": 0.3,
@@ -2145,8 +2145,8 @@
                 "min": 7.01,
                 "max": 7.47,
                 "delegacion": "Azcapotzalco",
-                "lat": 19.337166,
-                "lon": -99.25309
+                "lat": 19.337181,
+                "lon": -99.25302
         },
         "AV_MORELOS_CC_POTRERO": {
                 "min": -0.38,
@@ -2767,51 +2767,51 @@
         "JUAN_DE_DIOS_PEZA_Y_SOR_JUANA_INES_DE_LA_CRUZ": {
                 "min": 0.0,
                 "max": 0.2,
-                "delegacion": "Tlalpan",
-                "lat": 19.28145887,
-                "lon": -99.05375832
+                "delegacion": "Tlahuac",
+                "lat": 19.281430,
+                "lon": -99.053752
         },
         "JUAN_DE_DIOS_PEZA_Y_C_PIE_DE_LA_CUESTA": {
                 "min": 0.0,
                 "max": 0.2,
-                "delegacion": "Tlalpan",
-                "lat": 19.28370909,
-                "lon": -99.05206246
+                "delegacion": "Tlahuac",
+                "lat": 19.283542,
+                "lon": -99.05199
         },
         "GABRIELA_MISTRAL_Y_C_PIE_DE_LA_CUESTA": {
                 "min": 0.0,
                 "max": 0.2,
-                "delegacion": "Tlalpan",
-                "lat": 19.28468828,
-                "lon": -99.05353182
+                "delegacion": "Tlahuac",
+                "lat": 19.284635,
+                "lon": -99.053499
         },
         "C_PULPO_Y_MERLUZA": {
                 "min": 0.0,
                 "max": 0.2,
-                "delegacion": "Tlalpan",
-                "lat": 19.28759736,
-                "lon": -99.05438756
+                "delegacion": "Tlahuac",
+                "lat": 19.287593, 
+                "lon":-99.054417
         },
         "AV_ALETA_Y_ATN": {
                 "min": 0.0,
                 "max": 0.2,
-                "delegacion": "Tlalpan",
-                "lat": 19.28443829,
-                "lon": -99.05859097
+                "delegacion": "Tlahuac",
+                "lat": 19.284413,
+                "lon": -99.058694
         },
         "MEDUSA_Y_PEZ_VELA": {
                 "min": 0.0,
                 "max": 0.2,
-                "delegacion": "Tlalpan",
-                "lat": 19.28689415,
-                "lon": -99.05856364
+                "delegacion": "Tlahuac",
+                "lat": 19.286878,
+                "lon": -99.058584
         },
         "GITANA_Y_PEZ_CARDENAL": {
                 "min": 0.0,
                 "max": 0.2,
-                "delegacion": "Tlalpan",
-                "lat": 19.29120468,
-                "lon": -99.06076545
+                "delegacion": "Tlahuac",
+                "lat": 19.291149, 
+                "lon": -99.060696
         },
         "TLATILCO_Y_AV_JARDN": {
                 "min": 0.0,
@@ -3257,9 +3257,9 @@
         "FRANCISCO_VILLA_Y_SAN_JUAN": {
                 "min": 0.0,
                 "max": 0.2,
-                "delegacion": "Venustiano Carranza",
-                "lat": 19.37606265,
-                "lon": -99.11370984
+                "delegacion": "Iztapalapa",
+                "lat": 19.376143, 
+                "lon": -99.113694
         },
         "MIRAVALLE_Y_SUIZA": {
                 "min": 0.0,
@@ -3446,30 +3446,30 @@
         "MAVRP2_1": {
                 "min": 0.0,
                 "max": 0.3,
-                "delegacion": "Tlalpan",
-                "lat": 19.428869015051486,
-                "lon": -99.13607365427578
+                "delegacion": "Cuauhtemoc",
+                "lat": 19.4288690150514,
+                "lon": -99.1360736542757
         },
         "MAVRP1_1": {
                 "min": 0.0,
                 "max": 0.3,
-                "delegacion": "Tlalpan",
-                "lat": 19.428869015051486,
-                "lon": -99.13607365427578
+                "delegacion": "Cuauhtemoc",
+                "lat": 19.4288690150514,
+                "lon": -99.1360736542757
         },
         "MAVRP2_3": {
                 "min": 0.0,
                 "max": 0.3,
-                "delegacion": "Tlalpan",
-                "lat": 19.428869015051486,
-                "lon": -99.13607365427578
+                "delegacion": "Cuauhtemoc",
+                "lat": 19.4288690150514,
+                "lon": -99.1360736542757
         },
         "MAVRP1_3": {
                 "min": 0.0,
                 "max": 0.3,
-                "delegacion": "Tlalpan",
-                "lat": 19.428869015051486,
-                "lon": -99.13607365427578
+                "delegacion": "Cuauhtemoc",
+                "lat": 19.4288690150514,
+                "lon": -99.1360736542757
         },
         "DR_JOSE_MARIA_VERTIZ_Y_XOLA": {
                 "min": 0.5,
@@ -3852,9 +3852,9 @@
         "Calle_Villa_Conejos_Mz9_Lt19": {
                 "min": -0.1,
                 "max": 0.6,
-                "delegacion": "Iztacalco",
-                "lat": 19.327761,
-                "lon": -99.046303
+                "delegacion": "Iztapalapa",
+                "lat": 19.327782,
+                "lon": -99.046289
         },
         "CARR_MEXICOTOLUCA_Y_LOMA_DE_VISTA_HERMOSA": {
                 "min": -0.1,
@@ -4350,8 +4350,8 @@
                 "min": -0.52,
                 "max": -0.3,
                 "delegacion": "Tlahuac",
-                "lat": 19.413267825298096,
-                "lon": -99.17875591779737
+                "lat": 19.462276,
+                "lon": -99.152548
         },
         "AztecasyFrayBartolome": {
                 "min": 0.3,
@@ -4587,9 +4587,9 @@
         "DrRafael_LucioyDrLa_vista7B": {
                 "min": 0.8,
                 "max": 1.0,
-                "delegacion": "Coyoacan",
-                "lat": 19.42434556793935,
-                "lon": -99.15144652551315
+                "delegacion": "Cuauhtemoc",
+                "lat": 19.424102,
+                "lon": -99.15145
         },
         "Eje1OteyPlatino_8B": {
                 "min": 71.7,
@@ -5218,15 +5218,15 @@
                 "min": 0.0,
                 "max": 2.7,
                 "delegacion": "Coyoacan",
-                "lat": 19.274188,
-                "lon": -99.188061
+                "lat": 19.274237, 
+                "lon": -99.188031
         },
         "ENRIQUE_CAMARILLO_Y_5_DE_MAYO": {
                 "min": 0.0,
                 "max": 1.9,
                 "delegacion": "Iztapalapa",
-                "lat": 19.472547,
-                "lon": -99.14259
+                "lat": 19.340921,
+                "lon": -99.056201
         },
         "FRANCISCO_VILLA_Y_EMILIANO_ZAPATA": {
                 "min": 0.0,
@@ -5246,8 +5246,8 @@
                 "min": 0.0,
                 "max": 1.0,
                 "delegacion": "Iztapalapa",
-                "lat": 19.277564,
-                "lon": -99.18236
+                "lat": 19.367282,
+                "lon": -99.115127
         },
         "JACARANDAS_Y_GLADIOLAS": {
                 "min": 0.3,
@@ -5273,9 +5273,9 @@
         "XAMILTEPEC_Y_AHUALTEPEC": {
                 "min": 0.0,
                 "max": 3.5,
-                "delegacion": "Tlahuac",
-                "lat": 19.277436,
-                "lon": -99.18217
+                "delegacion": "Tlalpan",
+                "lat": 19.277472,
+                "lon": -99.182103
         },
         "CEDRAL_Y_HUEXOTITLAN": {
                 "min": 0.0,
@@ -5651,9 +5651,9 @@
         "DALIA_Y_MARISOL": {
                 "min": 0.0,
                 "max": 1.0,
-                "delegacion": "Magdalena Contreras",
-                "lat": 19.267398,
-                "lon": -99.175844
+                "delegacion": "Tlalpan",
+                "lat": 19.267411,
+                "lon": -99.17586
         },
         "CASA_BLANCA_Y_25_DE_SEPTIEMBRE": {
                 "min": 0.0,
@@ -5665,9 +5665,9 @@
         "LAS_FLORES_Y_PROLONGACION_ABASOLO": {
                 "min": 0.0,
                 "max": 2.3,
-                "delegacion": "Coyoacan",
-                "lat": 19.27391,
-                "lon": -99.14898
+                "delegacion": "Tlalpan",
+                "lat": 19.273899,
+                "lon": -99.14895
         },
         "RIO_PAPALOAPAN_Y_RIO_NILO": {
                 "min": 0.1,
@@ -6071,9 +6071,9 @@
         "JOSE_MARIA_MORELOS_Y_EJE_SUR_5": {
                 "min": 0.0,
                 "max": 1.0,
-                "delegacion": "Miguel Hidalgo",
-                "lat": 19.37961,
-                "lon": -99.11451
+                "delegacion": "Iztapalapa",
+                "lat": 19.379663, 
+                "lon": -99.11452
         },
         "CALZADA_MEXICO_CUBA_Y_LAGO_MUSTERS": {
                 "min": 0.0,
@@ -6373,8 +6373,8 @@
                 "min": 0.0,
                 "max": 1.0,
                 "delegacion": "Miguel Hidalgo",
-                "lat": 19.4672803227386,
-                "lon": -99.185348730222
+                "lat": 19.453062,
+                "lon": -99.179484
         },
         "Presiones_AV_PACIFICO_CC_OCEANIA": {
                 "min": 1.3,
@@ -6393,9 +6393,9 @@
         "Presiones_EDO_OAXACA_CC_EDO_DE_SINALOA": {
                 "min": 0.0,
                 "max": 1.88,
-                "delegacion": "Azcapotzalco",
-                "lat": 19.485785942047087,
-                "lon": -99.0723747179799
+                "delegacion": "Gustavo A Madero",
+                "lat": 19.485723, 
+                "lon": -99.072517
         },
         "Presiones_AV_WILFRIDO_MASSIEU_CC_AV_DE_LOS_45_METROS": {
                 "min": 0.0,
