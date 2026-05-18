@@ -2039,7 +2039,7 @@
         "AV_ZACATEPETL_CC_ANILLO_PERIFERICO": {
                 "min": 1.26,
                 "max": 2.51,
-                "delegacion": "Coyoacan",
+                "delegacion": "Tlalpan",
                 "lat": 19.30108,
                 "lon": -99.19283
         },
@@ -5105,7 +5105,7 @@
         "Escoperna": {
                 "min": 0.0,
                 "max": 4.0,
-                "delegacion": "Iztapalapa",
+                "delegacion": "Tlahuac",
                 "lat": 19.3043362,
                 "lon": -99.0599
         },
