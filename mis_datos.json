@@ -2144,9 +2144,9 @@
         "AVINON_CC_LAFAYETTE": {
                 "min": 7.01,
                 "max": 7.47,
-                "delegacion": "Azcapotzalco",
-                "lat": 19.337181,
-                "lon": -99.25302
+                "delegacion": "Alvaro Obregon",
+                "lat": 19.33716,
+                "lon": -99.25309
         },
         "AV_MORELOS_CC_POTRERO": {
                 "min": -0.38,
@@ -4349,7 +4349,7 @@
         "AzaharesyChopo": {
                 "min": -0.52,
                 "max": -0.3,
-                "delegacion": "Tlahuac",
+                "delegacion": "Cuauhtemoc",
                 "lat": 19.462276,
                 "lon": -99.152548
         },
@@ -5183,8 +5183,8 @@
                 "min": 0.2,
                 "max": 1.0,
                 "delegacion": "Milpa Alta",
-                "lat": 19.479934,
-                "lon": -99.215839
+                "lat": 19.479946808431748,  
+                "lon": -99.21581462288538
         },
         "SUR_12_Y_CALLE_OTE_245": {
                 "min": 0.0,
@@ -5217,8 +5217,8 @@
         "TEXQUI_Y_CAMINO_A_LA_CANTERA": {
                 "min": 0.0,
                 "max": 2.7,
-                "delegacion": "Coyoacan",
-                "lat": 19.274237, 
+                "delegacion": "Tlalpan",
+                "lat": 19.274237,   
                 "lon": -99.188031
         },
         "ENRIQUE_CAMARILLO_Y_5_DE_MAYO": {
@@ -5694,8 +5694,8 @@
                 "min": 0.0,
                 "max": 2.1,
                 "delegacion": "Tlalpan",
-                "lat": 19.271419,
-                "lon": -99.188348
+                "lat": 19.271520,
+                "lon": -99.188359
         },
         "MAURILIO_MEJIA_Y_MIGUEL_HIDALGO": {
                 "min": 0.0,
