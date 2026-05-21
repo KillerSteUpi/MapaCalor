@@ -199,7 +199,7 @@
                 "min": 0.07,
                 "max": 0.62,
                 "delegacion": "Xochimilco",
-                "lat": 19.281092, 
+                "lat": 19.281092,
                 "lon": -99.115298
         },
         "QUINTERO_MENDOZA_CC_REMIGIO_JIMENEZ": {
@@ -990,8 +990,8 @@
                 "min": 0.02,
                 "max": 6.0,
                 "delegacion": "Cuajimalpa",
-                "lat": 19.398126,
-                "lon": -99.249516
+                "lat": 19.398184,
+                "lon": -99.249494
         },
         "ESPERANZA_CC_ERMITAO": {
                 "min": 0.0,
@@ -2789,8 +2789,8 @@
                 "min": 0.0,
                 "max": 0.2,
                 "delegacion": "Tlahuac",
-                "lat": 19.287593, 
-                "lon":-99.054417
+                "lat": 19.287593,
+                "lon": -99.054417
         },
         "AV_ALETA_Y_ATN": {
                 "min": 0.0,
@@ -2810,7 +2810,7 @@
                 "min": 0.0,
                 "max": 0.2,
                 "delegacion": "Tlahuac",
-                "lat": 19.291149, 
+                "lat": 19.291149,
                 "lon": -99.060696
         },
         "TLATILCO_Y_AV_JARDN": {
@@ -2936,8 +2936,8 @@
                 "min": 0.0,
                 "max": 0.2,
                 "delegacion": "Cuauhtemoc",
-                "lat": 19.4625324,
-                "lon": -99.13077073
+                "lat": 19.462481,
+                "lon": -99.130826
         },
         "INSURGENTES_NORTE_Y_AZAHARES": {
                 "min": 0.0,
@@ -3258,7 +3258,7 @@
                 "min": 0.0,
                 "max": 0.2,
                 "delegacion": "Iztapalapa",
-                "lat": 19.376143, 
+                "lat": 19.376143,
                 "lon": -99.113694
         },
         "MIRAVALLE_Y_SUIZA": {
@@ -3909,7 +3909,7 @@
                 "min": 4.8,
                 "max": 5.1,
                 "delegacion": "Iztapalapa",
-                "lat": 19.330304759329824,  
+                "lat": 19.330304759329824,
                 "lon": -98.96674221959118
         },
         "AV_PIPILA_Y_CONCEPCION": {
@@ -5183,7 +5183,7 @@
                 "min": 0.2,
                 "max": 1.0,
                 "delegacion": "Milpa Alta",
-                "lat": 19.479946808431748,  
+                "lat": 19.479946808431748,
                 "lon": -99.21581462288538
         },
         "SUR_12_Y_CALLE_OTE_245": {
@@ -5218,7 +5218,7 @@
                 "min": 0.0,
                 "max": 2.7,
                 "delegacion": "Tlalpan",
-                "lat": 19.274237,   
+                "lat": 19.274237,
                 "lon": -99.188031
         },
         "ENRIQUE_CAMARILLO_Y_5_DE_MAYO": {
@@ -6072,7 +6072,7 @@
                 "min": 0.0,
                 "max": 1.0,
                 "delegacion": "Iztapalapa",
-                "lat": 19.379663, 
+                "lat": 19.379663,
                 "lon": -99.11452
         },
         "CALZADA_MEXICO_CUBA_Y_LAGO_MUSTERS": {
@@ -6190,9 +6190,9 @@
         "Gasto_CTL15": {
                 "min": 0.0,
                 "max": 1.0,
-                "delegacion": "Azcapotzalco",
-                "lat": 19.467668867437233,
-                "lon": -99.2078425744919
+                "delegacion": "Miguel Hidalgo",
+                "lat": 19.468790,
+                "lon": -99.207508
         },
         "Presiones_PEPE_ORTIZ_E_INGENIEROS_MILITARES": {
                 "min": 0.58,
@@ -6394,7 +6394,7 @@
                 "min": 0.0,
                 "max": 1.88,
                 "delegacion": "Gustavo A Madero",
-                "lat": 19.485723, 
+                "lat": 19.485723,
                 "lon": -99.072517
         },
         "Presiones_AV_WILFRIDO_MASSIEU_CC_AV_DE_LOS_45_METROS": {
@@ -7068,5 +7068,69 @@
                 "delegacion": "Xochimilco",
                 "lat": 19.24992,
                 "lon": -99.02066
+        },
+        "BJ_04": {
+                "uid": "94c1aa02-d4da-497f-8996-51ba6d73b0b1",
+                "min": 0.0,
+                "max": 4.0,
+                "delegacion": "Benito Juarez",
+                "lat": 19.401723,
+                "lon": -99.155461
+        },
+        "PINAHUIZACyCDA_DE_CANAL_NACIONAL": {
+                "uid": "b4ab8d24-9533-4aa0-89ca-3e94de2e4b06",
+                "min": 0.0,
+                "max": 3.0,
+                "delegacion": "Xochimilco",
+                "lat": 19.245809,
+                "lon": -99.084687
+        },
+        "CERRO_JUCHITEPEC": {
+                "uid": "67ee9fb6-4b6d-445d-9a0b-832bd1ebb5a8",
+                "min": 0.0,
+                "max": 0.5,
+                "delegacion": "Xochimilco",
+                "lat": 19.266719,
+                "lon": -99.134954
+        },
+        "CERRO_OCOTEPEC": {
+                "uid": "7dca641e-7dd6-4767-944d-db38dbc8e6d8",
+                "min": 0.0,
+                "max": 0.5,
+                "delegacion": "Xochimilco",
+                "lat": 19.268208,
+                "lon": -99.13506
+        },
+        "CERRO_TEUHITLI": {
+                "uid": "86bb1fce-d06c-4d30-8639-50e368f027be",
+                "min": 0.0,
+                "max": 0.2,
+                "delegacion": "Xochimilco",
+                "lat": 19.268915,
+                "lon": -99.135229
+        },
+        "CAMINO_REAL_NATIVITAS_SANTA_CRUZyCORREGIDORA": {
+                "uid": "3dde23ff-fcc4-47d7-9944-5c860a46e323",
+                "min": 5.6,
+                "max": 7.4,
+                "delegacion": "Xochimilco",
+                "lat": 19.240896,
+                "lon": -99.087647
+        },
+        "BJ_05": {
+                "uid": "e8bab883-32e4-4679-9ff8-28e9865ba5cb",
+                "min": 0.0,
+                "max": 6.0,
+                "delegacion": "Alvaro Obregon",
+                "lat": 19.366488,
+                "lon": -99.191448
+        },
+        "VascoDeQuiroga_Multi": {
+                "uid": "be9d6344-5f10-4c45-84df-b0f78167926d",
+                "min": 0.0,
+                "max": 3.0,
+                "delegacion": "Alvaro obregon",
+                "lat": 19.380278,
+                "lon": -99.243291
         }
 }
