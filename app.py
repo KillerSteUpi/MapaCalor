@@ -8,7 +8,6 @@ from folium.plugins import HeatMap, MarkerCluster, Search
 from streamlit_folium import st_folium
 import json
 import os
-import plotly.express as px
 import requests
 import urllib3
 import time
