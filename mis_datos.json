@@ -7132,5 +7132,41 @@
                 "delegacion": "Alvaro Obregon",
                 "lat": 19.380278,
                 "lon": -99.243291
+        },
+        "PROL._AV._JUAREZ_C/C_2DA_CDA._DE_JUAREZ": {
+                "min": 0.0,
+                "max": 4.25,
+                "delegacion":"Cuajimalpa",
+                "lat": 19.353739, 
+                "lon":-99.289723   
+        },
+        "GUADALUANA_MZ._5 LT._1": {
+                "min": 0.0,
+                "max": 0.3,
+                "delegacion":"Iztapalapa",
+                "lat": 19.34089, 
+                "lon":-99.00665  
+        },
+        "BALANCAN_Y_SACALUM": {
+                "min": 0.0,
+                "max": 2.0,
+                "delegacion":"Tlalpan",
+                "lat": 19.299053, 
+                "lon":-99.228784
+        },
+        "ANTIGUO_CAMINO_A_CUERNAVACA_Y_MORELOS": {
+                "min": 0.0,
+                "max": 5.0,
+                "delegacion":"Tlapan",
+                "lat": 19.198428, 
+                "lon":-99.14442
+        },
+        "NARDO_Y_EL_MIRADOR": {
+                "min": 0.0,
+                "max": 5.0,
+                "delegacion":"Tlalpan",
+                "lat": 19.26807, 
+                "lon":-99.17507 
         }
+
 }
