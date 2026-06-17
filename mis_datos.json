@@ -2498,13 +2498,6 @@
     "lat": 19.385731,
     "lon": -99.263438
   },
-  "PLAN_POT_PANTEON_CIVIL": {
-    "min": 300,
-    "max": 400,
-    "delegacion": "Iztapalapa",
-    "lat": 19.338788,
-    "lon": -99.074643
-  },
   "Formula_Panteon_Civil_3": {
     "min": 0.0,
     "max": 0.0,
