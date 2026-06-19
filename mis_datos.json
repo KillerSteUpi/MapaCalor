@@ -2501,9 +2501,9 @@
   "Formula_Panteon_Civil_3": {
     "min": 0.0,
     "max": 0.0,
-    "delegacion": "Gustavo A Madero",
-    "lat": 19.490993,
-    "lon": -99.146763
+    "delegacion": "Iztapalapa",
+    "lat": 19.338892,
+    "lon": -99.0749853
   },
   "5TA_CERRADA_DE_LAS_PENAS_MZ_2_LTE_22": {
     "min": 0.08,
@@ -6813,9 +6813,9 @@
   "SANTA_CRUZ_Y__4TA_CALZADA_SANTA_CRUZ": {
     "min": 0.2,
     "max": 2.3,
-    "delegacion": "Benito Juarez",
-    "lat": 19.372798,
-    "lon": -99.145373
+    "delegacion": "Tlahuac",
+    "lat": 19.30997,
+    "lon": -99.04794
   },
   "Vasco_Domicilio": {
     "min": 0.0,
@@ -6827,9 +6827,9 @@
   "16_DE_SEPTIEMBRE_E__INDEPENDENCIA": {
     "min": 0.0,
     "max": 2.3,
-    "delegacion": "Cuauhtemoc",
-    "lat": 19.432848,
-    "lon": -99.141172
+    "delegacion": "Iztapalapa",
+    "lat": 19.3640063,
+    "lon": -99.009179
   },
   "ANTIGUO_CAMINO_A_SANTIAGO_Y_AV_ACUEDUCTO": {
     "min": 2.6,
