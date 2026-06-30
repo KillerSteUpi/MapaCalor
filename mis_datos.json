@@ -7785,5 +7785,425 @@
     "delegacion": "Milpa Alta",
     "lat": 19.19161,
     "lon": -99.01809
-  }
+  },
+  "ANDADOR_24_158B": {
+        "min": 0,
+        "max": 2,
+        "delegacion": "Coyoacan",
+        "lat": 19.323796,
+        "lon": -99.113653
+},
+"CUARTO_ANDADOR_SANTA_ANA_9B": {
+        "min": 0,
+        "max": 2,
+        "delegacion": "Coyoacan",
+        "lat": 19.328141,
+        "lon": -99.112091
+},
+"ROSARIO_CASTELLANOS_EDIF_9B_DEPTO_201": {
+        "min": 0,
+        "max": 2,
+        "delegacion": "Coyoacan",
+        "lat": 19.317471,
+        "lon": -99.10495
+},
+"SEGUNDO_RETORNO_DE_MARIA_DEL_MAR_21_B": {
+        "min": 0,
+        "max": 2,
+        "delegacion": "Coyoacan",
+        "lat": 19.318916,
+        "lon": -99.101372
+},
+"NOVENO_ANDADOR_DE_MARIA_DEL_MAR_70_B": {
+        "min": 0,
+        "max": 2,
+        "delegacion": "Coyoacan",
+        "lat": 19.317783,
+        "lon": -99.102048
+},
+"SEXTO_ANDADOR_DE_DOLORES_GUERRERO_260_B": {
+        "min": 0,
+        "max": 2,
+        "delegacion": "Coyoacan",
+        "lat": 19.316266,
+        "lon": -99.105771
+},
+"MARIA_AGUILAR_152_A": {
+        "min": 0,
+        "max": 2,
+        "delegacion": "Coyoacan",
+        "lat": 19.316191,
+        "lon": -99.101962
+},
+"TERCER_ANDADOR_DE_MARIA_DEL_MAR_28_B": {
+        "min": 0,
+        "max": 2,
+        "delegacion": "Coyoacan",
+        "lat": 19.318699,
+        "lon": -99.105507
+},
+"SPTIMO_ANDADOR_DE_MARIA_SNCHEZ_116": {
+        "min": 0,
+        "max": 2,
+        "delegacion": "Coyoacan",
+        "lat": 19.3265648,
+        "lon": -99.1176906
+},
+"QUINTO_ANDADOR_DE_MANUELA_SENZ_142_C": {
+        "min": 0,
+        "max": 2,
+        "delegacion": "Coyoacan",
+        "lat": 19.3233652,
+        "lon": -99.1153342
+},
+"PRIMER_ANDADOR_DE_ROSA_SARAGOZA_56": {
+        "min": 0,
+        "max": 2,
+        "delegacion": "Coyoacan",
+        "lat": 19.3227463,
+        "lon": -99.1175783
+},
+"CUARTA_CERRADA_DE_MANUELA_CANIZARES_12": {
+        "min": 0,
+        "max": 2,
+        "delegacion": "Coyoacan",
+        "lat": 19.321344,
+        "lon": -99.1182802
+},
+"ROSA_MARIA_SEQUEIRA_185_A_ZONA_18": {
+        "min": 0,
+        "max": 2,
+        "delegacion": "Coyoacan",
+        "lat": 19.3206462,
+        "lon": -99.1196765
+},
+"ANDADOR_1_MANUELA_CANIZARES_MZNA_18_42": {
+        "min": 0,
+        "max": 2,
+        "delegacion": "Coyoacan",
+        "lat": 19.3213581,
+        "lon": -99.1199387
+},
+"PAYLA_PIRALDO_T_103_DEPTO_101": {
+        "min": 0,
+        "max": 2,
+        "delegacion": "Coyoacan",
+        "lat": 19.3232228,
+        "lon": -99.1216023
+},
+"ROSARIO_CASTELLANOS_105_A": {
+        "min": 0,
+        "max": 2,
+        "delegacion": "Coyoacan",
+        "lat": 19.3096578,
+        "lon": -99.1046618
+},
+"DOLORES_GUERRERO_ED_64_DEP_303": {
+        "min": 0,
+        "max": 2,
+        "delegacion": "Coyoacan",
+        "lat": 19.3151653,
+        "lon": -99.1021069
+},
+"3ER_RETORNO_ELVIRA_VARGAS_221_A": {
+        "min": 0,
+        "max": 2,
+        "delegacion": "Coyoacan",
+        "lat": 19.31047,
+        "lon": -99.10203
+},
+"1ER_ANDADOR_DOLORES_GUERRERO_86_A": {
+        "min": 0,
+        "max": 2,
+        "delegacion": "Coyoacan",
+        "lat": 19.3151281,
+        "lon": -99.1016403
+},
+"CALZ_DE_LAS_BOMBAS_ANDADOR_12_34_A": {
+        "min": 0,
+        "max": 2,
+        "delegacion": "Coyoacan",
+        "lat": 19.3080912,
+        "lon": -99.1022075
+},
+"3ER_ANDADOR_DOLORES_GUERRERO_120B": {
+        "min": 0,
+        "max": 2,
+        "delegacion": "Coyoacan",
+        "lat": 19.3149897,
+        "lon": -99.1063081
+},
+"65_A_C_11_ELVIRA_VARGAS": {
+        "min": 0,
+        "max": 2,
+        "delegacion": "Coyoacan",
+        "lat": 19.3113686,
+        "lon": -99.1069304
+},
+"1ER_DOLORES_GUERRERO_MZ_G_NO_104B": {
+        "min": 0,
+        "max": 2,
+        "delegacion": "Coyoacan",
+        "lat": 19.3141019,
+        "lon": -99.1067491
+},
+"MANUELA_MEDIANA_12B": {
+        "min": 0,
+        "max": 2,
+        "delegacion": "Coyoacan",
+        "lat": 19.311256,
+        "lon": -99.107696
+},
+"CONCHITA_URQUIZA_15B_101": {
+        "min": 0,
+        "max": 2,
+        "delegacion": "Coyoacan",
+        "lat": 19.3123583,
+        "lon": -99.104934
+},
+"TERESA_VERA_50A": {
+        "min": 0,
+        "max": 2,
+        "delegacion": "Coyoacan",
+        "lat": 19.3128081,
+        "lon": -99.1061375
+},
+"ELVIRA_VARGAS_41_EDIF_303": {
+        "min": 0,
+        "max": 2,
+        "delegacion": "Coyoacan",
+        "lat": 19.3125304,
+        "lon": -99.1067526
+},
+"CALLE_TLAHUICAS_249_101": {
+        "min": 0,
+        "max": 2,
+        "delegacion": "Coyoacan",
+        "lat": 19.3330939,
+        "lon": -99.1151093
+},
+"C_TLAHUICAS_MZA_1_LTE_36": {
+        "min": 0,
+        "max": 2,
+        "delegacion": "Coyoacan",
+        "lat": 19.331343,
+        "lon": -99.1152807
+},
+"ANDADOR_CASAS_GRANDES_MZ1_LOT_251": {
+        "min": 0,
+        "max": 2,
+        "delegacion": "Coyoacan",
+        "lat": 19.3331949,
+        "lon": -99.1153125
+},
+"ANDADOR_AMAQUEMECAN_287": {
+        "min": 0,
+        "max": 2,
+        "delegacion": "Coyoacan",
+        "lat": 19.3334836,
+        "lon": -99.1156789
+},
+"ANDADOR_AMAQUEMECAN_283": {
+        "min": 0,
+        "max": 2,
+        "delegacion": "Coyoacan",
+        "lat": 19.3334692,
+        "lon": -99.1154318
+},
+"TLAHUICAS_323": {
+        "min": 0,
+        "max": 2,
+        "delegacion": "Coyoacan",
+        "lat": 19.3336254,
+        "lon": -99.1149361
+},
+"TLAHUICAS_107": {
+        "min": 0,
+        "max": 2,
+        "delegacion": "Coyoacan",
+        "lat": 19.3330854,
+        "lon": -99.114582
+},
+"CTM_lll_CASA_TRIPLE_3_CC": {
+        "min": 0,
+        "max": 2,
+        "delegacion": "Coyoacan",
+        "lat": 19.3277331,
+        "lon": -99.1199077
+},
+"ANDADOR_DE_LOS_APACHES_97": {
+        "min": 0,
+        "max": 2,
+        "delegacion": "Coyoacan",
+        "lat": 19.3338562,
+        "lon": -99.1158684
+},
+"ROSA_MARIA_SEQUEIRA_CASA_TRIPLE_6_LC": {
+        "min": 0,
+        "max": 2,
+        "delegacion": "Coyoacan",
+        "lat": 19.3273298,
+        "lon": -99.120255
+},
+"AV_SANTA_ANA_EDIF_2_DEPTO_02": {
+        "min": 0,
+        "max": 2,
+        "delegacion": "Coyoacan",
+        "lat": 19.32856,
+        "lon": -99.12012
+},
+"ANDADOR_CUITZEO_LOT_11_MZ_1_DPTO_102": {
+        "min": 0,
+        "max": 2,
+        "delegacion": "Coyoacan",
+        "lat": 19.3327351,
+        "lon": -99.115812
+},
+"ANDADOR_CUANAHUAC_MZ_1_LOT_13_DPTO_202": {
+        "min": 0,
+        "max": 2,
+        "delegacion": "Coyoacan",
+        "lat": 19.3326413,
+        "lon": -99.1163881
+},
+"AV_ROSA_MARIA_TRIPLEX_11_C": {
+        "min": 0,
+        "max": 2,
+        "delegacion": "Coyoacan",
+        "lat": 19.327828,
+        "lon": -99.1202132
+},
+"AV_STA_ANA_EDIF_3_DEPTO_401": {
+        "min": 0,
+        "max": 2,
+        "delegacion": "Coyoacan",
+        "lat": 19.3279871,
+        "lon": -99.1204982
+},
+"AV_STA_ANA_44_A": {
+        "min": 0,
+        "max": 2,
+        "delegacion": "Coyoacan",
+        "lat": 19.3286568,
+        "lon": -99.1188229
+},
+"AV_STA_ANA_ZONA_3_CASA_TRIPLE_47_DPTO_C": {
+        "min": 0,
+        "max": 2,
+        "delegacion": "Coyoacan",
+        "lat": 19.3283355,
+        "lon": -99.1185548
+},
+"AV_STA_ANA_54C": {
+        "min": 0,
+        "max": 2,
+        "delegacion": "Coyoacan",
+        "lat": 19.3284513,
+        "lon": -99.1181614
+},
+"AV_STA_ANA_32A": {
+        "min": 0,
+        "max": 2,
+        "delegacion": "Coyoacan",
+        "lat": 19.328404,
+        "lon": -99.1189621
+},
+"AV_SANTA_ANA_TRIPLES_50A": {
+        "min": 0,
+        "max": 2,
+        "delegacion": "Coyoacan",
+        "lat": 19.328111,
+        "lon": -99.1185587
+},
+"TLAHUICAS_LT_17_MZ_1_DPTO_102": {
+        "min": 0,
+        "max": 2,
+        "delegacion": "Coyoacan",
+        "lat": 19.332433,
+        "lon": -99.1151893
+},
+"CUETZALAN_184_DPTO_203": {
+        "min": 0,
+        "max": 2,
+        "delegacion": "Coyoacan",
+        "lat": 19.3318622,
+        "lon": -99.1164788
+},
+"ANDADOR_IZAPA_157": {
+        "min": 0,
+        "max": 2,
+        "delegacion": "Coyoacan",
+        "lat": 19.3321117,
+        "lon": -99.1168537
+},
+"AV_APACHES_41_C": {
+        "min": 0,
+        "max": 2,
+        "delegacion": "Coyoacan",
+        "lat": 19.33248,
+        "lon": -99.11794
+},
+"AV_SANTA_ANA_440": {
+        "min": 0,
+        "max": 2,
+        "delegacion": "Coyoacan",
+        "lat": 19.32997,
+        "lon": -99.11855
+},
+"AV_SANTA_ANA_TRIPLES_24_A": {
+        "min": 0,
+        "max": 2,
+        "delegacion": "Coyoacan",
+        "lat": 19.32909,
+        "lon": -99.11912
+},
+"PASEO_DEL_REIO_256": {
+        "min": 0,
+        "max": 2,
+        "delegacion": "Coyoacan",
+        "lat": 19.34717,
+        "lon": -99.12063
+},
+"ZONA_1_EDIFICIO_3_ENTRADA_A_DPTO_001": {
+        "min": 0,
+        "max": 2,
+        "delegacion": "Coyoacan",
+        "lat": 19.3315918,
+        "lon": -99.1195826
+},
+"C_SERIS_EDIFICIO_8_ENTRADA_A_DPTO_402": {
+        "min": 0,
+        "max": 2,
+        "delegacion": "Coyoacan",
+        "lat": 19.3321895,
+        "lon": -99.1190965
+},
+"AV_SANTA_ANA_449_INTERIOR_56A": {
+        "min": 0,
+        "max": 2,
+        "delegacion": "Coyoacan",
+        "lat": 19.3293318,
+        "lon": -99.1188058
+},
+"EJIDO_DE_SAN_ANTONIO_TOMATLAN_32": {
+        "min": 0,
+        "max": 2,
+        "delegacion": "Coyoacan",
+        "lat": 19.336142,
+        "lon": -99.126917
+},
+"RETORNO_39_31": {
+        "min": 0,
+        "max": 2,
+        "delegacion": "Coyoacan",
+        "lat": 19.327266,
+        "lon": -99.130707
+},
+"TEPEHUANES_ED_25_DPTO_102": {
+        "min": 0,
+        "max": 2,
+        "delegacion": "Coyoacan",
+        "lat": 19.321491,
+        "lon": -99.111189
+}
 }
