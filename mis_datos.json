@@ -2358,12 +2358,12 @@
     "lat": 19.34946,
     "lon": -98.98826
   },
-  "LAUREL_MZ_101_LT_8A": {
+  "PASEOS_DE_LA_REFORMA_Y_CALLE_BURDEOS": {
     "min": -0.76,
     "max": 1.0,
-    "delegacion": "Iztapalapa",
-    "lat": 19.343725,
-    "lon": -98.982483
+    "delegacion": "Cuauhtemoc",
+    "lat": 19.4237187,
+    "lon": -99.1742205
   },
   "MANZANA_9_LOTE_16": {
     "min": -0.05,
