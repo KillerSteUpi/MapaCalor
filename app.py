@@ -22,7 +22,7 @@ st.markdown("---")
 # ==========================================
 # 2. CARGA DE DATOS OPERATIVOS (SENSORES)
 # ==========================================
-@st.cache_data(ttl=300)
+@st.cache_data(ttl=3000)
 def cargar_datos():
     try:
         if not os.path.exists("mis_datos.json"): return pd.DataFrame(), gpd.GeoDataFrame()
