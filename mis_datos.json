@@ -8210,108 +8210,109 @@
 "YUKALPETEN_SUR_Y_CHAPAB": {
         "min": 0,
         "max": 2,
-        "delegacion": "TLALPAN",
+        "delegacion": "Tlalpan",
         "lat": 19.274589,
         "lon": -99.220457
 },
 "TEKAL_Y_CANCUN": {
         "min": 0,
         "max": 2,
-        "delegacion": "TLALPAN",
+        "delegacion": "Tlalpan",
         "lat": 19.283722,
         "lon": -99.219921
 },
 "CONKAL_Y_DZITAS": {
         "min": 0,
         "max": 3,
-        "delegacion": "TLALPAN",
+        "delegacion": "Tlalpan",
         "lat": 19.279308,
         "lon": -99.238199
 },
 "TELCHAC_Y_MOTUL": {
         "min": 0,
         "max": 2,
-        "delegacion": "TLALPAN",
+        "delegacion": "Tlalpan",
         "lat": 19.278454,
         "lon": -99.214516
 },
 "FERROCARRIL_DE_CUERNAVACA_Y_KAUA": {
         "min": 0,
         "max": 5.6,
-        "delegacion": "TLALPAN",
+        "delegacion": "Tlalpan",
         "lat": 19.278159,
         "lon": -99.241133
 },
 "HECELCHACAN_Y_YOBAIN": {
         "min": 0,
         "max": 2,
-        "delegacion": "TLALPAN",
+        "delegacion": "Tlalpan",
         "lat": 19.276915,
         "lon": -99.223144
 },
 "CALLE_Z_27_CASA_1": {
         "min": 2.9,
         "max": 4.1,
-        "delegacion": "COYOACAN",
+        "delegacion": "Coyoacan",
         "lat": 19.313438,
         "lon": -99.114998
 },
 "CALLE_N_EDF25_DEP_11": {
         "min": 3,
         "max": 4.3,
-        "delegacion": "COYOACAN",
+        "delegacion": "Coyoacan",
         "lat": 19.315023,
         "lon": -99.119092
 },
 "ANDADOR_6_EDF_6_DPTO_3": {
         "min": 2.6,
         "max": 3,
-        "delegacion": "COYOACAN",
+        "delegacion": "Coyoacan",
         "lat": 19.316921,
         "lon": -99.122025
 },
 "ANDADOR_31_EDF_31B_DPTO_23": {
         "min": 2.8,
         "max": 3,
-        "delegacion": "COYOACAN",
+        "delegacion": "Coyoacan",
         "lat": 19.315858,
         "lon": -99.111895
 },
 "CALLE_A_EDIFICIO_37_DPTO_12": {
         "min": 0,
         "max": 3,
-        "delegacion": "COYOACAN",
+        "delegacion": "Coyoacan",
         "lat": 19.314684,
         "lon": -99.123884
 },
 "JESUS_LECUONA_MZ_44_LT_311C": {
         "min": 1.2,
         "max": 2,
-        "delegacion": "TLALPAN",
+        "delegacion": "Tlalpan",
         "lat": 19.285976,
         "lon": -99.193771
 },
 "JOSE_MARIA_ANAYA_63": {
         "min": 0,
         "max": 2,
-        "delegacion": "TLALPAN",
+        "delegacion": "Tlalpan",
         "lat": 19.28582,
         "lon": -99.19903
 },
 "GUADALUPE_VICTORIA_82": {
         "min": 0,
         "max": 2,
-        "delegacion": "TLALPAN",
+        "delegacion": "Tlalpan",
         "lat": 19.283699,
         "lon": -99.201439
 },
 "5TA_CDA_DE_ABELARDO_L_RODRIGUEZ_C_VICENTE_HEREDIA_MZ_46_LT_27": {
         "min": 0,
         "max": 2,
-        "delegacion": "TLALPAN",
+        "delegacion": "Tlalpan",
         "lat": 19.278975,
         "lon": -99.204826
 }
+
 
 
 
