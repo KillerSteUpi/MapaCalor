@@ -8311,7 +8311,309 @@
         "delegacion": "Tlalpan",
         "lat": 19.278975,
         "lon": -99.204826
+},
+"C_17_62": {
+        "min": 0,
+        "max": 1,
+        "delegacion": "Gustavo A Madero",
+        "lat": 19.5168,
+        "lon": -99.15846
+},
+"C_25_10": {
+        "min": 0,
+        "max": 1,
+        "delegacion": "Gustavo A Madero",
+        "lat": 19.51648,
+        "lon": -99.15372
+},
+"C_10_46": {
+        "min": 0,
+        "max": 1,
+        "delegacion": "Gustavo A Madero",
+        "lat": 19.51542,
+        "lon": -99.16138
+},
+"ANDADOR_48_ENTRADA_17_CASA_2": {
+        "min": 0,
+        "max": 3,
+        "delegacion": "Gustavo A Madero",
+        "lat": 19.52847,
+        "lon": -99.1545
+},
+"PEDRO_ARMENDARI_MZ_183_LT_19": {
+        "min": 0,
+        "max": 1.5,
+        "delegacion": "Gustavo A Madero",
+        "lat": 19.52802,
+        "lon": -99.14314
+},
+"MARIO_MORENO_MZ_201_LT_3": {
+        "min": 0,
+        "max": 1,
+        "delegacion": "Gustavo A Madero",
+        "lat": 19.53096,
+        "lon": -99.14524
+},
+"MAESTRO_RURAL_MZ_32_LT_2": {
+        "min": 0,
+        "max": 1,
+        "delegacion": "Gustavo A Madero",
+        "lat": 19.53991,
+        "lon": -99.15002
+},
+"CERRADA_12_DE_DICIEMBRE_LT_67": {
+        "min": 0,
+        "max": 2,
+        "delegacion": "Gustavo A Madero",
+        "lat": 19.52338,
+        "lon": -99.14142
+},
+"JOSE_VASCONCELOS_16": {
+        "min": 0,
+        "max": 1,
+        "delegacion": "Gustavo A Madero",
+        "lat": 19.53802,
+        "lon": -99.1498
+},
+"GUADALUPE_VICTORIA_52": {
+        "min": 0,
+        "max": 2.5,
+        "delegacion": "Gustavo A Madero",
+        "lat": 19.54207,
+        "lon": -99.13891
+},
+"ANDADOR_27_DEL_TEMULUCO_32_CASA_3": {
+        "min": 0,
+        "max": 3.5,
+        "delegacion": "Gustavo A Madero",
+        "lat": 19.52736,
+        "lon": -99.1503
+},
+"ANDADOR_8_DEL_TUMULUCO_CASA_2": {
+        "min": 0,
+        "max": 4,
+        "delegacion": "Gustavo A Madero",
+        "lat": 19.52366,
+        "lon": -99.14544
+},
+"ANDADOR_38_GRUPO_43_CASA_3": {
+        "min": 0,
+        "max": 3,
+        "delegacion": "Gustavo A Madero",
+        "lat": 19.52922,
+        "lon": -99.15236
+},
+"CAMINO_REAL_NATIVITAS_SANTA_CRUZ_Y_CORREGIDORA": {
+        "min": 0,
+        "max": 1,
+        "delegacion": "Xochimilco",
+        "lat": 19.24091,
+        "lon": -99.08763
+},
+"CANAL_DE_PINAHUIZAC_Y_CDA_DE_CANAL_NACIONAL": {
+        "min": 0,
+        "max": 2,
+        "delegacion": "Xochimilco",
+        "lat": 19.24583,
+        "lon": -99.08466
+},
+"CARDO_Y_C9": {
+        "min": 0,
+        "max": 1,
+        "delegacion": "Tlalpan",
+        "lat": 19.27497,
+        "lon": -99.21002
+},
+"VOLCAN_KISKA_Y_VOLCAN_FERNANDINA": {
+        "min": 0,
+        "max": 25,
+        "delegacion": "Tlalpan",
+        "lat": 19.27069,
+        "lon": -99.18562
+},
+"VICENTE_GUERRERO_Y_BUENAVISTA": {
+        "min": 0,
+        "max": 2,
+        "delegacion": "Tlalpan",
+        "lat": 19.20188,
+        "lon": -99.14547
+},
+"LAS_MARGARITAS_Y_CAMINO_REAL": {
+        "min": 0,
+        "max": 1.5,
+        "delegacion": "Tlalpan",
+        "lat": 19.20441,
+        "lon": -99.15425
+},
+"XOCHIMILCO_TOPILEJO_Y_LOS_MUERTOS": {
+        "min": 0,
+        "max": 1,
+        "delegacion": "Tlalpan",
+        "lat": 19.2076,
+        "lon": -99.13433
+},
+"MERCED_GOMEZ_Y_MIGUEL_DE_MENDOZA": {
+        "min": 3,
+        "max": 4,
+        "delegacion": "Alvaro Obregon",
+        "lat": 19.3669,
+        "lon": -99.19145
+},
+"VASCO_DE_QUIROGA_Y_ANTONIO_ROSALES": {
+        "min": 0,
+        "max": 2,
+        "delegacion": "Alvaro Obregon",
+        "lat": 19.3793,
+        "lon": -99.24613
+},
+"EJE_CENTRAL_Y_AV_DEL_IMAN": {
+        "min": 0,
+        "max": 1,
+        "delegacion": "Coyoacan",
+        "lat": 19.30755,
+        "lon": -99.18008
+},
+"CJON_HELIOTROPO_Y_CJON_HELIOTROPO": {
+        "min": 1,
+        "max": 2.5,
+        "delegacion": "Coyoacan",
+        "lat": 19.34108,
+        "lon": -99.15958
+},
+"PEREZ_VALENZUELA_Y_MELCHOR_OCAMPO_POZO_NUEVO_UNIVERSIDAD": {
+        "min": 1,
+        "max": 2,
+        "delegacion": "Coyoacan",
+        "lat": 19.35141,
+        "lon": -99.16969
+},
+"AMEZQUITE_Y_ZIHUATLAN": {
+        "min": 0,
+        "max": 1.5,
+        "delegacion": "Coyoacan",
+        "lat": 19.32008,
+        "lon": -99.17036
+},
+"ZAPOTECAS_Y_REYNA_IXTLIXOCHITL": {
+        "min": 0,
+        "max": 1.5,
+        "delegacion": "Coyoacan",
+        "lat": 19.32591,
+        "lon": -99.15913
+},
+"ACATEMPA_Y_PAPALOTL": {
+        "min": 0,
+        "max": 2,
+        "delegacion": "Coyoacan",
+        "lat": 19.32286,
+        "lon": -99.16566
+},
+"IZTACCIHUATL_Y_NAHUATLACAS": {
+        "min": 0,
+        "max": 2,
+        "delegacion": "Coyoacan",
+        "lat": 19.31873,
+        "lon": -99.15889
+},
+"IZMAL_Y_LABNA": {
+        "min": 3,
+        "max": 4,
+        "delegacion": "Tlalpan",
+        "lat": 19.30172,
+        "lon": -99.22394
+},
+"CANSAHCAB_Y_POPOLNA": {
+        "min": 0,
+        "max": 1,
+        "delegacion": "Tlalpan",
+        "lat": 19.29373,
+        "lon": -99.23168
+},
+"CDA_CERRO_OCOTEPEC_SN": {
+        "min": 0,
+        "max": 1,
+        "delegacion": "Xochimilco",
+        "lat": 19.26816,
+        "lon": -99.13516
+},
+"CERRO_TEUTLI_MZC_LT_3": {
+        "min": 0,
+        "max": 1,
+        "delegacion": "Xochimilco",
+        "lat": 19.26861,
+        "lon": -99.13522
+},
+"CERRO_JUCHITEPEC_SN": {
+        "min": 0,
+        "max": 1,
+        "delegacion": "Xochimilco",
+        "lat": 19.26669,
+        "lon": -99.13497
+},
+"PANTEON_Y_1ERA_CDA_BOMBAS": {
+        "min": 0,
+        "max": 3.5,
+        "delegacion": "Tlahuac",
+        "lat": 19.30236,
+        "lon": -99.02576
+},
+"JALAPA_Y_PINOS_TANQUE_2_SAN_SALVADOR": {
+        "min": 0,
+        "max": 1,
+        "delegacion": "Milpa Alta",
+        "lat": 19.18859,
+        "lon": -99.09178
+},
+"SINALOA_SUR_Y_CHIHUAHUA_PTE_TANQUE_LA_LUZ_BOMBA_3": {
+        "min": 0,
+        "max": 15,
+        "delegacion": "Milpa Alta",
+        "lat": 19.18746,
+        "lon": -99.02777
+},
+"SINALOA_SUR_Y_CHIHUAHUA_PTE_TANQUE_LA_LUZ_BOMBA_8": {
+        "min": 0,
+        "max": 15,
+        "delegacion": "Milpa Alta",
+        "lat": 19.18756,
+        "lon": -99.02768
+},
+"SINALOA_SUR_Y_CHIHUAHUA_TANQUE_LA_LUZ_BOMBA_1": {
+        "min": 0,
+        "max": 15,
+        "delegacion": "Milpa Alta",
+        "lat": 19.18741,
+        "lon": -99.02766
+},
+"SINALOA_SUR_Y_CHIHUAHUA_PTE_TANQUE_LA_LUZ_BOMBA_6": {
+        "min": 0,
+        "max": 13,
+        "delegacion": "Milpa Alta",
+        "lat": 19.1875,
+        "lon": -99.02755
+},
+"AV_GUERRERO_SUR_Y_CALLEJON_VIOLETA": {
+        "min": 2,
+        "max": 7,
+        "delegacion": "Milpa Alta",
+        "lat": 19.18264,
+        "lon": -99.07116
+},
+"CAM_VIEJO_A_SAN_FRANCISCO_Y_PROL_20_DE_NOVIEMBRE": {
+        "min": 0,
+        "max": 1,
+        "delegacion": "Milpa Alta",
+        "lat": 19.20061,
+        "lon": -99.00097
+},
+"REY_MOCTEZUMA_Y_CIHUACALLI": {
+        "min": 0,
+        "max": 1,
+        "delegacion": "Coyoacan",
+        "lat": 19.31767,
+        "lon": -99.15892
 }
+
 
 
 
