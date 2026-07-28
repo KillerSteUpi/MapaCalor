@@ -6649,26 +6649,12 @@
     "lat": 19.332413415501854,
     "lon": -99.06452827558229
   },
-  "Niveles_TPonderosa": {
-    "min": 0.0,
-    "max": 2.35,
-    "delegacion": "Naucalpan",
-    "lat": 19.50055189789585,
-    "lon": -99.26642861720482
-  },
   "Presiones_PORTO_ALEGRE_Y_ALFAYUCAN": {
     "min": 0.0,
     "max": 0.58,
     "delegacion": "Iztapalapa",
     "lat": 19.375044,
     "lon": -99.131452
-  },
-  "Nivel_Tq_Ponderosa": {
-    "min": 0.0,
-    "max": 2.62,
-    "delegacion": "Naucalpan",
-    "lat": 19.49278461158297,
-    "lon": -99.26711526267839
   },
   "Presiones_BUENAVISTA_Y_VISTA_ALEGRE": {
     "min": 0.0,
