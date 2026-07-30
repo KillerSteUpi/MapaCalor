@@ -2631,12 +2631,12 @@
     "lat": 19.33902,
     "lon": -98.99697
   },
-  "PLATA_39": {
+  "AV_D_LAS_GRANJAS_38": {
     "min": -0.01,
     "max": 4.0,
     "delegacion": "Iztapalapa",
-    "lat": 19.34288,
-    "lon": -99.02054
+    "lat":  19.485608,
+    "lon":  -99.174194
   },
   "PROL_TAURO_MZ_3_LT_2": {
     "min": -0.1,
