@@ -8598,6 +8598,167 @@
         "delegacion": "Coyoacan",
         "lat": 19.31767,
         "lon": -99.15892
+},
+"AV_JUAREZ_103_S": {
+        "min": 0,
+        "max": 3.5,
+        "delegacion": "Milpa Alta",
+        "lat": 19.20697,
+        "lon": -99.07043
+},
+"CAMINO_VIEJO_SAN_PEDRO_118": {
+        "min": 0,
+        "max": 1,
+        "delegacion": "Milpa Alta",
+        "lat": 19.20478,
+        "lon": -99.06505
+},
+"JUAN_DE_LA_BARRERA_SN": {
+        "min": 0,
+        "max": 7,
+        "delegacion": "Milpa Alta",
+        "lat": 19.20482,
+        "lon": -99.07463
+},
+"FRANCISCO_I_MADERO_SUR_Y_XAXAPALTONGO": {
+        "min": 0,
+        "max": 12.5,
+        "delegacion": "Milpa Alta",
+        "lat": 19.20345,
+        "lon": -99.06837
+},
+"PROLONGACION_INDEPENDENCIA_2": {
+        "min": 0,
+        "max": 1,
+        "delegacion": "Milpa Alta",
+        "lat": 19.20892,
+        "lon": -99.07003
+},
+"AV_5_DE_MAYO_51": {
+        "min": 0,
+        "max": 1.5,
+        "delegacion": "Milpa Alta",
+        "lat": 19.20726,
+        "lon": -99.073
+},
+"VICENTE_GUERRERO_13": {
+        "min": 0,
+        "max": 1.5,
+        "delegacion": "Milpa Alta",
+        "lat": 19.2078,
+        "lon": -99.06596
+},
+"TLACATEPAC": {
+        "min": 0,
+        "max": 1,
+        "delegacion": "Milpa Alta",
+        "lat": 19.21338,
+        "lon": -99.06419
+},
+"CAM_VIEJO_SAN_JERONIMO_MECATLAN_REBOMBEO_SAN_JUAN_TEPENAHUAC": {
+        "min": 0,
+        "max": 9.5,
+        "delegacion": "Milpa Alta",
+        "lat": 19.18407,
+        "lon": -98.99964
+},
+"PROL_MIGUEL_HIDALGO_Y_MIGUEL_HIDALGO_TANQUE_SANTA_ANA_1": {
+        "min": 0,
+        "max": 0.5,
+        "delegacion": "Milpa Alta",
+        "lat": 19.17157,
+        "lon": -98.9972
+},
+"PROL_MIGUEL_HIDALGO_TANQUE_SANTA_ANA": {
+        "min": 0,
+        "max": 0.5,
+        "delegacion": "Milpa Alta",
+        "lat": 19.17113,
+        "lon": -98.99737
+},
+"CUITLAHUAC_Y_C_CUITLAHUAC_POZO_SAN_PEDRO_ATOCPAN": {
+        "min": 0,
+        "max": 12,
+        "delegacion": "Milpa Alta",
+        "lat": 19.21187,
+        "lon": -99.04882
+},
+"CALLE_MORELOS_Y_CALLE_MORELOS_REBOMBEO_TEPENAHUAC": {
+        "min": 0,
+        "max": 0.5,
+        "delegacion": "Milpa Alta",
+        "lat": 19.18382,
+        "lon": -98.99498
+},
+"CALZ_DE_LAS_ARMAS_Y_JOSE_CARDEL": {
+        "min": 0,
+        "max": 1,
+        "delegacion": "Azcapotzalco",
+        "lat": 19.47588,
+        "lon": -99.22086
+},
+"MANUEL_BAUCHE_Y_ABRAHAM_SANCHEZ": {
+        "min": 0,
+        "max": 1,
+        "delegacion": "Azcapotzalco",
+        "lat": 19.48344,
+        "lon": -99.21326
+},
+"CAMPO_MATILLAS_CAMPO_FORTUNA_NACIONAL": {
+        "min": 0,
+        "max": 1,
+        "delegacion": "Azcapotzalco",
+        "lat": 19.47947,
+        "lon": -99.20019
+},
+"CUICHAPA_Y_FAJA_DE_ORO": {
+        "min": 0,
+        "max": 1.6,
+        "delegacion": "Azcapotzalco",
+        "lat": 19.4857,
+        "lon": -99.20199
+},
+"ZEMPOALTECAS_Y_HACIENDA_XAJAY": {
+        "min": 0,
+        "max": 1,
+        "delegacion": "Azcapotzalco",
+        "lat": 19.49666,
+        "lon": -99.2077
+},
+"AV_HACIENDA_DE_NARVARTE_Y_RANCHO_DE_EN_MEDIO": {
+        "min": 0,
+        "max": 1,
+        "delegacion": "Azcapotzalco",
+        "lat": 19.50651,
+        "lon": -99.21004
+},
+"OSA_MAYOY_Y_ANDADOR_DE_SAGITARIO": {
+        "min": 0,
+        "max": 2,
+        "delegacion": "Azcapotzalco",
+        "lat": 19.50761,
+        "lon": -99.20676
+},
+"PERSEO_Y_HERREROS": {
+        "min": 0,
+        "max": 2.5,
+        "delegacion": "Azcapotzalco",
+        "lat": 19.51169,
+        "lon": -99.20488
+},
+"ESPERANZA_Y_ANGELES": {
+        "min": 0,
+        "max": 1,
+        "delegacion": "Azcapotzalco",
+        "lat": 19.49321,
+        "lon": -99.19108
+},
+"2DA_PRIV_AQUILES_SERDAN_Y_3ERA_PRIV_AQUILES_SERDAN": {
+        "min": 0,
+        "max": 1,
+        "delegacion": "Azcapotzalco",
+        "lat": 19.48756,
+        "lon": -99.19071
 }
 
 
