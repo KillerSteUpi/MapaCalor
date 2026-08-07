@@ -8759,6 +8759,42 @@
         "delegacion": "Azcapotzalco",
         "lat": 19.48756,
         "lon": -99.19071
+},
+"DOROTEO_ARANGO_Y_VICTOR_HDEZ": {
+        "min": 0,
+        "max": 1,
+        "delegacion": "Azcapotzalco",
+        "lat": 19.497311,
+        "lon": -99.203294
+},
+"PDTE_CARRANZA_Y_AVE_MARIA": {
+        "min": 0,
+        "max": 1.5,
+        "delegacion": "Coyoacan",
+        "lat": 19.34847,
+        "lon": -99.16767
+},
+"AV_RIO_GUADALUPE_Y_NORTE_84_A": {
+        "min": 0,
+        "max": 1,
+        "delegacion": "Gustavo A Madero",
+        "lat": 19.473469,
+        "lon": -99.096888
+},
+"12_DE_OCTUBRE_Y_MATAMOROS": {
+        "min": 0,
+        "max": 1,
+        "delegacion": "Xochimilco",
+        "lat": 19.232574,
+        "lon": -99.120068
+},
+"ISIDRO_FABELA_Y_CALLEJON_CUITLAHUAC": {
+        "min": 0,
+        "max": 1.5,
+        "delegacion": "Iztapalapa",
+        "lat": 19.347569,
+        "lon": -99.108673
 }
+
 
 }
