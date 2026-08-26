@@ -8794,7 +8794,323 @@
         "delegacion": "Iztapalapa",
         "lat": 19.347569,
         "lon": -99.108673
+},
+"AV_SANTA_LUCIA_ESQUINA_PUERTO_MAZATLN": {
+        "min": 0,
+        "max": 3,
+        "delegacion": "Alvaro Obregon",
+        "lat": 19.36682,
+        "lon": -99.23294
+},
+"PROL_SAN_ANTONIO_Y_RO_BECERRA": {
+        "min": 0,
+        "max": 3,
+        "delegacion": "Alvaro Obregon",
+        "lat": 19.38375,
+        "lon": -99.19532
+},
+"JILGUERO_Y_GUILA": {
+        "min": 0,
+        "max": 3,
+        "delegacion": "Alvaro Obregon",
+        "lat": 19.39541,
+        "lon": -99.19592
+},
+"DESIERTO_DE_LOS_LEONES_Y_CERRADA_DE_TLAHUCOLE": {
+        "min": 0,
+        "max": 3,
+        "delegacion": "Alvaro Obregon",
+        "lat": 19.33839,
+        "lon": -99.24423
+},
+"BAJADA_CAPULIN_Y_SAN_MIGUEL_ARCNGEL": {
+        "min": 0,
+        "max": 3,
+        "delegacion": "Alvaro Obregon",
+        "lat": 19.39581,
+        "lon": -99.20919
+},
+"PROL_PALMAS_Y_MAGNOLIA": {
+        "min": 0,
+        "max": 3,
+        "delegacion": "Alvaro Obregon",
+        "lat": 19.32396,
+        "lon": -99.2676
+},
+"AV_JOS_MARA_MORELOS_Y_PAVN_Y_CRISANTEMO": {
+        "min": 0,
+        "max": 3,
+        "delegacion": "Alvaro Obregon",
+        "lat": 19.32894,
+        "lon": -99.24905
+},
+"J_MANUEL_DE_HERRERA_ESQUINA_EL_CORREO_DEL_SUR": {
+        "min": 0,
+        "max": 3,
+        "delegacion": "Alvaro Obregon",
+        "lat": 19.37676,
+        "lon": -99.21155
+},
+"AV_CENTENARIO_Y_C_PRINCIPAL": {
+        "min": 0,
+        "max": 3,
+        "delegacion": "Alvaro Obregon",
+        "lat": 19.35912,
+        "lon": -99.23186
+},
+"CALZ_DE_LAS_ARMAS_Y_FRANCISCO_I_MADERO": {
+        "min": 0,
+        "max": 3,
+        "delegacion": "Azcapotzalco",
+        "lat": 19.47998,
+        "lon": -99.2197
+},
+"TEZONAPA_Y_CDA_MATIAS_ROMERO": {
+        "min": 0,
+        "max": 3,
+        "delegacion": "Azcapotzalco",
+        "lat": 19.47992,
+        "lon": -99.18179
+},
+"HERALDO_Y_CAIRO": {
+        "min": 0,
+        "max": 3,
+        "delegacion": "Azcapotzalco",
+        "lat": 19.4705,
+        "lon": -99.18472
+},
+"CULTURA_MAYA_Y_C_LECHEROS": {
+        "min": 0,
+        "max": 3,
+        "delegacion": "Azcapotzalco",
+        "lat": 19.513903,
+        "lon": -99.18775
+},
+"CALLE_20_Y_PIRAMIDE": {
+        "min": 0,
+        "max": 3,
+        "delegacion": "Benito Juarez",
+        "lat": 19.3868,
+        "lon": -99.1893
+},
+"LEONARDO_DA_VINCI_Y_BENVENUTO_CELLINI": {
+        "min": 0,
+        "max": 3,
+        "delegacion": "Benito Juarez",
+        "lat": 19.37618,
+        "lon": -99.19086
+},
+"AV_PATRIOTISMO_Y_EMPRESA": {
+        "min": 0,
+        "max": 3,
+        "delegacion": "Benito Juarez",
+        "lat": 19.37613,
+        "lon": -99.1865
+},
+"CTO_INTERIOR_Y_CALLE_7": {
+        "min": 0,
+        "max": 3,
+        "delegacion": "Benito Juarez",
+        "lat": 19.39237,
+        "lon": -99.18562
+},
+"AV_TRES_Y_CALLE_23": {
+        "min": 0,
+        "max": 3,
+        "delegacion": "Benito Juarez",
+        "lat": 19.38679,
+        "lon": -99.18351
+},
+"KANSAS_Y_AUGUSTO_RODINI": {
+        "min": 0,
+        "max": 3,
+        "delegacion": "Benito Juarez",
+        "lat": 19.38651,
+        "lon": -99.18094
+},
+"AV_INSURGENTES_SUR_Y_CONCEPCION": {
+        "min": 0,
+        "max": 3,
+        "delegacion": "Benito Juarez",
+        "lat": 19.39119,
+        "lon": -99.17319
+},
+"TLACOQUEMATL_Y_TEJOCOTES": {
+        "min": 0,
+        "max": 3,
+        "delegacion": "Benito Juarez",
+        "lat": 19.37863,
+        "lon": -99.17601
+},
+"TLACOQUEMATLY_Y_MARTIN": {
+        "min": 0,
+        "max": 3,
+        "delegacion": "Benito Juarez",
+        "lat": 19.3775,
+        "lon": -99.16873
+},
+"NICOLAS_SAN_JUAN_Y_CONCEPCION_BEISTEGUI": {
+        "min": 0,
+        "max": 3,
+        "delegacion": "Benito Juarez",
+        "lat": 19.38872,
+        "lon": -99.16208
+},
+"LUZ_SAVINON_Y_NICOLAS_SAN_JUAN": {
+        "min": 0,
+        "max": 3,
+        "delegacion": "Benito Juarez",
+        "lat": 19.39162,
+        "lon": -99.16131
+},
+"AV_NOCHE_DE_PAZ_Y_C_CAM_AND_HUIZACHITO": {
+        "min": 0,
+        "max": 3,
+        "delegacion": "Cuajimalpa",
+        "lat": 19.37341,
+        "lon": -99.27911
+},
+"CONSTITUYENTE_HCTOR_VICTORIA_Y_NOGAL": {
+        "min": 0,
+        "max": 3,
+        "delegacion": "Cuajimalpa",
+        "lat": 19.36834,
+        "lon": -99.28659
+},
+"CHOPO_Y_AZAHARES": {
+        "min": 0,
+        "max": 3,
+        "delegacion": "Cuauhtemoc",
+        "lat": 19.4622,
+        "lon": -99.15248
+},
+"PLATINO_Y_BOLEO": {
+        "min": 0,
+        "max": 3,
+        "delegacion": "Cuauhtemoc",
+        "lat": 19.45645,
+        "lon": -99.12381
+},
+"PASEO_DE_LA_REFORMA_Y_MANUEL_GONZALES": {
+        "min": 0,
+        "max": 3,
+        "delegacion": "Cuauhtemoc",
+        "lat": 19.45355,
+        "lon": -99.13395
+},
+"GONZALEZ_BOCANEGRA_Y_GONZALES_BOCANEGRA": {
+        "min": 0,
+        "max": 3,
+        "delegacion": "Cuauhtemoc",
+        "lat": 19.44652,
+        "lon": -99.13763
+},
+"PUEBLA_Y_FRONTERA": {
+        "min": 0,
+        "max": 3,
+        "delegacion": "Cuauhtemoc",
+        "lat": 19.42366,
+        "lon": -99.15697
+},
+"CALLE_JOS_ANTONIO_TORRES_Y_SUR_88A": {
+        "min": 0,
+        "max": 3,
+        "delegacion": "Cuauhtemoc",
+        "lat": 19.44709,
+        "lon": -99.21546
+},
+"DR_FEDERICO_GOMEZ_SANTOS_Y_DR_ANDRADE": {
+        "min": 0,
+        "max": 3,
+        "delegacion": "Cuauhtemoc",
+        "lat": 19.4083,
+        "lon": -99.1479
+},
+"AV_VICENTE_SUAREZ_Y_PACHUCA": {
+        "min": 0,
+        "max": 3,
+        "delegacion": "Cuauhtemoc",
+        "lat": 19.41322,
+        "lon": -99.17875
+},
+"SAN_LUIS_POTOSI_Y_TABASCO": {
+        "min": 0,
+        "max": 3,
+        "delegacion": "Gustavo A. Madero",
+        "lat": 19.55743,
+        "lon": -99.15002
+},
+"CAMPECHE_Y_GUADALUPE": {
+        "min": 0,
+        "max": 3,
+        "delegacion": "Gustavo A. Madero",
+        "lat": 19.54984,
+        "lon": -99.156
+},
+"CAMPECHE_Y_DURANGO": {
+        "min": 0,
+        "max": 3,
+        "delegacion": "Gustavo A. Madero",
+        "lat": 19.54928,
+        "lon": -99.15632
+},
+"RIO_DE_LA_LAJA_Y_P_ROJA": {
+        "min": 0,
+        "max": 3,
+        "delegacion": "Gustavo A. Madero",
+        "lat": 19.5483,
+        "lon": -99.15714
+},
+"AV_RIO_SAN_JOAQUIN_Y_RTNO_1_DE_CASA_DE_LA_MONEDA": {
+        "min": 0,
+        "max": 3,
+        "delegacion": "Miguel Hidalgo",
+        "lat": 19.45212,
+        "lon": -99.21488
+},
+"RTNO_INGENIERO_MILITARES": {
+        "min": 0,
+        "max": 3,
+        "delegacion": "Miguel Hidalgo",
+        "lat": 19.45175,
+        "lon": -99.21619
+},
+"C_1_INGENIEROS_MILITARES_Y_RET_1_CALLE_7": {
+        "min": 0,
+        "max": 3,
+        "delegacion": "Miguel Hidalgo",
+        "lat": 19.44944,
+        "lon": -99.21364
+},
+"3ER_ANILLO_DE_CIRCULACION_Y_RTNO_102": {
+        "min": 0,
+        "max": 3,
+        "delegacion": "Miguel Hidalgo",
+        "lat": 19.44993,
+        "lon": -99.21497
+},
+"AV_LOMAS_DE_SOTELO_Y_AV_RODOLFO_GAONA": {
+        "min": 0,
+        "max": 3,
+        "delegacion": "Miguel Hidalgo",
+        "lat": 19.44709,
+        "lon": -99.21546
+},
+"AV_FABIAN_FLORES_Y_CDA_EMILIANO_ZAPATA": {
+        "min": 0,
+        "max": 3,
+        "delegacion": "Milpa Alta",
+        "lat": 19.18654,
+        "lon": -99.07375
+},
+"JOSE_GARCIA_PRECIAT_Y_LOTO": {
+        "min": 0,
+        "max": 3,
+        "delegacion": "Tlalpan",
+        "lat": 19.27763,
+        "lon": -99.2065
 }
+
 
 
 }
