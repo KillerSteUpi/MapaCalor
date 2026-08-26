@@ -9036,28 +9036,28 @@
 "SAN_LUIS_POTOSI_Y_TABASCO": {
         "min": 0,
         "max": 3,
-        "delegacion": "Gustavo A. Madero",
+        "delegacion": "Gustavo A Madero",
         "lat": 19.55743,
         "lon": -99.15002
 },
 "CAMPECHE_Y_GUADALUPE": {
         "min": 0,
         "max": 3,
-        "delegacion": "Gustavo A. Madero",
+        "delegacion": "Gustavo A Madero",
         "lat": 19.54984,
         "lon": -99.156
 },
 "CAMPECHE_Y_DURANGO": {
         "min": 0,
         "max": 3,
-        "delegacion": "Gustavo A. Madero",
+        "delegacion": "Gustavo A Madero",
         "lat": 19.54928,
         "lon": -99.15632
 },
 "RIO_DE_LA_LAJA_Y_P_ROJA": {
         "min": 0,
         "max": 3,
-        "delegacion": "Gustavo A. Madero",
+        "delegacion": "Gustavo A Madero",
         "lat": 19.5483,
         "lon": -99.15714
 },
