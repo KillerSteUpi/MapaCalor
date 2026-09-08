@@ -1,5 +1,5 @@
 {
-  "CALZ_GUADALUPE_CC_JULIETA": {
+  "CALZ_GUADALUPE_CC_JULIETA": { 
     "min": -0.04,
     "max": 0.5,
     "delegacion": "Gustavo A Madero",
@@ -4262,33 +4262,12 @@
     "lat": 19.34663,
     "lon": -99.01155
   },
-  "2ay3aAnquilesSerdan": {
-    "min": 0.5,
-    "max": 0.6,
-    "delegacion": "Azcapotzalco",
-    "lat": 19.487588,
-    "lon": -99.190728
-  },
-  "3raCdadeHELIOTROPO38C": {
-    "min": -0.4,
-    "max": 2.0,
-    "delegacion": "Coyoacan",
-    "lat": 19.341363,
-    "lon": -99.159577
-  },
   "Alfonso_HerrerayVirginia_Fabregas": {
     "min": 0.0,
     "max": 1.5,
     "delegacion": "Cuauhtemoc",
     "lat": 19.436572617961577,
     "lon": -99.16913293057851
-  },
-  "AMEZQUITE_516": {
-    "min": 0.0,
-    "max": 2.0,
-    "delegacion": "Coyoacan",
-    "lat": 19.318957,
-    "lon": -99.170681
   },
   "AndreadelCastagnoyAnilloPeriferico": {
     "min": -0.01,
@@ -4339,61 +4318,12 @@
     "lat": 19.42383110547808,
     "lon": -99.17280012598984
   },
-  "AzaharesyChopo": {
-    "min": -0.52,
-    "max": -0.3,
-    "delegacion": "Cuauhtemoc",
-    "lat": 19.462276,
-    "lon": -99.152548
-  },
   "AztecasyFrayBartolome": {
     "min": 0.3,
     "max": 1.1,
     "delegacion": "Cuauhtemoc",
     "lat": 19.445809932352436,
     "lon": -99.12846759852626
-  },
-  "BenvenutoCelliniyLeonardoDaVinci": {
-    "min": 0.5,
-    "max": 2.9,
-    "delegacion": "Benito Juarez",
-    "lat": 19.376198,
-    "lon": -99.190855
-  },
-  "BOKOBA_Z1_P1": {
-    "min": 0.0,
-    "max": 1.0,
-    "delegacion": "Tlalpan",
-    "lat": 19.292713,
-    "lon": -99.230956
-  },
-  "C_Campeche": {
-    "min": 0.0,
-    "max": 0.1,
-    "delegacion": "Gustavo A Madero",
-    "lat": 19.549277,
-    "lon": -99.156334
-  },
-  "C_CONCEPCION_BEISTEGUI7": {
-    "min": 0.0,
-    "max": 2.0,
-    "delegacion": "Benito Juarez",
-    "lat": 19.388727,
-    "lon": -99.162134
-  },
-  "C_KansasyCdaAugustoRodin": {
-    "min": -0.05,
-    "max": 0.72,
-    "delegacion": "Benito Juarez",
-    "lat": 19.386356,
-    "lon": -99.181097
-  },
-  "C23yAvTres": {
-    "min": -0.07,
-    "max": 0.8,
-    "delegacion": "Benito Juarez",
-    "lat": 19.386811,
-    "lon": -99.183532
   },
   "Calle_Agustin_melgaryPachuca": {
     "min": -0.2,
@@ -4423,41 +4353,6 @@
     "lat": 19.403949360559174,
     "lon": -99.16252397032144
   },
-  "Calle_Vicente_SuarezyPachuca": {
-    "min": 0.0,
-    "max": 2.2,
-    "delegacion": "Cuauhtemoc",
-    "lat": 19.413237468728585,
-    "lon": -99.17884174848434
-  },
-  "Calle20yPiramide": {
-    "min": 0.0,
-    "max": 1.0,
-    "delegacion": "Benito Juarez",
-    "lat": 19.386784,
-    "lon": -99.18925
-  },
-  "Calle7yAvRevolucion": {
-    "min": -0.01,
-    "max": 1.9,
-    "delegacion": "Benito Juarez",
-    "lat": 19.392319,
-    "lon": -99.185606
-  },
-  "CalledeEmpresaYCircuitoInterior": {
-    "min": 0.0,
-    "max": 1.0,
-    "delegacion": "Benito Juarez",
-    "lat": 19.376209,
-    "lon": -99.186647
-  },
-  "CALLEJON_DE_HELIOTROPO68": {
-    "min": -0.1,
-    "max": 1.6,
-    "delegacion": "Coyoacan",
-    "lat": 19.34198,
-    "lon": -99.159433
-  },
   "CalleLerdo4E": {
     "min": 0.0,
     "max": 1.0,
@@ -4472,33 +4367,12 @@
     "lat": 19.39141,
     "lon": -99.181028
   },
-  "CalzadadelasArmasyFrancisco_I_Madero": {
-    "min": 0.6,
-    "max": 0.8,
-    "delegacion": "Azcapotzalco",
-    "lat": 19.480150494788454,
-    "lon": -99.21971737997002
-  },
-  "CalzadadelasArmasyJoseCardel": {
-    "min": 0.7,
-    "max": 0.8,
-    "delegacion": "Azcapotzalco",
-    "lat": 19.475855,
-    "lon": -99.220902
-  },
   "CampoChilapillayCampoCobo": {
     "min": 0.0,
     "max": 0.8,
     "delegacion": "Azcapotzalco",
     "lat": 19.479727,
     "lon": -99.208391
-  },
-  "CARDOS1": {
-    "min": -0.2,
-    "max": 3.2,
-    "delegacion": "Tlalpan",
-    "lat": 19.274975,
-    "lon": -99.210029
   },
   "CDA_NICOLAS_SAN_JUAN14": {
     "min": 0.0,
@@ -4521,26 +4395,12 @@
     "lat": 19.422892219241003,
     "lon": -99.13107121933861
   },
-  "ConcepcionnBeisteguiynsurgentesSur": {
-    "min": 0.1,
-    "max": 0.7,
-    "delegacion": "Benito Juarez",
-    "lat": 19.391118,
-    "lon": -99.173242
-  },
   "CulturaNorte": {
     "min": 0.3,
     "max": 0.4,
     "delegacion": "Azcapotzalco",
     "lat": 19.504504,
     "lon": -99.201222
-  },
-  "DrAndradeyDrFederico_Gomez_10D": {
-    "min": 0.0,
-    "max": 2.0,
-    "delegacion": "Cuauhtemoc",
-    "lat": 19.40832457713801,
-    "lon": -99.14785993293273
   },
   "DrAndradeyDrNavarro10B": {
     "min": -0.4,
@@ -4584,33 +4444,12 @@
     "lat": 19.424102,
     "lon": -99.15145
   },
-  "Eje1OteyPlatino_8B": {
-    "min": 71.7,
-    "max": 71.9,
-    "delegacion": "Cuauhtemoc",
-    "lat": 19.456794047245136,
-    "lon": -99.12376749564136
-  },
   "Eje3suryDrJimenez7D": {
     "min": 0.3,
     "max": 0.9,
     "delegacion": "Cuauhtemoc",
     "lat": 19.40715491542718,
     "lon": -99.15140520553199
-  },
-  "EsperanzayAngeles": {
-    "min": 0.9,
-    "max": 1.1,
-    "delegacion": "Azcapotzalco",
-    "lat": 19.49331,
-    "lon": -99.191049
-  },
-  "FajadeOroyCuichapa": {
-    "min": 0.6,
-    "max": 1.6,
-    "delegacion": "Azcapotzalco",
-    "lat": 19.485636,
-    "lon": -99.201442
   },
   "Florencio_ConstantinoyFelipe_Villa_Nueva8A": {
     "min": 0.1,
@@ -4619,47 +4458,12 @@
     "lat": 19.453960109559645,
     "lon": -99.13393956712522
   },
-  "FronterayPuebla_6B": {
-    "min": 0.5,
-    "max": 9.2,
-    "delegacion": "Cuauhtemoc",
-    "lat": 19.423772109660582,
-    "lon": -99.1570305036081
-  },
-  "GAM_Chihuahua_115": {
-    "min": 0.0,
-    "max": 14.2,
-    "delegacion": "Gustavo A Madero",
-    "lat": 19.549917322268794,
-    "lon": -99.15610958205036
-  },
-  "HaciendadeNavarteyRanchodeEnmedio": {
-    "min": -0.06,
-    "max": 1.0,
-    "delegacion": "Azcapotzalco",
-    "lat": 19.506477,
-    "lon": -99.210042
-  },
   "Hawai_32": {
     "min": 0.1,
     "max": 0.2,
     "delegacion": "Azcapotzalco",
     "lat": 19.479467,
     "lon": -99.162207
-  },
-  "HerreosyPerseo": {
-    "min": -0.01,
-    "max": 2.8,
-    "delegacion": "Azcapotzalco",
-    "lat": 19.511771,
-    "lon": -99.204815
-  },
-  "Hospital_Pemex_Azcapotzalco": {
-    "min": 0.0,
-    "max": 0.8,
-    "delegacion": "Azcapotzalco",
-    "lat": 19.479467,
-    "lon": -99.200211
   },
   "HOSPITAL_PSIQUIATRICO": {
     "min": 0.0,
@@ -4682,13 +4486,6 @@
     "lat": 19.293816,
     "lon": -99.171665
   },
-  "IZAMAL_Z5_P14": {
-    "min": 0.0,
-    "max": 3.0,
-    "delegacion": "Tlalpan",
-    "lat": 19.301763,
-    "lon": -99.22402
-  },
   "JoseAntonioTorresyJuanAMateos_11C": {
     "min": 45.0,
     "max": 46.0,
@@ -4702,13 +4499,6 @@
     "delegacion": "Cuauhtemoc",
     "lat": 19.449435215724584,
     "lon": -99.14933840819141
-  },
-  "JuanE_HernandezDavalosyJoseAntonioTorres11D": {
-    "min": 0.5,
-    "max": 1.2,
-    "delegacion": "Cuauhtemoc",
-    "lat": 19.404288970356088,
-    "lon": -99.13417904593781
   },
   "KOPOMA_Z2_P5": {
     "min": 0.0,
@@ -4731,13 +4521,6 @@
     "lat": 19.450444732216788,
     "lon": -99.15595961779646
   },
-  "ManuelBaucheyAbrahamSanchez": {
-    "min": 0.8,
-    "max": 0.1,
-    "delegacion": "Azcapotzalco",
-    "lat": 19.483326,
-    "lon": -99.213219
-  },
   "ManuelDobladoyC_deMexico9B": {
     "min": 256.0,
     "max": 260.0,
@@ -4752,13 +4535,6 @@
     "lat": 19.440735644539462,
     "lon": -99.15244779342267
   },
-  "NICOLAS_SAN_JUAN_564": {
-    "min": 0.0,
-    "max": 2.0,
-    "delegacion": "Benito Juarez",
-    "lat": 19.3918019213091,
-    "lon": -99.16124053207808
-  },
   "NogalySalvador_Diaz_Miron": {
     "min": -0.1,
     "max": 12.0,
@@ -4766,82 +4542,12 @@
     "lat": 19.46073296224307,
     "lon": -99.16098062205317
   },
-  "NUEVO_UNIVERSIDAD": {
-    "min": 0.0,
-    "max": 2.0,
-    "delegacion": "Coyoacan",
-    "lat": 19.35161640574136,
-    "lon": -99.16972833514401
-  },
-  "OsaMayoryAndadorSagitario": {
-    "min": 0.0,
-    "max": 0.4,
-    "delegacion": "Azcapotzalco",
-    "lat": 19.507648,
-    "lon": -99.206704
-  },
-  "PAPALOT_438": {
-    "min": 0.0,
-    "max": 2.0,
-    "delegacion": "Coyoacan",
-    "lat": 19.322806,
-    "lon": -99.165647
-  },
-  "PB_SANTA_CATARINA": {
-    "min": -0.0,
-    "max": 8.0,
-    "delegacion": "Tlahuac",
-    "lat": 19.302384,
-    "lon": -99.025703
-  },
-  "Pozo_8B": {
-    "min": 0.0,
-    "max": 1.0,
-    "delegacion": "Coyoacan",
-    "lat": 19.30757,
-    "lon": -99.180295
-  },
   "Pozo_Ajusco": {
     "min": 0.4,
     "max": 2.0,
     "delegacion": "Coyoacan",
     "lat": 19.320409,
     "lon": -99.158662
-  },
-  "Pozo_deportivo_durango": {
-    "min": 0.0,
-    "max": 1.0,
-    "delegacion": "Coyoacan",
-    "lat": 19.317669,
-    "lon": -99.159032
-  },
-  "Pozo_Nahuatlacas": {
-    "min": 0.1,
-    "max": 2.0,
-    "delegacion": "Coyoacan",
-    "lat": 19.318863,
-    "lon": -99.158829
-  },
-  "Pozo_R26": {
-    "min": 0.0,
-    "max": 0.2,
-    "delegacion": "Milpa Alta",
-    "lat": 19.199609,
-    "lon": -98.99987
-  },
-  "Pozo_San_Luis1": {
-    "min": 0.0,
-    "max": 0.3,
-    "delegacion": "Gustavo A Madero",
-    "lat": 19.557441,
-    "lon": -99.14998
-  },
-  "Pozo_zapotecas": {
-    "min": 0.0,
-    "max": 3.0,
-    "delegacion": "Coyoacan",
-    "lat": 19.325822,
-    "lon": -99.159152
   },
   "Presion_AvHidalgoyReforma": {
     "min": 0.0,
