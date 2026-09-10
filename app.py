@@ -136,7 +136,8 @@ if not df_datos.empty:
     else:
         c_lat, c_lon = 19.4326, -99.1332
         
-    mapa = folium.Map(location=[c_lat, c_lon], zoom_start=13 if colonias_seleccionadas else 11, tiles="cartodbpositron")
+    #mapa = folium.Map(location=[c_lat, c_lon], zoom_start=13 if colonias_seleccionadas else 11, tiles="cartodbpositron")
+    mapa = folium.Map(location=[c_lat, c_lon], zoom_start=13 if colonias_seleccionadas else 11, tiles="OpenStreetMap")
     
     try:
         folium.GeoJson("perimetro_cdmx.json", name="CDMX", style_function=lambda x: {'color': '#2C3E50', 'weight': 2, 'dashArray': '5, 5'}).add_to(mapa)
