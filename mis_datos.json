@@ -8815,8 +8815,677 @@
         "delegacion": "Tlalpan",
         "lat": 19.27763,
         "lon": -99.2065
+},
+"BALSAS_Y_RIO_EBRO": {
+        "min": 0,
+        "max": 2,
+        "delegacion": "Cuauhtemoc",
+        "lat": 19.43187,
+        "lon": -99.17104
+},
+"GUADALQUIVIR_Y_RIO_PANUCO": {
+        "min": 0,
+        "max": 2,
+        "delegacion": "Cuauhtemoc",
+        "lat": 19.4293,
+        "lon": -99.17046
+},
+"AV_HERMENEGILDO_GALEANA_Y_VIOLETA": {
+        "min": 0,
+        "max": 4,
+        "delegacion": "Xochimilco",
+        "lat": 19.25523,
+        "lon": -99.10265
+},
+"CAMPECHE_Y_PUEBLA": {
+        "min": 0,
+        "max": 5,
+        "delegacion": "Gustavo A Madero",
+        "lat": 19.55192,
+        "lon": -99.15473
+},
+"MORELIA_Y_LOPEZ_MATEOS": {
+        "min": 0,
+        "max": 2,
+        "delegacion": "Gustavo A Madero",
+        "lat": 19.5539,
+        "lon": -99.14035
+},
+"DARIO_FERNANDEZ_Y_AV_DEL_CASTILLO": {
+        "min": 0,
+        "max": 7,
+        "delegacion": "Gustavo A Madero",
+        "lat": 19.5527,
+        "lon": -99.13146
+},
+"C_DE_LAS_TORRES_Y_POCITOS": {
+        "min": 0,
+        "max": 1,
+        "delegacion": "Gustavo A Madero",
+        "lat": 19.54388,
+        "lon": -99.12445
+},
+"CUAUHTEMOC_Y_CARRETERA_XOCHIMILCOTUYEHUALCO": {
+        "min": 0,
+        "max": 4,
+        "delegacion": "Xochimilco",
+        "lat": 19.24795,
+        "lon": -99.09133
+},
+"JARDIN_Y_ARALIA": {
+        "min": 1,
+        "max": 3,
+        "delegacion": "Alvaro Obregon",
+        "lat": 19.35362,
+        "lon": -99.19586
+},
+"AV_CHAPULTEPEC_Y_MOCTEZUMA": {
+        "min": 0,
+        "max": 2,
+        "delegacion": "Xochimilco",
+        "lat": 19.25585,
+        "lon": -99.06252
+},
+"OTE_106_Y_CJON_HORTALIZA": {
+        "min": 0,
+        "max": 1,
+        "delegacion": "Iztacalco",
+        "lat": 19.39108,
+        "lon": -99.08936
+},
+"OTE_233_Y_2A_CDA_OTE_233": {
+        "min": 0,
+        "max": 1,
+        "delegacion": "Iztacalco",
+        "lat": 19.3976,
+        "lon": -99.07818
+},
+"OTE_259_Y_AV_SUR_12": {
+        "min": 0,
+        "max": 2,
+        "delegacion": "Iztacalco",
+        "lat": 19.39538,
+        "lon": -99.06098
+},
+"LAGUNA_Y_RAUDAL": {
+        "min": 1,
+        "max": 3,
+        "delegacion": "Alvaro Obregon",
+        "lat": 19.35625,
+        "lon": -99.21281
+},
+"AV_MANI_Y_HOMUN": {
+        "min": 0,
+        "max": 1,
+        "delegacion": "Tlalpan",
+        "lat": 19.28376,
+        "lon": -99.23731
+},
+"DZILAM_Y_DZEMUL": {
+        "min": 0,
+        "max": 1,
+        "delegacion": "Tlalpan",
+        "lat": 19.27628,
+        "lon": -99.24011
+},
+"CC_Y_AV_4": {
+        "min": 0,
+        "max": 1,
+        "delegacion": "Venustiano Carranza",
+        "lat": 19.41966,
+        "lon": -99.09874
+},
+"ANSELMO_DE_LA_PORTILLA_Y_RTNO_1_ANSELMO_DE_LA_PORTILLA": {
+        "min": 0,
+        "max": 1,
+        "delegacion": "Venustiano Carranza",
+        "lat": 19.42213,
+        "lon": -99.10217
+},
+"CALLE_NTE_3_Y_CALLE_23": {
+        "min": 0,
+        "max": 1,
+        "delegacion": "Venustiano Carranza",
+        "lat": 19.42361,
+        "lon": -99.09578
+},
+"CAIRO_Y_EJE_2": {
+        "min": 0,
+        "max": 1,
+        "delegacion": "Venustiano Carranza",
+        "lat": 19.44631,
+        "lon": -99.09924
+},
+"LOS_REYES_Y_6_DE_ENERO": {
+        "min": 1,
+        "max": 6,
+        "delegacion": "Cuajimalpa",
+        "lat": 19.37376,
+        "lon": -99.28096
+},
+"LOMA_DEL_RECUERDO_Y_LOMA_DEL_RECUERDO": {
+        "min": 0,
+        "max": 1,
+        "delegacion": "Cuajimalpa",
+        "lat": 19.38034,
+        "lon": -99.26819
+},
+"BOSQUE_DE_TULIPANES_Y_BOSQUE_DE_COCOTEROS": {
+        "min": 3,
+        "max": 4,
+        "delegacion": "Cuajimalpa",
+        "lat": 19.39099,
+        "lon": -99.2571
+},
+"BOSQUE_DE_TABACHINES_CC_BOSQUE_DE_CEDROS": {
+        "min": 0,
+        "max": 3,
+        "delegacion": "Cuajimalpa",
+        "lat": 19.38586,
+        "lon": -99.25636
+},
+"BOSQUE_DE_LIMA_Y_BOSQUE_DE_ZARZAS": {
+        "min": 4,
+        "max": 7,
+        "delegacion": "Cuajimalpa",
+        "lat": 19.38442,
+        "lon": -99.25884
+},
+"CTO_CUEMANCO_NTE_Y_CANAL_27": {
+        "min": 0,
+        "max": 1,
+        "delegacion": "Xochimilco",
+        "lat": 19.28162,
+        "lon": -99.11409
+},
+"JOSE_ANTONIO_TORRES_Y_VIAD_RIO_DE_LA_PIEDAD": {
+        "min": 0,
+        "max": 1,
+        "delegacion": "Benito Juarez",
+        "lat": 19.40308,
+        "lon": -99.13437
+},
+"CALZ_SANTA_ANITA_Y_CJON_CUITLAHUAC": {
+        "min": 0,
+        "max": 1,
+        "delegacion": "Benito Juarez",
+        "lat": 19.39874,
+        "lon": -99.12535
+},
+"CONMUTADOR_Y_ALEJANDRO_GRAHAM_BELL": {
+        "min": 0,
+        "max": 2,
+        "delegacion": "Benito Juarez",
+        "lat": 19.36835,
+        "lon": -99.12873
+},
+"AV_ANTONIO_RODRIGUEZ_Y_CENTENARIO": {
+        "min": 0,
+        "max": 1,
+        "delegacion": "Benito Juarez",
+        "lat": 19.37595,
+        "lon": -99.14277
+},
+"BARTOLOME_R_SALIDO_Y_C_MITLA": {
+        "min": 0,
+        "max": 2,
+        "delegacion": "Benito Juarez",
+        "lat": 19.38234,
+        "lon": -99.15085
+},
+"ZEMPOALA_Y_RAMOS_MILLAN": {
+        "min": 0,
+        "max": 1,
+        "delegacion": "Benito Juarez",
+        "lat": 19.38435,
+        "lon": -99.14912
+},
+"NOGAL_Y_PROLONGACION_NOGAL": {
+        "min": 0,
+        "max": 8,
+        "delegacion": "Magdalena Contreras",
+        "lat": 19.3072,
+        "lon": -99.25687
+},
+"5_DE_MAYO_Y_MARTIRES_DE_SAN_ANGEL": {
+        "min": 1,
+        "max": 12,
+        "delegacion": "Magdalena Contreras",
+        "lat": 19.30696,
+        "lon": -99.25035
+},
+"5_DE_MAYO_Y_PERAS": {
+        "min": 0,
+        "max": 11,
+        "delegacion": "Magdalena Contreras",
+        "lat": 19.3069,
+        "lon": -99.25283
+},
+"C_PRADERA_Y_SAN_JERONIMO": {
+        "min": 0,
+        "max": 7,
+        "delegacion": "Magdalena Contreras",
+        "lat": 19.30791,
+        "lon": -99.25885
+},
+"2DA_CDA_JALAPA_Y_PROL_JALAPA": {
+        "min": 0,
+        "max": 6,
+        "delegacion": "Milpa Alta",
+        "lat": 19.20094,
+        "lon": -99.01894
+},
+"AV_TOLUCA_SUR_Y_MIGUEL_HIDALGO_OTE": {
+        "min": 2,
+        "max": 4,
+        "delegacion": "Milpa Alta",
+        "lat": 19.18885,
+        "lon": -99.01921
+},
+"CARRETERA_A_SANTA_ANA_TLACOTENGO_Y_PROL_BAJA_CALIFORNIA": {
+        "min": 0,
+        "max": 12,
+        "delegacion": "Milpa Alta",
+        "lat": 19.18433,
+        "lon": -99.01736
+},
+"CHISPITA_Y_CIELO": {
+        "min": 0,
+        "max": 3,
+        "delegacion": "Iztapalapa",
+        "lat": 19.33146,
+        "lon": -99.00483
+},
+"VERACRUZ_Y_BATALLA_DE_PUEBLA": {
+        "min": 0,
+        "max": 8,
+        "delegacion": "Iztapalapa",
+        "lat": 19.34755,
+        "lon": -99.00349
+},
+"GUADALUPE_VICTORIA_Y_TEUTLI": {
+        "min": 0,
+        "max": 5,
+        "delegacion": "Milpa Alta",
+        "lat": 19.2027,
+        "lon": -99.05049
+},
+"CHANCENOTE_Y_C_TRUENO": {
+        "min": 0,
+        "max": 6,
+        "delegacion": "Tlalpan",
+        "lat": 19.27451,
+        "lon": -99.24222
+},
+"CALLEJON_MORELOS_18": {
+        "min": 0,
+        "max": 1,
+        "delegacion": "Milpa Alta",
+        "lat": 19.19276,
+        "lon": -99.08791
+},
+"VIOLETA_5": {
+        "min": 0,
+        "max": 4,
+        "delegacion": "Milpa Alta",
+        "lat": 19.18191,
+        "lon": -99.07045
+},
+"PROGRESO_32": {
+        "min": 0,
+        "max": 4,
+        "delegacion": "Milpa Alta",
+        "lat": 19.18346,
+        "lon": -99.06922
+},
+"PRIMERA_CERRADA_DE_FRONTERA_23": {
+        "min": 0,
+        "max": 1,
+        "delegacion": "Milpa Alta",
+        "lat": 19.19064,
+        "lon": -99.08563
+},
+"ANGEL_ZIMBRON_5B": {
+        "min": 0,
+        "max": 2,
+        "delegacion": "Milpa Alta",
+        "lat": 19.18485,
+        "lon": -99.06719
+},
+"4A_CENTENARIO_100": {
+        "min": 0,
+        "max": 1,
+        "delegacion": "Milpa Alta",
+        "lat": 19.18146,
+        "lon": -99.06958
+},
+"CAMINO_REAL_A_SAN_PEDRO_SN": {
+        "min": 0,
+        "max": 1,
+        "delegacion": "Milpa Alta",
+        "lat": 19.18721,
+        "lon": -99.05939
+},
+"JOSEFA_ORTIZ_DE_DOMINGUEZ_24": {
+        "min": 0,
+        "max": 3,
+        "delegacion": "Milpa Alta",
+        "lat": 19.18719,
+        "lon": -99.07734
+},
+"PRIMER_CALLEJON_DE_ITURBIDE_7": {
+        "min": 0,
+        "max": 1,
+        "delegacion": "Milpa Alta",
+        "lat": 19.19202,
+        "lon": -99.09471
+},
+"BELISARIO_DOMINGUEZ_20": {
+        "min": 0,
+        "max": 1,
+        "delegacion": "Milpa Alta",
+        "lat": 19.20339,
+        "lon": -99.00717
+},
+"PROGRESO_SUR_110": {
+        "min": 1,
+        "max": 2,
+        "delegacion": "Milpa Alta",
+        "lat": 19.18056,
+        "lon": -99.0703
+},
+"PRIV_TECOXPA_17": {
+        "min": 0,
+        "max": 1,
+        "delegacion": "Milpa Alta",
+        "lat": 19.20245,
+        "lon": -99.0105
+},
+"CALLEJON_EMILIANO_ZAPATA_17": {
+        "min": 0,
+        "max": 5,
+        "delegacion": "Milpa Alta",
+        "lat": 19.20502,
+        "lon": -99.00252
+},
+"CALLE_20_DE_NOVIEMBRE_8": {
+        "min": 0,
+        "max": 4,
+        "delegacion": "Milpa Alta",
+        "lat": 19.18873,
+        "lon": -99.06943
+},
+"CALLEJON_BENITO_JUAREZ_NORTE_SN": {
+        "min": 0,
+        "max": 1,
+        "delegacion": "Milpa Alta",
+        "lat": 19.19829,
+        "lon": -99.00759
+},
+"CUAHUZIN_10": {
+        "min": 0,
+        "max": 1,
+        "delegacion": "Milpa Alta",
+        "lat": 19.18921,
+        "lon": -99.0748
+},
+"CERRADA_QUECHULAPA_1": {
+        "min": 0,
+        "max": 1,
+        "delegacion": "Milpa Alta",
+        "lat": 19.1937,
+        "lon": -99.0875
+},
+"ZACALIPA_SN": {
+        "min": 0,
+        "max": 1,
+        "delegacion": "Milpa Alta",
+        "lat": 19.19525,
+        "lon": -99.00189
+},
+"AV_MIGUEL_HIDALGO_152": {
+        "min": 0,
+        "max": 1,
+        "delegacion": "Milpa Alta",
+        "lat": 19.1979,
+        "lon": -99.00559
+},
+"2DA_CDA_BENITO_JUAREZ_2": {
+        "min": 0,
+        "max": 4,
+        "delegacion": "Milpa Alta",
+        "lat": 19.18855,
+        "lon": -99.08162
+},
+"CALLE_MILTANGO_50": {
+        "min": 0,
+        "max": 1,
+        "delegacion": "Milpa Alta",
+        "lat": 19.19935,
+        "lon": -99.00002
+},
+"CALLE_FRANCISCO_VILLA_20_PROV": {
+        "min": 0,
+        "max": 1,
+        "delegacion": "Milpa Alta",
+        "lat": 19.20089,
+        "lon": -99.00368
+},
+"SIMON_BOLIVAR_SN": {
+        "min": 0,
+        "max": 1,
+        "delegacion": "Milpa Alta",
+        "lat": 19.19213,
+        "lon": -99.00017
+},
+"AV_ESPANA_PANTEON": {
+        "min": 0,
+        "max": 1,
+        "delegacion": "Milpa Alta",
+        "lat": 19.19061,
+        "lon": -99.00095
+},
+"AV_OJO_DE_AGUA_7": {
+        "min": 0,
+        "max": 4,
+        "delegacion": "Magdalena Contreras",
+        "lat": 19.30295,
+        "lon": -99.27163
+},
+"3RA_CDA_RIO_PAPALOAPAN_10": {
+        "min": 0,
+        "max": 4,
+        "delegacion": "Magdalena Contreras",
+        "lat": 19.309061,
+        "lon": -99.270012
+},
+"FACTOR_ESQUINA_CON_SIMON_BOLIVAR_SN_IGLESIA": {
+        "min": 0,
+        "max": 2,
+        "delegacion": "Milpa Alta",
+        "lat": 19.19288,
+        "lon": -99.00786
+},
+"CALLE_SAN_AGUSTIN_ZOLHCO_85": {
+        "min": 0,
+        "max": 1,
+        "delegacion": "Milpa Alta",
+        "lat": 19.1781,
+        "lon": -99.00876
+},
+"TENANGO_197": {
+        "min": 0,
+        "max": 1,
+        "delegacion": "Magdalena Contreras",
+        "lat": 19.30834,
+        "lon": -99.27134
+},
+"AV_SANTA_ANA_74": {
+        "min": 0,
+        "max": 3,
+        "delegacion": "Milpa Alta",
+        "lat": 19.18821,
+        "lon": -99.00183
+},
+"LERMA_5": {
+        "min": 0,
+        "max": 2,
+        "delegacion": "Magdalena Contreras",
+        "lat": 19.3082,
+        "lon": -99.26924
+},
+"FRANCISCO_SARABIA_SN": {
+        "min": 0,
+        "max": 1,
+        "delegacion": "Milpa Alta",
+        "lat": 19.17796,
+        "lon": -99.00499
+},
+"CALLE_COLONIA_ROMA_52_ESQ_BALBUENA": {
+        "min": 0,
+        "max": 1,
+        "delegacion": "Milpa Alta",
+        "lat": 19.19123,
+        "lon": -99.00505
+},
+"CDA_DE_QUETZAL_15": {
+        "min": 0,
+        "max": 3,
+        "delegacion": "Magdalena Contreras",
+        "lat": 19.307776,
+        "lon": -99.26817
+},
+"CAMINO_REAL_A_SAN_JERONIMO_134": {
+        "min": 0,
+        "max": 1,
+        "delegacion": "Milpa Alta",
+        "lat": 19.18462,
+        "lon": -99.00456
+},
+"CDA_LOPEZ_VELARDE_19A": {
+        "min": 0,
+        "max": 6,
+        "delegacion": "Magdalena Contreras",
+        "lat": 19.31085,
+        "lon": -99.26715
+},
+"MZ_27_LT_4_PRIVADA_15_DE_FEBRERO": {
+        "min": 0,
+        "max": 4,
+        "delegacion": "Magdalena Contreras",
+        "lat": 19.31212,
+        "lon": -99.26734
+},
+"CHABACANO_7": {
+        "min": 0,
+        "max": 2,
+        "delegacion": "Magdalena Contreras",
+        "lat": 19.307285,
+        "lon": -99.265769
+},
+"FRESA_27_MZ_5_LT8": {
+        "min": 0,
+        "max": 3,
+        "delegacion": "Magdalena Contreras",
+        "lat": 19.30589,
+        "lon": -99.27121
+},
+"MZ_17_LT_15": {
+        "min": 0,
+        "max": 1,
+        "delegacion": "Magdalena Contreras",
+        "lat": 19.3053,
+        "lon": -99.26925
+},
+"CALLE_CEDROS": {
+        "min": 0,
+        "max": 1,
+        "delegacion": "Milpa Alta",
+        "lat": 19.18718,
+        "lon": -99.09069
+},
+"CUAUHTEMOC_19": {
+        "min": 0,
+        "max": 1,
+        "delegacion": "Milpa Alta",
+        "lat": 19.17676,
+        "lon": -98.99828
+},
+"FRANCISCO_VILLA_50": {
+        "min": 0,
+        "max": 1,
+        "delegacion": "Milpa Alta",
+        "lat": 19.17717,
+        "lon": -98.99915
+},
+"FRANCISCO_VILLA_107": {
+        "min": 0,
+        "max": 1,
+        "delegacion": "Milpa Alta",
+        "lat": 19.17797,
+        "lon": -99.00158
+},
+"AV_CASAS_ALEMAN_200": {
+        "min": 0,
+        "max": 1,
+        "delegacion": "Milpa Alta",
+        "lat": 19.17927,
+        "lon": -99.00371
+},
+"ADOLFO_LOPEZ_MATEOS_132": {
+        "min": 0,
+        "max": 1,
+        "delegacion": "Milpa Alta",
+        "lat": 19.17437,
+        "lon": -99.00333
+},
+"TEMIXCO_5_PROVISIONAL": {
+        "min": 0,
+        "max": 1,
+        "delegacion": "Milpa Alta",
+        "lat": 19.1738,
+        "lon": -98.99217
+},
+"PROL_IGNACIO_ZARAGOZA_5_PROVISIONAL": {
+        "min": 0,
+        "max": 1,
+        "delegacion": "Milpa Alta",
+        "lat": 19.17293,
+        "lon": -98.99161
+},
+"NINOS_HEROES_38": {
+        "min": 0,
+        "max": 1,
+        "delegacion": "Milpa Alta",
+        "lat": 19.17108,
+        "lon": -98.99282
+},
+"GUADALUPE_VICTORIA33": {
+        "min": 0,
+        "max": 1,
+        "delegacion": "Milpa Alta",
+        "lat": 19.17535,
+        "lon": -98.9993
+},
+"IGNACIO_ZARAGOZA_22": {
+        "min": 0,
+        "max": 2,
+        "delegacion": "Milpa Alta",
+        "lat": 19.17414,
+        "lon": -98.99723
+},
+"ADOLFO_LOPEZ_MATEOS_2": {
+        "min": 0,
+        "max": 1,
+        "delegacion": "Milpa Alta",
+        "lat": 19.17751,
+        "lon": -99.00241
+},
+"GRIJALVA_Y_RIO_DANUBIO": {
+        "min": 0,
+        "max": 2,
+        "delegacion": "Cuauhtemoc",
+        "lat": 19.43375,
+        "lon": -99.16951
 }
-
-
-
 }
