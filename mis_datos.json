@@ -9487,5 +9487,1266 @@
         "delegacion": "Cuauhtemoc",
         "lat": 19.43375,
         "lon": -99.16951
+},
+"QUINTIL_VILLA_NUEVA_SN": {
+        "min": 0,
+        "max": 2.5,
+        "delegacion": "Milpa Alta",
+        "lat": 19.22414,
+        "lon": -98.9961
+},
+"VENUSTIANO_CARRANZA_PROVINCIAL_1": {
+        "min": 0,
+        "max": 8.5,
+        "delegacion": "Venustiano Carranza",
+        "lat": 19.22002,
+        "lon": -99.00168
+},
+"PLUTARCO_ELIAS_CALLES_Y_REPUBLICA_DE_BRASIL": {
+        "min": 0,
+        "max": 1,
+        "delegacion": "Tlahuac",
+        "lat": 19.22589,
+        "lon": -98.96483
+},
+"PASEO_DE_LOS_AHUEHUETES_NTE_Y_BOSQUE_DE_CEDROS": {
+        "min": 6,
+        "max": 7,
+        "delegacion": "Miguel Hidalgo",
+        "lat": 19.40828,
+        "lon": -99.24855
+},
+"MOCTEZUMA_24": {
+        "min": 0,
+        "max": 3,
+        "delegacion": "Milpa Alta",
+        "lat": 19.2206,
+        "lon": -98.99655
+},
+"LAZARO_CARDENAS_33": {
+        "min": 0,
+        "max": 6,
+        "delegacion": "Milpa Alta",
+        "lat": 19.21117,
+        "lon": -99.00002
+},
+"PROLONGACION_ITURBIDE_OTE_159": {
+        "min": 0,
+        "max": 2,
+        "delegacion": "Milpa Alta",
+        "lat": 19.21541,
+        "lon": -98.98921
+},
+"PLAYA_AZUL_66": {
+        "min": 0,
+        "max": 10,
+        "delegacion": "Milpa Alta",
+        "lat": 19.21487,
+        "lon": -98.99731
+},
+"YEPETIPAC_115": {
+        "min": 0,
+        "max": 1,
+        "delegacion": "Milpa Alta",
+        "lat": 19.21049,
+        "lon": -98.99329
+},
+"MELCHOR_OCAMPO_SN": {
+        "min": 0,
+        "max": 3.5,
+        "delegacion": "Milpa Alta",
+        "lat": 19.21953,
+        "lon": -98.99049
+},
+"PRIV_12_DE_OCTUBRE_113": {
+        "min": 0,
+        "max": 2,
+        "delegacion": "Milpa Alta",
+        "lat": 19.21506,
+        "lon": -98.98165
+},
+"TOLUCA_14": {
+        "min": 0,
+        "max": 1,
+        "delegacion": "Milpa Alta",
+        "lat": 19.19136,
+        "lon": -99.01896
+},
+"AV_NUEVO_LEON_137": {
+        "min": 0,
+        "max": 2.5,
+        "delegacion": "Milpa Alta",
+        "lat": 19.19636,
+        "lon": -99.01864
+},
+"CHIMALPOPOCA_100": {
+        "min": 0,
+        "max": 7,
+        "delegacion": "Milpa Alta",
+        "lat": 19.22321,
+        "lon": -99.00122
+},
+"AV_COLIMA_OTE_22": {
+        "min": 1,
+        "max": 2,
+        "delegacion": "Milpa Alta",
+        "lat": 19.18991,
+        "lon": -99.01961
+},
+"CJON_NUEVO_LEON_97": {
+        "min": 0,
+        "max": 2,
+        "delegacion": "Milpa Alta",
+        "lat": 19.20173,
+        "lon": -99.01132
+},
+"GENERAL_ANAYA_36": {
+        "min": 0,
+        "max": 5,
+        "delegacion": "Milpa Alta",
+        "lat": 19.21779,
+        "lon": -99.00169
+},
+"JUAN_ALVARADO_61": {
+        "min": 0,
+        "max": 3,
+        "delegacion": "Milpa Alta",
+        "lat": 19.21571,
+        "lon": -99.0033
+},
+"CHILPANCINGO_50": {
+        "min": 0,
+        "max": 1,
+        "delegacion": "Milpa Alta",
+        "lat": 19.18353,
+        "lon": -99.01912
+},
+"SANTA_ANA_OTLI_SN": {
+        "min": 0,
+        "max": 2,
+        "delegacion": "Milpa Alta",
+        "lat": 19.18765,
+        "lon": -99.01557
+},
+"CDA_GUANAJUATO_SN": {
+        "min": 0,
+        "max": 1,
+        "delegacion": "Milpa Alta",
+        "lat": 19.19306,
+        "lon": -99.03402
+},
+"JOSEFA_ORTIZ_DE_DOMINGUEZ_Y_VENUSTIANO_CARRANZA": {
+        "min": 0,
+        "max": 2,
+        "delegacion": "Tlalpan",
+        "lat": 19.28414,
+        "lon": -99.19676
+},
+"CHACMULTUN_Y_KINCHIL": {
+        "min": 0,
+        "max": 1,
+        "delegacion": "Tlalpan",
+        "lat": 19.2759,
+        "lon": -99.21654
+},
+"YUCALTEPAN_SUR_Y_AV_PETO": {
+        "min": 0,
+        "max": 1,
+        "delegacion": "Tlalpan",
+        "lat": 19.273926,
+        "lon": -99.220505
+},
+"CHIHUAHUA_PTE_74_BARRIO_LA_LUZ_VILLA_MILPA_ALTA": {
+        "min": 0,
+        "max": 9,
+        "delegacion": "Milpa Alta",
+        "lat": 19.18771,
+        "lon": -99.0264
+},
+"HERMITANO_5": {
+        "min": 1.5,
+        "max": 3,
+        "delegacion": "Magdalena Contreras",
+        "lat": 19.30374,
+        "lon": -99.26486
+},
+"AV_PONIENTE_PUEBLA_250": {
+        "min": 0,
+        "max": 4.1,
+        "delegacion": "Milpa Alta",
+        "lat": 19.19832,
+        "lon": -99.03107
+},
+"MANANTIAL_3": {
+        "min": 0,
+        "max": 7.5,
+        "delegacion": "Magdalena Contreras",
+        "lat": 19.29993,
+        "lon": -99.26443
+},
+"SINALOA_NORTE_SN_GIMNASIO_G1_VILLA_MILPA_ALTA": {
+        "min": 0,
+        "max": 4,
+        "delegacion": "Milpa Alta",
+        "lat": 19.19945,
+        "lon": -99.02714
+},
+"CDA_PENSAMIENTO": {
+        "min": 0,
+        "max": 2,
+        "delegacion": "Magdalena Contreras",
+        "lat": 19.30237,
+        "lon": -99.26614
+},
+"MIRADOR_38": {
+        "min": 0,
+        "max": 6,
+        "delegacion": "Magdalena Contreras",
+        "lat": 19.30011,
+        "lon": -99.26543
+},
+"1ERA_CDA_DE_DURAZNO_1": {
+        "min": 0,
+        "max": 3,
+        "delegacion": "Magdalena Contreras",
+        "lat": 19.30125,
+        "lon": -99.26779
+},
+"MEYUCA_8": {
+        "min": 0,
+        "max": 1,
+        "delegacion": "Magdalena Contreras",
+        "lat": 19.30333,
+        "lon": -99.26467
+},
+"CONTOY_Y_CHAPULTENANGO": {
+        "min": 0,
+        "max": 1,
+        "delegacion": "Tlalpan",
+        "lat": 19.27599,
+        "lon": -99.21821
+},
+"YUCALTEPEN_Y_TEPEKAN": {
+        "min": 0,
+        "max": 1,
+        "delegacion": "Tlalpan",
+        "lat": 19.27518,
+        "lon": -99.2206
+},
+"C_7_Y_C_3": {
+        "min": 0,
+        "max": 2,
+        "delegacion": "Tlalpan",
+        "lat": 19.27357,
+        "lon": -99.21331
+},
+"PINANONA_Y_ENCINOS": {
+        "min": 0,
+        "max": 2,
+        "delegacion": "Tlalpan",
+        "lat": 19.27115,
+        "lon": -99.20971
+},
+"NUSTEPEC_Y_PAPALOTL": {
+        "min": 0,
+        "max": 1,
+        "delegacion": "Coyoacan",
+        "lat": 19.31728,
+        "lon": -99.16789
+},
+"TOLTECAS_Y_TEPATCATZIN": {
+        "min": 0,
+        "max": 1,
+        "delegacion": "Coyoacan",
+        "lat": 19.32176,
+        "lon": -99.16388
+},
+"ROSARIO_CASTELLANOS_Y_JUAN_A_MATEOS": {
+        "min": 0,
+        "max": 1,
+        "delegacion": "Venustiano Carranza",
+        "lat": 19.41011,
+        "lon": -99.12528
+},
+"AV_ANACAHUITA_Y_AILE": {
+        "min": 0,
+        "max": 1,
+        "delegacion": "Coyoacan",
+        "lat": 19.31856,
+        "lon": -99.17143
+},
+"CHAUCINGO_Y_TEJAMANIL": {
+        "min": 0,
+        "max": 1,
+        "delegacion": "Coyoacan",
+        "lat": 19.31658,
+        "lon": -99.17072
+},
+"CARPINTERIA_57": {
+        "min": 0,
+        "max": 1,
+        "delegacion": "Venustiano Carranza",
+        "lat": 19.44766,
+        "lon": -99.12232
+},
+"VANADIO_150": {
+        "min": 0,
+        "max": 1,
+        "delegacion": "Venustiano Carranza",
+        "lat": 19.45792,
+        "lon": -99.12101
+},
+"IRIDIO_76": {
+        "min": 0,
+        "max": 1,
+        "delegacion": "Venustiano Carranza",
+        "lat": 19.45626,
+        "lon": -99.11777
+},
+"AV_DEL_TRABAJO_228": {
+        "min": 0,
+        "max": 1,
+        "delegacion": "Venustiano Carranza",
+        "lat": 19.44933,
+        "lon": -99.12525
+},
+"VALENCIANA_26": {
+        "min": 0,
+        "max": 1,
+        "delegacion": "Venustiano Carranza",
+        "lat": 19.45534,
+        "lon": -99.11607
+},
+"CARPINTERIA_25_LOCAL_A": {
+        "min": 0,
+        "max": 1,
+        "delegacion": "Venustiano Carranza",
+        "lat": 19.44522,
+        "lon": -99.12275
+},
+"PENA_Y_PENA_76_INT_116": {
+        "min": 0,
+        "max": 1,
+        "delegacion": "Venustiano Carranza",
+        "lat": 19.44025,
+        "lon": -99.12216
+},
+"BOLEO_9_INT_101": {
+        "min": 0,
+        "max": 1,
+        "delegacion": "Venustiano Carranza",
+        "lat": 19.45245,
+        "lon": -99.12451
+},
+"MANGANESO_16_INT_1": {
+        "min": 0,
+        "max": 1,
+        "delegacion": "Venustiano Carranza",
+        "lat": 19.45316,
+        "lon": -99.11123
+},
+"BARBIT_14_INT2": {
+        "min": 0,
+        "max": 1,
+        "delegacion": "Venustiano Carranza",
+        "lat": 19.4533,
+        "lon": -99.11447
+},
+"ORFEBRERIA_136": {
+        "min": 0,
+        "max": 1,
+        "delegacion": "Venustiano Carranza",
+        "lat": 19.44934,
+        "lon": -99.11507
+},
+"JILOTEPEC_42": {
+        "min": 0,
+        "max": 1,
+        "delegacion": "Venustiano Carranza",
+        "lat": 19.44869,
+        "lon": -99.11294
+},
+"SAHUAYO_17": {
+        "min": 0,
+        "max": 1,
+        "delegacion": "Venustiano Carranza",
+        "lat": 19.44614,
+        "lon": -99.11839
+},
+"TALABARTEROS_55": {
+        "min": 0,
+        "max": 1,
+        "delegacion": "Venustiano Carranza",
+        "lat": 19.45021,
+        "lon": -99.12209
+},
+"HORTELANOS_Y_TAPICERIA": {
+        "min": 0,
+        "max": 1,
+        "delegacion": "Venustiano Carranza",
+        "lat": 19.44098,
+        "lon": -99.11655
+},
+"PANADEROS_109": {
+        "min": 0,
+        "max": 1,
+        "delegacion": "Venustiano Carranza",
+        "lat": 19.44577,
+        "lon": -99.12004
+},
+"HEROES_DE_NACOSARI_70_INT_302": {
+        "min": 0,
+        "max": 1,
+        "delegacion": "Venustiano Carranza",
+        "lat": 19.43592,
+        "lon": -99.11843
+},
+"MIGUEL_NEGRETE_130": {
+        "min": 0,
+        "max": 1,
+        "delegacion": "Venustiano Carranza",
+        "lat": 19.43301,
+        "lon": -99.1171
+},
+"HEROES_DE_NACOSARI_10_INT_B101": {
+        "min": 0,
+        "max": 1,
+        "delegacion": "Venustiano Carranza",
+        "lat": 19.43643,
+        "lon": -99.12316
+},
+"SANTA_ESCUELA_73": {
+        "min": 0,
+        "max": 1,
+        "delegacion": "Venustiano Carranza",
+        "lat": 19.42984,
+        "lon": -99.12353
+},
+"CARRETONES_112_INT_302B": {
+        "min": 0,
+        "max": 1,
+        "delegacion": "Venustiano Carranza",
+        "lat": 19.42499,
+        "lon": -99.12129
+},
+"FERROCARRILES_NACIONALES_17": {
+        "min": 0,
+        "max": 1,
+        "delegacion": "Azcapotzalco",
+        "lat": 19.50168,
+        "lon": -99.18997
+},
+"AV_SAN_PABLO_JALPA_434_ED_E09": {
+        "min": 0,
+        "max": 1,
+        "delegacion": "Azcapotzalco",
+        "lat": 19.50575,
+        "lon": -99.18657
+},
+"SAN_JOSE_36B": {
+        "min": 0,
+        "max": 1,
+        "delegacion": "Azcapotzalco",
+        "lat": 19.50027,
+        "lon": -99.19668
+},
+"HUITZILLIN_26": {
+        "min": 0,
+        "max": 1,
+        "delegacion": "Azcapotzalco",
+        "lat": 19.4989,
+        "lon": -99.1952
+},
+"PRIV_16_DE_SEPTIEMBRE_175": {
+        "min": 0,
+        "max": 1,
+        "delegacion": "Azcapotzalco",
+        "lat": 19.49764,
+        "lon": -99.19348
+},
+"TIERRA_CALIENTE_28": {
+        "min": 0,
+        "max": 1,
+        "delegacion": "Azcapotzalco",
+        "lat": 19.50093,
+        "lon": -99.20209
+},
+"MEMBRILLO_Y_CANADA": {
+        "min": 2.7,
+        "max": 4,
+        "delegacion": "Magdalena Contreras",
+        "lat": 19.32508,
+        "lon": -99.25348
+},
+"CIRCUITO_CANTERA_Y_AV_SAN_BERNAB": {
+        "min": 0,
+        "max": 1,
+        "delegacion": "Magdalena Contreras",
+        "lat": 19.31676,
+        "lon": -99.25507
+},
+"AV_SAN_JERONIMO_Y_12_DE_OCTUBRE": {
+        "min": 1,
+        "max": 4,
+        "delegacion": "Magdalena Contreras",
+        "lat": 19.30868,
+        "lon": -99.26019
+},
+"AV_CARBONERA_Y_CANAL": {
+        "min": 0,
+        "max": 4,
+        "delegacion": "Magdalena Contreras",
+        "lat": 19.30015,
+        "lon": -99.25615
+},
+"EMILIANO_ZAPATA_Y_ROSA_NTE": {
+        "min": 3,
+        "max": 6,
+        "delegacion": "Magdalena Contreras",
+        "lat": 19.32348,
+        "lon": -99.24167
+},
+"CALLE_73_62": {
+        "min": 0,
+        "max": 1,
+        "delegacion": "Venustiano Carranza",
+        "lat": 19.40857,
+        "lon": -99.08219
+},
+"CALLE_73_73_INT_8": {
+        "min": 0,
+        "max": 1,
+        "delegacion": "Azcapotzalco",
+        "lat": 19.41032,
+        "lon": -99.08103
+},
+"C_16_INT_114": {
+        "min": 0,
+        "max": 1,
+        "delegacion": "Venustiano Carranza",
+        "lat": 19.40825,
+        "lon": -99.08598
+},
+"AV_SEIS_366": {
+        "min": 0,
+        "max": 1,
+        "delegacion": "Venustiano Carranza",
+        "lat": 19.41015,
+        "lon": -99.08394
+},
+"AV_6_345": {
+        "min": 0,
+        "max": 1,
+        "delegacion": "Venustiano Carranza",
+        "lat": 19.41056,
+        "lon": -99.08486
+},
+"C_69_5": {
+        "min": 0,
+        "max": 1,
+        "delegacion": "Venustiano Carranza",
+        "lat": 19.41085,
+        "lon": -99.08215
+},
+"C_71_AV_4": {
+        "min": 0,
+        "max": 1,
+        "delegacion": "Venustiano Carranza",
+        "lat": 19.40951,
+        "lon": -99.08217
+},
+"CALLE_47_16": {
+        "min": 0,
+        "max": 1,
+        "delegacion": "Venustiano Carranza",
+        "lat": 19.41354,
+        "lon": -99.08722
+},
+"C_39_116": {
+        "min": 0,
+        "max": 1,
+        "delegacion": "Venustiano Carranza",
+        "lat": 19.41145,
+        "lon": -99.09148
+},
+"CECILIO_ROBELO_326": {
+        "min": 0,
+        "max": 1,
+        "delegacion": "Venustiano Carranza",
+        "lat": 19.42322,
+        "lon": -99.10953
+},
+"ALUMINIO_432": {
+        "min": 0,
+        "max": 1,
+        "delegacion": "Venustiano Carranza",
+        "lat": 19.44993,
+        "lon": -99.10838
+},
+"DECORADO_304_COL_TRAMO_20_DE_NOVIEMBRE": {
+        "min": 0,
+        "max": 1,
+        "delegacion": "Venustiano Carranza",
+        "lat": 19.45013,
+        "lon": -99.10528
+},
+"C9_96": {
+        "min": 0,
+        "max": 1,
+        "delegacion": "Venustiano Carranza",
+        "lat": 19.4152,
+        "lon": -99.09626
+},
+"BARRETEROS_7": {
+        "min": 0,
+        "max": 1,
+        "delegacion": "Venustiano Carranza",
+        "lat": 19.4379,
+        "lon": -99.11006
+},
+"AVICULTURA": {
+        "min": 0,
+        "max": 1,
+        "delegacion": "Venustiano Carranza",
+        "lat": 19.44064,
+        "lon": -99.1069
+},
+"CECILIO_RODELO_499": {
+        "min": 0,
+        "max": 1,
+        "delegacion": "Venustiano Carranza",
+        "lat": 19.4206,
+        "lon": -99.10434
+},
+"AV_CANAL_DEL_NORTE_479": {
+        "min": 0,
+        "max": 1,
+        "delegacion": "Venustiano Carranza",
+        "lat": 19.44727,
+        "lon": -99.10365
+},
+"LITOGRAFIA_8": {
+        "min": 0,
+        "max": 1,
+        "delegacion": "Venustiano Carranza",
+        "lat": 19.43816,
+        "lon": -99.11145
+},
+"AVICULTURA_79": {
+        "min": 0,
+        "max": 1,
+        "delegacion": "Venustiano Carranza",
+        "lat": 19.44305,
+        "lon": -99.10586
+},
+"RETORNO_38_DE_AV_DEL_TALLER": {
+        "min": 0,
+        "max": 1,
+        "delegacion": "Venustiano Carranza",
+        "lat": 19.4132,
+        "lon": -99.10323
+},
+"ELECTRICISTAS_112": {
+        "min": 0,
+        "max": 1,
+        "delegacion": "Venustiano Carranza",
+        "lat": 19.44437,
+        "lon": -99.1056
+},
+"VIADUCTO_MIGUEL_ALEMAN_498": {
+        "min": 0,
+        "max": 1,
+        "delegacion": "Venustiano Carranza",
+        "lat": 19.40664,
+        "lon": -99.11109
+},
+"VULCANIZACION_163": {
+        "min": 0,
+        "max": 1,
+        "delegacion": "Venustiano Carranza",
+        "lat": 19.44442,
+        "lon": -99.11154
+},
+"PREVISIN_SOCIAL_43A": {
+        "min": 0,
+        "max": 1,
+        "delegacion": "Venustiano Carranza",
+        "lat": 19.41512,
+        "lon": -99.08424
+},
+"IMPRESORES_43": {
+        "min": 0,
+        "max": 1,
+        "delegacion": "Venustiano Carranza",
+        "lat": 19.44398,
+        "lon": -99.10969
+},
+"TROTSKY_50": {
+        "min": 0,
+        "max": 1,
+        "delegacion": "Venustiano Carranza",
+        "lat": 19.44608,
+        "lon": -99.10152
+},
+"GRAL_ALFREDO_ELIZONDO": {
+        "min": 0,
+        "max": 1,
+        "delegacion": "Venustiano Carranza",
+        "lat": 19.44281,
+        "lon": -99.10094
+},
+"CONGRESO_54": {
+        "min": 0,
+        "max": 1,
+        "delegacion": "Venustiano Carranza",
+        "lat": 19.42061,
+        "lon": -99.08528
+},
+"GRAL_FLIX_GOMEZ_42": {
+        "min": 0,
+        "max": 1,
+        "delegacion": "Venustiano Carranza",
+        "lat": 19.44548,
+        "lon": -99.10023
+},
+"HACIENDA_Y_CREDITO_PUBLICO_5": {
+        "min": 0,
+        "max": 1,
+        "delegacion": "Venustiano Carranza",
+        "lat": 19.41764,
+        "lon": -99.08759
+},
+"CALLE_JERICO_180": {
+        "min": 0,
+        "max": 1,
+        "delegacion": "Venustiano Carranza",
+        "lat": 19.44535,
+        "lon": -99.09592
+},
+"GOBERNACION_31": {
+        "min": 0,
+        "max": 1,
+        "delegacion": "Venustiano Carranza",
+        "lat": 19.41954,
+        "lon": -99.08993
+},
+"DAMASCO": {
+        "min": 0,
+        "max": 1,
+        "delegacion": "Venustiano Carranza",
+        "lat": 19.44025,
+        "lon": -99.09916
+},
+"SALUBRIDAD_55": {
+        "min": 0,
+        "max": 1,
+        "delegacion": "Venustiano Carranza",
+        "lat": 19.42205,
+        "lon": -99.08965
+},
+"AV_OCEANIA_190E_TORRE_3_DPTO_05": {
+        "min": 0,
+        "max": 1,
+        "delegacion": "Venustiano Carranza",
+        "lat": 19.44105,
+        "lon": -99.09433
+},
+"FERNANDO_ROMAN_LUGO_23": {
+        "min": 0,
+        "max": 1,
+        "delegacion": "Venustiano Carranza",
+        "lat": 19.42408,
+        "lon": -99.07155
+},
+"FERNANDO_LOPEZ_ARIAS_MZ_3_LT_19_1": {
+        "min": 0,
+        "max": 1,
+        "delegacion": "Venustiano Carranza",
+        "lat": 19.42482,
+        "lon": -99.07202
+},
+"MANUEL_J_TELLO_MZ_6_LT7": {
+        "min": 0,
+        "max": 1,
+        "delegacion": "Venustiano Carranza",
+        "lat": 19.42387,
+        "lon": -99.0709
+},
+"C_1857_17": {
+        "min": 0,
+        "max": 1,
+        "delegacion": "Venustiano Carranza",
+        "lat": 19.41691,
+        "lon": -99.11924
+},
+"FERNANDO_LOPEZ_ARIAS_127": {
+        "min": 0,
+        "max": 1,
+        "delegacion": "Venustiano Carranza",
+        "lat": 19.41889,
+        "lon": -99.07282
+},
+"BACERAC_31": {
+        "min": 0,
+        "max": 1,
+        "delegacion": "Venustiano Carranza",
+        "lat": 19.41282,
+        "lon": -99.11897
+},
+"SUR_109_1306": {
+        "min": 0,
+        "max": 1,
+        "delegacion": "Venustiano Carranza",
+        "lat": 19.4205,
+        "lon": -99.11544
+},
+"RAUL_SALINAS_LOZANO_MZ_41_LT_24": {
+        "min": 0,
+        "max": 1,
+        "delegacion": "Venustiano Carranza",
+        "lat": 19.41871,
+        "lon": -99.0739
+},
+"BERKELIO_1": {
+        "min": 0,
+        "max": 1,
+        "delegacion": "Venustiano Carranza",
+        "lat": 19.42175,
+        "lon": -99.06545
+},
+"RET_2_AV_DEL_TALLER_24": {
+        "min": 0,
+        "max": 1,
+        "delegacion": "Venustiano Carranza",
+        "lat": 19.41483,
+        "lon": -99.11429
+},
+"RET_5_AV_DEL_TALLER_21": {
+        "min": 0,
+        "max": 1,
+        "delegacion": "Venustiano Carranza",
+        "lat": 19.41283,
+        "lon": -99.1136
+},
+"2DA_CERRADA_DE_AGIBAMPO": {
+        "min": 0,
+        "max": 1,
+        "delegacion": "Venustiano Carranza",
+        "lat": 19.41086,
+        "lon": -99.11228
+},
+"EMILIA_ROMERO_DEL_VALLE_430": {
+        "min": 0,
+        "max": 1,
+        "delegacion": "Venustiano Carranza",
+        "lat": 19.414,
+        "lon": -99.12299
+},
+"CANTERIA_85": {
+        "min": 0,
+        "max": 1,
+        "delegacion": "Venustiano Carranza",
+        "lat": 19.44332,
+        "lon": -99.10531
+},
+"TESORO_43": {
+        "min": 1,
+        "max": 3,
+        "delegacion": "Venustiano Carranza",
+        "lat": 19.30778,
+        "lon": -99.05647
+},
+"AV_PROLONGACIN_PENA_ALTA_332": {
+        "min": 0,
+        "max": 1.5,
+        "delegacion": "Tlahuac",
+        "lat": 19.23073,
+        "lon": -99.00476
+},
+"PORVENIR_MZ_32_LT21": {
+        "min": 1,
+        "max": 3,
+        "delegacion": "Tlahuac",
+        "lat": 19.30613,
+        "lon": -99.05349
+},
+"ACROSTICOS_5": {
+        "min": 0,
+        "max": 1.5,
+        "delegacion": "Tlahuac",
+        "lat": 19.23367,
+        "lon": -98.99787
+},
+"3ERA_CDA_BARRANCA_No6": {
+        "min": 0,
+        "max": 1,
+        "delegacion": "Tlahuac",
+        "lat": 19.24186,
+        "lon": -99.0032
+},
+"TIBURON_MZ_38_LT_13": {
+        "min": 0,
+        "max": 1,
+        "delegacion": "Tlahuac",
+        "lat": 19.29009,
+        "lon": -99.05722
+},
+"TIBURON_MZ162_LT_20": {
+        "min": 0,
+        "max": 1,
+        "delegacion": "Tlahuac",
+        "lat": 19.29219,
+        "lon": -99.05564
+},
+"FERNANDO_MONTES_DE_OCA_13": {
+        "min": 0,
+        "max": 4,
+        "delegacion": "Tlahuac",
+        "lat": 19.24085,
+        "lon": -98.99661
+},
+"AV_SUR_DEL_COMERCIO_490": {
+        "min": 0,
+        "max": 6,
+        "delegacion": "Tlahuac",
+        "lat": 19.23534,
+        "lon": -98.99496
+},
+"4TA_CDA_SANTA_CRUZ_MZ_8_LT123": {
+        "min": 0,
+        "max": 3,
+        "delegacion": "Tlahuac",
+        "lat": 19.30419,
+        "lon": -99.05184
+},
+"1ERA_CDA_DE_TEUHTLI_20": {
+        "min": 0,
+        "max": 1,
+        "delegacion": "Tlahuac",
+        "lat": 19.23397,
+        "lon": -99.00952
+},
+"EDUACION_QUIMICA_MZ3_LT2": {
+        "min": 0,
+        "max": 1,
+        "delegacion": "Tlahuac",
+        "lat": 19.23126,
+        "lon": -99.0012
+},
+"ESCALARIO_MZ_1A_LT_1": {
+        "min": 0,
+        "max": 1,
+        "delegacion": "Tlahuac",
+        "lat": 19.30129,
+        "lon": -99.05824
+},
+"FRESA_4": {
+        "min": 0,
+        "max": 1,
+        "delegacion": "Tlahuac",
+        "lat": 19.23909,
+        "lon": -99.00412
+},
+"BALLENA_46": {
+        "min": 0,
+        "max": 1,
+        "delegacion": "Tlahuac",
+        "lat": 19.30139,
+        "lon": -99.06039
+},
+"BENITO_JUAREZ_3": {
+        "min": 0,
+        "max": 3,
+        "delegacion": "Tlahuac",
+        "lat": 19.20908,
+        "lon": -98.96897
+},
+"CULIACAN_MZ_24_LT_56": {
+        "min": 0,
+        "max": 1,
+        "delegacion": "Tlahuac",
+        "lat": 19.20711,
+        "lon": -98.96779
+},
+"AHUALAPA_LT_10": {
+        "min": 0,
+        "max": 6,
+        "delegacion": "Tlahuac",
+        "lat": 19.20926,
+        "lon": -98.97126
+},
+"TEPANTITLAMILCO_16A": {
+        "min": 0,
+        "max": 1,
+        "delegacion": "Tlahuac",
+        "lat": 19.21984,
+        "lon": -98.97051
+},
+"2DA_CDA_XOCOTLA_SN_SAN_NICOLAS_TETELCO": {
+        "min": 0,
+        "max": 1,
+        "delegacion": "Tlahuac",
+        "lat": 19.21138,
+        "lon": -98.96766
+},
+"FALSTAFF_408": {
+        "min": 0,
+        "max": 1,
+        "delegacion": "Tlahuac",
+        "lat": 19.29578,
+        "lon": -99.05511
+},
+"TEPEYAC_MZ_18_LT_15": {
+        "min": 0,
+        "max": 1,
+        "delegacion": "Tlahuac",
+        "lat": 19.2952,
+        "lon": -99.05876
+},
+"CDA_CISNE_MZ_6_LT_143": {
+        "min": 0,
+        "max": 1,
+        "delegacion": "Tlahuac",
+        "lat": 19.29429,
+        "lon": -99.06074
+},
+"GRAL_MAXIMILIANO_VIGUERAS_6": {
+        "min": 0,
+        "max": 1,
+        "delegacion": "Tlahuac",
+        "lat": 19.217774,
+        "lon": -98.97098
+},
+"AZUCENAS_1": {
+        "min": 0,
+        "max": 1,
+        "delegacion": "Tlahuac",
+        "lat": 19.23112,
+        "lon": -98.98718
+},
+"RAMOS_MILLAN_SN": {
+        "min": 0,
+        "max": 1,
+        "delegacion": "Tlahuac",
+        "lat": 19.23725,
+        "lon": -99.00436
+},
+"SANTA_CRUZ_MZ_9_LT_25": {
+        "min": 0,
+        "max": 2,
+        "delegacion": "Tlahuac",
+        "lat": 19.31227,
+        "lon": -99.04619
+},
+"CAMINO_REAL_A_XOLOCALCO_22": {
+        "min": 0,
+        "max": 1,
+        "delegacion": "Tlahuac",
+        "lat": 19.22482,
+        "lon": -98.95218
+},
+"CANAL_SECA_8": {
+        "min": 0,
+        "max": 1,
+        "delegacion": "Tlahuac",
+        "lat": 19.22657,
+        "lon": -98.96134
+},
+"ALTA_TENSIN_MZ_2_LT_6": {
+        "min": 0,
+        "max": 1,
+        "delegacion": "Tlahuac",
+        "lat": 19.31148,
+        "lon": -99.04948
+},
+"CANAL_DEL_NORTE_SN": {
+        "min": 0,
+        "max": 1,
+        "delegacion": "Tlahuac",
+        "lat": 19.2273,
+        "lon": -98.96578
+},
+"GITANA_MZ_2_LT_26A": {
+        "min": 0,
+        "max": 1,
+        "delegacion": "Tlahuac",
+        "lat": 19.29103,
+        "lon": -99.06082
+},
+"CANAL_DEL_VADO_5": {
+        "min": 0,
+        "max": 1,
+        "delegacion": "Tlahuac",
+        "lat": 19.22795,
+        "lon": -98.96728
+},
+"CANAL_LA_FRANCIA_10": {
+        "min": 0,
+        "max": 1,
+        "delegacion": "Tlahuac",
+        "lat": 19.22313,
+        "lon": -98.96791
+},
+"AV_HIDALGO_3": {
+        "min": 0,
+        "max": 1,
+        "delegacion": "Tlahuac",
+        "lat": 19.225,
+        "lon": -98.96585
+},
+"EJIDO_MZ_1_LT_18E": {
+        "min": 0,
+        "max": 1.5,
+        "delegacion": "Tlahuac",
+        "lat": 19.2934,
+        "lon": -99.02242
+},
+"CRATER_ATALS_MZ_312_LT_11C": {
+        "min": 0,
+        "max": 1.5,
+        "delegacion": "Tlahuac",
+        "lat": 19.28732,
+        "lon": -99.0006
+},
+"PROL_HORTENCIA_MZ_55_LT_25": {
+        "min": 0,
+        "max": 1,
+        "delegacion": "Tlahuac",
+        "lat": 19.26123,
+        "lon": -99.0065
+},
+"CJON_CANAL_SECO_SN_ESQ_GABRIEL_HDZ": {
+        "min": 0,
+        "max": 1,
+        "delegacion": "Tlahuac",
+        "lat": 19.26863,
+        "lon": -99.00837
+},
+"CHABACANO_MZ_70_LT_19": {
+        "min": 0,
+        "max": 2,
+        "delegacion": "Tlahuac",
+        "lat": 19.31054,
+        "lon": -99.04269
+},
+"ALMA_FUERTE_MZ_24_LT_16BIS": {
+        "min": 0,
+        "max": 2,
+        "delegacion": "Tlahuac",
+        "lat": 19.31073,
+        "lon": -99.03639
+},
+"MOCTEZUMA_MZ_48_LT_26": {
+        "min": 0,
+        "max": 2.5,
+        "delegacion": "Tlahuac",
+        "lat": 19.31386,
+        "lon": -99.04165
+},
+"ENRIQUE_ALVAREZ_HERAO_MZ_26_LT_22": {
+        "min": 0,
+        "max": 2,
+        "delegacion": "Tlahuac",
+        "lat": 19.3097,
+        "lon": -99.03785
+},
+"POPOTLA_MZ_78_LT_43": {
+        "min": 0,
+        "max": 2.5,
+        "delegacion": "Tlahuac",
+        "lat": 19.30889,
+        "lon": -99.0433
+},
+"BARACOA_SN": {
+        "min": 0,
+        "max": 1,
+        "delegacion": "Tlahuac",
+        "lat": 19.26557,
+        "lon": -98.99318
+},
+"ROSAL_46": {
+        "min": 0,
+        "max": 2,
+        "delegacion": "Tlahuac",
+        "lat": 19.30644,
+        "lon": -99.04623
+},
+"BALBUENA_MZ_51_LT_27": {
+        "min": 0,
+        "max": 2,
+        "delegacion": "Tlahuac",
+        "lat": 19.31228,
+        "lon": -99.04022
+},
+"AV_SAN_RAFAEL_ATLIXCO_27": {
+        "min": 0,
+        "max": 2,
+        "delegacion": "Tlahuac",
+        "lat": 19.30394,
+        "lon": -99.02988
+},
+"AZUCENA_MZ_7_LT_35": {
+        "min": 0,
+        "max": 1,
+        "delegacion": "Tlahuac",
+        "lat": 19.25916,
+        "lon": -99.00421
+},
+"FRESNO_LT_17": {
+        "min": 0,
+        "max": 1,
+        "delegacion": "Tlahuac",
+        "lat": 19.30547,
+        "lon": -99.0311
+},
+"AV_AGUSTIN_LARA_MZ_129_LT1031": {
+        "min": 0,
+        "max": 1,
+        "delegacion": "Tlahuac",
+        "lat": 19.2762,
+        "lon": -98.99334
+},
+"LA_CAPA_MZ_109_LT_5": {
+        "min": 0,
+        "max": 1,
+        "delegacion": "Tlahuac",
+        "lat": 19.28858,
+        "lon": -99.0469
+},
+"BARBERO_DE_SEVILLA_MZ_7_LT_20": {
+        "min": 0,
+        "max": 1,
+        "delegacion": "Tlahuac",
+        "lat": 19.29056,
+        "lon": -99.05067
+},
+"HOGONOTES_109I": {
+        "min": 0,
+        "max": 1,
+        "delegacion": "Tlahuac",
+        "lat": 19.28733,
+        "lon": -99.04192
+},
+"BORAGO_MZ_9_LT_16": {
+        "min": 0,
+        "max": 1,
+        "delegacion": "Tlahuac",
+        "lat": 19.25439,
+        "lon": -99.04199
+},
+"CALLE_69_34": {
+        "min": 0,
+        "max": 1,
+        "delegacion": "Venustiano Carranza",
+        "lat": 19.41001,
+        "lon": -99.08251
+},
+"3RA_CDA_MACLOVIO_HERRERA_MZ_2_LT_7": {
+        "min": 0,
+        "max": 1,
+        "delegacion": "Tlahuac",
+        "lat": 19.3058,
+        "lon": -99.03211
 }
+
 }
