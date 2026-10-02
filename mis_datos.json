@@ -4927,13 +4927,6 @@
     "lat": 19.340921,
     "lon": -99.056201
   },
-  "FRANCISCO_VILLA_Y_EMILIANO_ZAPATA": {
-    "min": 0.0,
-    "max": 0.6,
-    "delegacion": "Iztapalapa",
-    "lat": 19.358309,
-    "lon": -99.035309
-  },
   "ATENCO_Y_REAL_DE_LOS_REYES": {
     "min": 0.7,
     "max": 2.7,
@@ -5165,13 +5158,6 @@
     "lat": 19.369201,
     "lon": -99.233676
   },
-  "CALLE_3_Y_EMILIO_AZCARRAGA": {
-    "min": 0.0,
-    "max": 0.7,
-    "delegacion": "Iztapalapa",
-    "lat": 19.382459,
-    "lon": -99.0431
-  },
   "CALZADA_PUENTE_DE_GUERRA_Y_FRESNOS": {
     "min": 0.0,
     "max": 0.8,
@@ -5199,20 +5185,6 @@
     "delegacion": "Alvaro Obregon",
     "lat": 19.347536,
     "lon": -99.229931
-  },
-  "VIOLETA_Y_BUGAMBILIAS": {
-    "min": 0.0,
-    "max": 1.1,
-    "delegacion": "Iztapalapa",
-    "lat": 19.300784,
-    "lon": -99.06593
-  },
-  "CUAUHTEMOC_Y_JARDIN_AMAPOLAS": {
-    "min": 0.4,
-    "max": 1.6,
-    "delegacion": "Iztapalapa",
-    "lat": 19.2986,
-    "lon": -99.07055
   },
   "CALLE2_JESUS_Y_BATLALLA_REVOLUCION_SOC": {
     "min": 0.0,
@@ -5396,13 +5368,6 @@
     "lat": 19.27152,
     "lon": -99.188359
   },
-  "MAURILIO_MEJIA_Y_MIGUEL_HIDALGO": {
-    "min": 0.0,
-    "max": 2.0,
-    "delegacion": "Iztapalapa",
-    "lat": 19.338354,
-    "lon": -99.04512
-  },
   "CHOPO_Y_CALLE_6": {
     "min": 0.0,
     "max": 1.1,
@@ -5437,20 +5402,6 @@
     "delegacion": "Azcapotzalco",
     "lat": 19.512894,
     "lon": -99.2084249
-  },
-  "MANUEL_GONZALEZ_Y_DURANGO": {
-    "min": 0.0,
-    "max": 2.4,
-    "delegacion": "Iztapalapa",
-    "lat": 19.317713,
-    "lon": -99.070328
-  },
-  "JOSEFA_ORTIZ_Y_CERRADA_VICENTE_GUERRERO": {
-    "min": 0.0,
-    "max": 3.4,
-    "delegacion": "Iztapalapa",
-    "lat": 19.337869,
-    "lon": -98.991046
   },
   "GRAL_CUETO_Y_GOBERNADOR": {
     "min": 0.0,
@@ -5781,13 +5732,6 @@
     "lat": 19.45723,
     "lon": -99.20448
   },
-  "PORTO_ALEGRE_Y_BOTANICOS": {
-    "min": 0.0,
-    "max": 0.45,
-    "delegacion": "Iztapalapa",
-    "lat": 19.373596,
-    "lon": -99.124027
-  },
   "PUERTO_GUYMAS_Y_TACALA": {
     "min": 0.37,
     "max": 1.0,
@@ -6103,13 +6047,6 @@
     "lat": 19.496591096097486,
     "lon": -99.140509216766
   },
-  "Presiones_EJERCITO_DEL_SUR_CC_NICOLAS_ULIANOV_LENIN": {
-    "min": 0.45,
-    "max": 1.72,
-    "delegacion": "Iztapalapa",
-    "lat": 19.288456518866568,
-    "lon": -99.0665891777151
-  },
   "Presiones_AV_RICARTE_CC_C_LA_POLAR": {
     "min": 0.08,
     "max": 0.39,
@@ -6123,13 +6060,6 @@
     "delegacion": "Cuajimalpa",
     "lat": 19.36855753121616,
     "lon": -99.2908907725855
-  },
-  "Presiones_IGNACIO_MANUEL_ALTAMIRANO_CC_20_DE_NOVIEMBRE": {
-    "min": 0.24,
-    "max": 0.95,
-    "delegacion": "Tlahuac",
-    "lat": 19.29779428,
-    "lon": -99.045234
   },
   "Presiones_BOSQUES_DE_HUIZACHES_CC_BOSQUES_DE_OCOTES": {
     "min": 2.72,
@@ -6179,13 +6109,6 @@
     "delegacion": "Iztapalapa",
     "lat": 19.332702,
     "lon": -99.10942
-  },
-  "Presiones_MANUEL_BALLESTEROS_CC_CIRCUNVALACION": {
-    "min": 0.0,
-    "max": 0.0,
-    "delegacion": "Iztapalapa",
-    "lat": 19.366756,
-    "lon": -99.034544
   },
   "Presiones_NORTE_94_CC_ANOTONIO_RUIZ_GALINDO": {
     "min": 0.05,
@@ -6313,26 +6236,12 @@
     "lat": 19.326854,
     "lon": -99.063813
   },
-  "Presiones_FELIPE_NERI_Y_MARTHA": {
-    "min": 0.0,
-    "max": 0.52,
-    "delegacion": "Iztapalapa",
-    "lat": 19.363228,
-    "lon": -99.013306
-  },
   "Presiones_CORREDORES_Y_DEL_GOLF": {
     "min": 1.07,
     "max": 2.31,
     "delegacion": "Coyoacan",
     "lat": 19.351708,
     "lon": -99.141749
-  },
-  "Presiones_CLAUDIO_ALCOCER_Y_EMILIO_MADERO": {
-    "min": 0.0,
-    "max": 0.89,
-    "delegacion": "Iztapalapa",
-    "lat": 19.368888,
-    "lon": -99.014757
   },
   "Gastos_Portales": {
     "min": 0.0,
@@ -6355,13 +6264,6 @@
     "lat": 19.332413415501854,
     "lon": -99.06452827558229
   },
-  "Presiones_PORTO_ALEGRE_Y_ALFAYUCAN": {
-    "min": 0.0,
-    "max": 0.58,
-    "delegacion": "Iztapalapa",
-    "lat": 19.375044,
-    "lon": -99.131452
-  },
   "Presiones_BUENAVISTA_Y_VISTA_ALEGRE": {
     "min": 0.0,
     "max": 1.26,
@@ -6382,13 +6284,6 @@
     "delegacion": "Azcapotzalco",
     "lat": 19.478842,
     "lon": -99.155306
-  },
-  "Presiones_AZUCENA_Y_AV_2": {
-    "min": 0.0,
-    "max": 3.34,
-    "delegacion": "Iztapalapa",
-    "lat": 19.319624,
-    "lon": -99.062291
   },
   "Presiones_COCOTEROS_Y_MALVON": {
     "min": 0.14,
