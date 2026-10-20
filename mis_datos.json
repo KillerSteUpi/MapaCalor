@@ -11279,6 +11279,672 @@
         "delegacion": "Alvaro Obregon",
         "lat": 19.35946,
         "lon": -99.246
-}
+},
+"Primaria_1_ACANTILADO_345": {
+    "min": 0.3,
+    "max": 3.04,
+    "delegacion": "Gustavo A Madero",
+    "lat": 19.5192,
+    "lon": -99.14274
+  },
+"Primaria_2_VENUS_350": {
+    "min": 0.23,
+    "max": 2.58,
+    "delegacion": "Gustavo A Madero",
+    "lat": 19.50309,
+    "lon": -99.15612
+  },
+"Primaria_3_LA_ESCALERA_353": {
+    "min": 0.3,
+    "max": 1.86,
+    "delegacion": "Gustavo A Madero",
+    "lat": 19.50302,
+    "lon": -99.13178
+  },
+"Primaria_4_TICOMAN_357": {
+    "min": 0.38,
+    "max": 2.51,
+    "delegacion": "Gustavo A Madero",
+    "lat": 19.49871,
+    "lon": -99.12479
+  },
+"Primaria_5_CALLE_325_361": {
+    "min": 0.4,
+    "max": 2.89,
+    "delegacion": "Gustavo A Madero",
+    "lat": 19.49669,
+    "lon": -99.08372
+  },
+"Primaria_6_TALISMAN_367": {
+    "min": 0.34,
+    "max": 1.87,
+    "delegacion": "Gustavo A Madero",
+    "lat": 19.47517,
+    "lon": -99.11123
+  },
+"Primaria_7_GRAN_CANAL_370": {
+    "min": 0.22,
+    "max": 2.46,
+    "delegacion": "Gustavo A Madero",
+    "lat": 19.45908,
+    "lon": -99.09797
+  },
+"Primaria_8_MISTERIOS_374": {
+    "min": 0.4,
+    "max": 1.83,
+    "delegacion": "Gustavo A Madero",
+    "lat": 19.47983,
+    "lon": -99.12084
+  },
+"Primaria_9_ARAGON_379": {
+    "min": 0.56,
+    "max": 1.96,
+    "delegacion": "Gustavo A Madero",
+    "lat": 19.46734,
+    "lon": -99.06245
+  },
+"Primaria_10_XOCHINAHUAC_382": {
+    "min": 1.17,
+    "max": 2.0,
+    "delegacion": "Azcapotzalco",
+    "lat": 19.50564,
+    "lon": -99.19048
+  },
+"Primaria_11_CUITLAHUAC_387": {
+    "min": 0.44,
+    "max": 1.69,
+    "delegacion": "Azcapotzalco",
+    "lat": 19.47401,
+    "lon": -99.15903
+  },
+"Primaria_12_AHUIZOTLA_391": {
+    "min": 0.28,
+    "max": 1.63,
+    "delegacion": "Miguel Hidalgo",
+    "lat": 19.46423,
+    "lon": -99.21304
+  },
+"Primaria_13_ING__MILITARES_394": { 
+    "min": 0.38,
+    "max": 1.06,
+    "delegacion": "Miguel Hidalgo",
+    "lat": 19.46065,
+    "lon": -99.21374
+  },
+"Primaria_14_TACUBA_399": {
+    "min": 0.69,
+    "max": 1.6,
+    "delegacion": "Miguel Hidalgo",
+    "lat": 19.45592,
+    "lon": -99.17982
+  },
+"Primaria_15_HOMERO_404": {
+    "min": 0.67,
+    "max": 1.77,
+    "delegacion": "Miguel Hidalgo",
+    "lat": 19.4355,
+    "lon": -99.18774
+  },
+"Primaria_16_R__FLORES_MAGON_405": {
+    "min": 0.34,
+    "max": 0.97,
+    "delegacion": "Cuauhtemoc",
+    "lat": 19.45592,
+    "lon": -99.16348
+  },
+"Primaria_17_CHOPO_412": {
+    "min": 0.52,
+    "max": 1.46,
+    "delegacion": "Cuauhtemoc",
+    "lat": 19.4624,
+    "lon": -99.15239
+  },
+"Primaria_18_P__ARRIAGA_413": {
+    "min": 0.41,
+    "max": 1.32,
+    "delegacion": "Cuauhtemoc",
+    "lat": 19.43864,
+    "lon": -99.15342
+  },
+"Primaria_19_TOLEDO_420": {
+    "min": 0.53,
+    "max": 1.98,
+    "delegacion": "Cuauhtemoc",
+    "lat": 19.42427,
+    "lon": -99.1727
+  },
+"Primaria_20_ATLIXCO_421": { 
+    "min": 0.21,
+    "max": 2.25,
+    "delegacion": "Cuauhtemoc",
+    "lat": 19.41164,
+    "lon": -99.17509
+  },
+"Primaria_21_SUR_69_428": {
+    "min": 0.71,
+    "max": 1.46,
+    "delegacion": "Cuauhtemoc",
+    "lat": 19.40517,
+    "lon": -99.13021
+  },
+"Primaria_22_DR__LAVISTA_429": {
+    "min": 0.7,
+    "max": 1.49,
+    "delegacion": "Cuauhtemoc",
+    "lat": 19.42352,
+    "lon": -99.14506
+  },
+"Primaria_23_ALUMINIO_436": {
+    "min": 0.32,
+    "max": 1.08,
+    "delegacion": "Venustiano Carranza",
+    "lat": 19.45031,
+    "lon": -99.11085
+  },
+"Primaria_24_NORTE_17_437": {
+    "min": 0.43,
+    "max": 0.95,
+    "delegacion": "Venustiano Carranza",
+    "lat": 19.4286,
+    "lon": -99.09621
+  },
+"Primaria_25_ANTROPOLOGIA_444": {
+    "min": 0.49,
+    "max": 1.06,
+    "delegacion": "Venustiano Carranza",
+    "lat": 19.4159,
+    "lon": -99.08849
+  },
+"Primaria_26_F__SERVANDO_445": {
+    "min": 0.63,
+    "max": 1.09,
+    "delegacion": "Venustiano Carranza",
+    "lat": 19.42216,
+    "lon": -99.12019
+  },
+"Primaria_27_CHURUBUSCOPLUTARCO_452": {
+    "min": 0.99,
+    "max": 1.54,
+    "delegacion": "Iztacalco",
+    "lat": 19.39632,
+    "lon": -99.09922
+  },
+"Primaria_28_A__ORIENTAL_453": {
+    "min": 0.68,
+    "max": 1.12,
+    "delegacion": "Iztacalco",
+    "lat": 19.40162,
+    "lon": -99.08131
+  },
+"Primaria_29_SUR_8_460": {  
+    "min": 0.8,
+    "max": 1.26,
+    "delegacion": "Iztacalco",
+    "lat": 19.39843,
+    "lon": -99.06196
+  },
+"Primaria_30_BRETANA_461": {
+    "min": 0.7,
+    "max": 1.61,
+    "delegacion": "Benito Juarez",
+    "lat": 19.37319,
+    "lon": -99.13902
+  },
+"Primaria_31_MOLINOS_468": {
+    "min": 1.21,
+    "max": 3.28,
+    "delegacion": "Benito Juarez",
+    "lat": 19.37265,
+    "lon": -99.19019
+  },
+"Primaria_32_AMORES_469": {
+    "min": 0.3,
+    "max": 1.84,
+    "delegacion": "Benito Juarez",
+    "lat": 19.36682,
+    "lon": -99.17065
+  },
+"Primaria_33_REPUBLICAS_476": {
+    "min": 0.37,
+    "max": 2.1,
+    "delegacion": "Benito Juarez",
+    "lat": 19.36473,
+    "lon": -99.15520
+  },
+"Primaria_34_NEVADO_477": {
+    "min": 0.24,
+    "max": 2.19,
+    "delegacion": "Benito Juarez",
+    "lat": 19.35917,
+    "lon": -99.14516
+  },
+"Primaria_35_DAKOTA_484": {
+    "min": 1.21,
+    "max": 3.52,
+    "delegacion": "Benito Juarez",
+    "lat": 19.39464,
+    "lon": -99.17511
+  },
+"Primaria_36_CORUNA_485": {
+    "min": 0.73,
+    "max": 1.6,
+    "delegacion": "Benito Juarez",
+    "lat": 19.40205,
+    "lon": -99.14187
+  },
+"Primaria_37_M__ANGEL_492": {
+    "min": 0.73,
+    "max": 1.71,
+    "delegacion": "Benito Juarez",
+    "lat": 19.39539,
+    "lon": -99.13540
+  },
+"Primaria_38_J__DEL_PEDREGAL_493": {
+    "min": 0.5,
+    "max": 2.78,
+    "delegacion": "Alvaro Obregon",
+    "lat": 19.33163,
+    "lon": -99.20918
+  },
+"Primaria_39_CUAJIMALPA_500": {
+    "min": 0.48,
+    "max": 0.61,
+    "delegacion": "Cuajimalpa de Morelos",
+    "lat": 19.36849,
+    "lon": -99.28646
+  },
+"Primaria_40_UNIVERSIDAD_501": {
+    "min": 1.07,
+    "max": 2.01,
+    "delegacion": "Coyoacan",
+    "lat": 19.34632,
+    "lon": -99.17793
+  },
+"Primaria_41_VIA_LACTEA_508": {
+    "min": 0.51,
+    "max": 1.21,
+    "delegacion": "Coyoacan",
+    "lat": 19.35835,
+    "lon": -99.13003
+  },
+"Primaria_42_STA__URSULA_509": {
+    "min": 0.47,
+    "max": 1.19,
+    "delegacion": "Coyoacan",
+    "lat": 19.31168,
+    "lon": -99.16173
+  },
+"Primaria_43_CAFETALES_516": {
+    "min": 0.32,
+    "max": 0.72,
+    "delegacion": "Coyoacan",
+    "lat": 19.32087,
+    "lon": -99.11375
+  },
+"Primaria_44_TEZONTLE_517": {
+    "min": 0.3,
+    "max": 0.96,
+    "delegacion": "Iztapalapa",
+    "lat": 19.38161,
+    "lon": -99.06067
+  },
+"Primaria_45_LORETO_522": {
+    "min": 0.52,
+    "max": 1.18,
+    "delegacion": "Iztapalapa",
+    "lat": 19.36847,
+    "lon": -99.03303
+  },
+"Primaria_46_ANO_DE_JUAREZ_527": {
+    "min": 0.3,
+    "max": 0.77,
+    "delegacion": "Iztapalapa",
+    "lat": 19.35679,
+    "lon": -99.10934
+  },
+"Primaria_47_ERMITA_530": {
+    "min": 0.33,
+    "max": 2.06,
+    "delegacion": "Iztapalapa",
+    "lat": 19.33364,
+    "lon": -99.04988
+  },
+"Primaria_48_MICHOACAN_535": {
+    "min": 0.31,
+    "max": 2.61,
+    "delegacion": "Iztapalapa",
+    "lat": 19.3667,
+    "lon": -99.07822
+  },
+"Primaria_49_LAS_TORRES_538": {
+    "min": 0.34,
+    "max": 1.37,
+    "delegacion": "Iztapalapa",
+    "lat": 19.30837,
+    "lon": -99.07658
+  },
+"Primaria_50_REPUBLICA_FEDERAL_541": {
+    "min": 0.22,
+    "max": 0.68,
+    "delegacion": "Iztapalapa",
+    "lat": 19.37056,
+    "lon": -99.01712
+  },
+"Primaria_51_TLAHUAC_548": {
+    "min": 0.27,
+    "max": 0.78,
+    "delegacion": "Tlahuac",
+    "lat": 19.27116,
+    "lon": -99.00141
+  },
+"Primaria_52_XOCHIMILCO_549": {
+    "min": 0.45,
+    "max": 1.67,
+    "delegacion": "Xochimilco",
+    "lat": 19.26525,
+    "lon": -99.10287
+  },
+"Primaria_53_ACOXPA_556": {
+    "min": 0.58,
+    "max": 1.39,
+    "delegacion": "Tlalpan",
+    "lat": 19.29279,
+    "lon": -99.12533
+  },
+"Primaria_54_PADIERNA_557": {
+    "min": 1.01,
+    "max": 1.88,
+    "delegacion": "Tlalpan",
+    "lat": 19.28882,
+    "lon": -99.22782
+  },
+"Primaria_55_CIA_8_B_562": {
+    "min": 0.28,
+    "max": 3.57,
+    "delegacion": "Iztapalapa",
+    "lat": 19.34909,
+    "lon": -98.98644
+  },
+"Primaria_56_LOPEZ_PORTILLO_567": {
+    "min": 0.34,
+    "max": 1.98,
+    "delegacion": "Iztapalapa",
+    "lat": 19.32763,
+    "lon": -99.05338
+  },
+"Primaria_57_CONSTITUCION_DE_1917_569": {
+    "min": 0.31,
+    "max": 3.57,
+    "delegacion": "Iztapalapa",
+    "lat": 19.34658,
+    "lon": -99.06084
+  },
+"Primaria_58_EJE_2_ORIENTE_239": {
+    "min": 0.75,
+    "max": 0.3,
+    "delegacion": "Iztapalapa",
+    "lat": 19.36931,
+    "lon": -99.12235
+  },
+"Primaria_59_OCTAVIO_SENTIES_240": {
+    "min": 1,
+    "max": 1,
+    "delegacion": "Iztapalapa",
+    "lat": 19.35333,
+    "lon": -99.01256
+  },
+"Primaria_60_NAUTLA_241": {
+    "min": 0.33,
+    "max": 3.37,
+    "delegacion": "Tlalpan",
+    "lat": 19.3338,
+    "lon": -99.07507
+  },
+"Primaria_61_AHUEYOTL_242": {
+    "min": 0.38,
+    "max": 0.53,
+    "delegacion": "Iztapalapa",
+    "lat": 19.34447,
+    "lon": -99.107
+  },
+"Primaria_62_DELFIN_MADRIGAL_243": {
+    "min": 0.21,
+    "max": 1.77,
+    "delegacion": "Coyoacan",
+    "lat": 19.32056,
+    "lon": -99.17389
+  },
+"Primaria_63_MAR_DE_LAS_LLUVIAS_244": {
+    "min": 0.27,
+    "max": 1.06,
+    "delegacion": "Tlahuac",
+    "lat": 19.28981,
+    "lon": -98.99899
+  },
+"Primaria_64_ZAPOTITLAN_245": {
+    "min": 1.09,
+    "max": 1.98,
+    "delegacion": "Tlahuac",
+    "lat": 19.29638,
+    "lon": -99.03525
+  },
+"Primaria_65_AV__DEL_TRABAJO_246": {
+    "min": 0.31,
+    "max": 3.38,
+    "delegacion": "Tlahuac",
+    "lat": 19.30182,
+    "lon": -99.02971
+  },
+"Primaria_66_PROL_DIV_DEL_NORTE_247": {
+    "min": 0.43,
+    "max": 1.09,
+    "delegacion": "Xochimilco",
+    "lat": 19.28339,
+    "lon": -99.1261
+  },
+"Primaria_67_HIDALGO_249": {
+    "min": 0.4,
+    "max": 1.53,
+    "delegacion": "Azcapotzalco",
+    "lat": 19.48139,
+    "lon": -99.18861
+  },
+"Primaria_68_EJE_4_NORTE_250": {
+    "min": 0.38,
+    "max": 1.67,
+    "delegacion": "Azcapotzalco",
+    "lat": 19.49069,
+    "lon": -99.17345
+  },
+"Primaria_69_NORTE_73_251": {
+    "min": 0.5,
+    "max": 1.86,
+    "delegacion": "Azcapotzalco",
+    "lat": 19.46468,
+    "lon": -99.17551
+  },
+"Primaria_70_TRANSVAL_252": { 
+    "min": 0.5,
+    "max": 1.75,
+    "delegacion": "Venustiano Carranza",
+    "lat": 19.44703,
+    "lon": -99.10238
+  },
+"Primaria_71_SANTIAGO_253": {
+    "min": 0.78,
+    "max": 1.4,
+    "delegacion": "Iztacalco",
+    "lat": 19.39016,
+    "lon": -99.12193
+  },
+"Primaria_72_CORREO_MAYOR_254": {
+    "min": 0.74,
+    "max": 1.59,
+    "delegacion": "Cuauhtemoc",
+    "lat": 19.42631,
+    "lon": -99.13094
+  },
+"Primaria_73_PASEO_DE_LA_REFORMA_255": {
+    "min": 0.5,
+    "max": 1.56,
+    "delegacion": "Cuauhtemoc",
+    "lat": 19.44653,
+    "lon": -99.13621
+  },
+"Primaria_74_CIRCUITO_INTERIOR_256": {
+    "min": 0.29,
+    "max": 1.2,
+    "delegacion": "Cuauhtemoc",
+    "lat": 19.46135,
+    "lon": -99.12771
+  },
+"Primaria_75_PLOMO_257": {
+    "min": 0.35,
+    "max": 1.06,
+    "delegacion": "Cuauhtemoc",
+    "lat": 19.45715,
+    "lon": -99.12416
+  },
+"Primaria_76_AHORRO_POSTAL_258": {
+    "min": 1.04,
+    "max": 2.19,
+    "delegacion": "Benito Juarez",
+    "lat": 19.38875,
+    "lon": -99.14237
+  },
+"Primaria_77_LAGO_HURON_259": {
+    "min": 0.42,
+    "max": 1.36,
+    "delegacion": "Miguel Hidalgo",
+    "lat": 19.45604,
+    "lon": -99.18922
+  },
+"Primaria_78_SANCTORUM_320": { 
+    "min": 0.3,
+    "max": 1.32,
+    "delegacion": "Miguel Hidalgo",
+    "lat": 19.45552,
+    "lon": -99.20998
+  },
+"Primaria_79_APATLACO_325": {
+    "min": 0.58,
+    "max": 1.1,
+    "delegacion": "Benito Juarez",
+    "lat": 19.37984,
+    "lon": -99.1874
+  },
+"Primaria_81_NORTE_35_580": {
+    "min": 1,
+    "max": 1,
+    "delegacion": "Azcapotzalco",
+    "lat": 19.48944,
+    "lon": -99.15522
+  },
+"Primaria_82_DA_VINCI_581": {
+    "min": 1.88,
+    "max": 4.17,
+    "delegacion": "Benito Juarez",
+    "lat": 19.38145,
+    "lon": -99.1903
+  },
+"Primaria_83_E__REBSAMEN_588": {
+    "min": 0.78,
+    "max": 1.98,
+    "delegacion": "Benito Juarez",
+    "lat": 19.39415,
+    "lon": -99.15905
+  },
+"Primaria_84_ANGEL_URRAZA_589": { 
+    "min": 1.83,
+    "max": 4.72,
+    "delegacion": "Benito Juarez",
+    "lat": 19.38287,
+    "lon": -99.16664
+  },
+"Primaria_85_ROMERO_DE_TERREROS_596": {   
+    "min": 0.4,
+    "max": 2.04,
+    "delegacion": "Benito Juarez",
+    "lat": 19.39541,
+    "lon": -99.16865
+  },
+"Primaria_86_VERTIZ_597": {
+    "min": 0.78,
+    "max": 1.92,
+    "delegacion": "Benito Juarez",
+    "lat": 19.38645,
+    "lon": -99.15211
+  },
+"Primaria_87_CANAL_NACIONAL_604": {
+    "min": 1.29,
+    "max": 2.46,
+    "delegacion": "Venustiano Carranza",
+    "lat": 19.41105,
+    "lon": -99.10056
+  },
+"Primaria_88_DR__MARQUEZ_605": {
+    "min": 1.15,
+    "max": 2.38,
+    "delegacion": "Cuauhtemoc",
+    "lat": 19.4464,
+    "lon": -99.13704
+  },
+"Primaria_90_CENTENARIO_613": {
+    "min": 0.04,
+    "max": 1,
+    "delegacion": "Gustavo A Madero",
+    "lat": 19.50189,
+    "lon": -99.0939
+  },
+"Primaria_91_LA_MEXICANA_620": {
+    "min": 0.12,
+    "max": 1.98,
+    "delegacion": "Gustavo A Madero",
+    "lat": 19.44685,
+    "lon": -99.06748
+  },
+"Primaria_92_PONIENTE_112_621": {
+    "min": 0.38,
+    "max": 1.7,
+    "delegacion": "Gustavo A Madero",
+    "lat": 19.48075,
+    "lon": -99.13569
+  },
+"Primaria_93_CALLE_2_628": {
+    "min": 0.84,
+    "max": 1.65,
+    "delegacion": "Iztacalco",
+    "lat": 19.40777,
+    "lon": -99.0672
+  },
+"Primaria_94_CIRCUNVALACION_629": {
+    "min": 0.04,
+    "max": 1.32,
+    "delegacion": "Iztapalapa",
+    "lat": 19.35783,
+    "lon": -99.03319
+  },
+"Primaria_95_TELECOMUNICACIONES_636": {
+    "min": 0.88,
+    "max": 0.4,
+    "delegacion": "Iztapalapa",
+    "lat": 19.39021,
+    "lon": -99.04561
+  },
+"Primaria_96_LEGARIA_2_637": {
+    "min": 0.15,
+    "max": 1.3,
+    "delegacion": "Miguel Hidalgo",
+    "lat": 19.45947,
+    "lon": -99.18922
+  },
+"Primaria_97_ESCORPENA_644": {
+    "min": 1,
+    "max": 2.06,
+    "delegacion": "Tlahuac",
+    "lat": 19.30429,
+    "lon": -99.05986
+  }
+
 
 }
