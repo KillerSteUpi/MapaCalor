@@ -4542,7 +4542,7 @@
     "lat": 19.46073296224307,
     "lon": -99.16098062205317
   },
-  "Pozo_Ajusco": {
+  "Pozo_Ajusco1": {
     "min": 0.4,
     "max": 2.0,
     "delegacion": "Coyoacan",
@@ -11944,7 +11944,219 @@
     "delegacion": "Tlahuac",
     "lat": 19.30429,
     "lon": -99.05986
-  }
+  },
+
+"Pozo_Deportivo_Cantil": {
+        "min": 0,
+        "max": 1,
+        "delegacion": "Coyoacan",
+        "lat": 19.33169134,
+        "lon": -99.15159032
+},
+"Pozo_Copilco_Universidad": {
+        "min": 0,
+        "max": 2.5,
+        "delegacion": "Coyoacan",
+        "lat": 19.33654923,
+        "lon": -99.18544959
+},
+"Pozo_Pedregal_de_Sto_Domingo": {
+        "min": 0,
+        "max": 2,
+        "delegacion": "Coyoacan",
+        "lat": 19.31842969,
+        "lon": -99.17026587
+},
+"Pozo_Directo_19": {
+        "min": 0,
+        "max": 2.5,
+        "delegacion": "Coyoacan",
+        "lat": 19.30344589,
+        "lon": -99.18208542
+},
+"Pozo_Zapata_16": {
+        "min": 0,
+        "max": 20,
+        "delegacion": "Coyoacan",
+        "lat": 19.30862233,
+        "lon": -99.1650169
+},
+"Pozo_Reyes_Coyoacan": {
+        "min": 2.55,
+        "max": 3.46,
+        "delegacion": "Coyoacan",
+        "lat": 19.33929746,
+        "lon": -99.15271727
+},
+"Pozo_AuxXote3A": {
+        "min": 0,
+        "max": 2,
+        "delegacion": "Coyoacan",
+        "lat": 19.30757368,
+        "lon": -99.15798104
+},
+"Pozo_Deportivo_Durango": {
+        "min": 32.04,
+        "max": 33.86,
+        "delegacion": "Coyoacan",
+        "lat": 19.31832824,
+        "lon": -99.15853669
+},
+"Pozo_Caracol": {
+        "min": 1.14,
+        "max": 1.73,
+        "delegacion": "Coyoacan",
+        "lat": 19.30716359,
+        "lon": -99.16296949
+},
+"Pozo_Cienega": {
+        "min": 41.94,
+        "max": 43.5,
+        "delegacion": "Coyoacan",
+        "lat": 19.34388801,
+        "lon": -99.16622568
+},
+"Pozo_Villa_Olimpica_1": {
+        "min": 0,
+        "max": 2,
+        "delegacion": "Coyoacan",
+        "lat": 19.30651567,
+        "lon": -99.1867789
+},
+"Pozo_Del_Carmen": {
+        "min": 0,
+        "max": 2,
+        "delegacion": "Coyoacan",
+        "lat": 19.35449359,
+        "lon": -99.16086628
+},
+"Pozo_Zapata_15": {
+        "min": 37.45,
+        "max": 39.52,
+        "delegacion": "Coyoacan",
+        "lat": 19.30139482,
+        "lon": -99.16218683
+},
+"Pozo_Directo_25": {
+        "min": 26.24,
+        "max": 27.99,
+        "delegacion": "Coyoacan",
+        "lat": 19.33025283,
+        "lon": -99.16288537
+},
+"Pozo_Viveros_del_Reloj_1": {
+        "min": 0.13,
+        "max": 0.37,
+        "delegacion": "Coyoacan",
+        "lat": 19.31307711,
+        "lon": -99.1483081
+},
+"Pozo_Rey_Moctezuma": {
+        "min": 40.6,
+        "max": 41.64,
+        "delegacion": "Coyoacan",
+        "lat": 19.3289817,
+        "lon": -99.15649635
+},
+"Pozo_Directo_20": {
+        "min": 0,
+        "max": 2,
+        "delegacion": "Coyoacan",
+        "lat": 19.30253056,
+        "lon": -99.19023744
+},
+"Pozo_Metro_Cu": {
+        "min": 46.96,
+        "max": 49.37,
+        "delegacion": "Coyoacan",
+        "lat": 19.32396351,
+        "lon": -99.17292645
+},
+"Pozo_Santa_Ursula_Coapa": {
+        "min": 1.49,
+        "max": 2.2,
+        "delegacion": "Coyoacan",
+        "lat": 19.30571689,
+        "lon": -99.15291803
+},
+"Pozo_Ruiz_Cortinez": {
+        "min": 0,
+        "max": 20,
+        "delegacion": "Coyoacan",
+        "lat": 19.31972153,
+        "lon": -99.14586758
+},
+"Pozo_San_Luis_1": {
+        "min": 0,
+        "max": 2,
+        "delegacion": "Coyoacan",
+        "lat": 19.25636282,
+        "lon": -99.02399901
+},
+"Pozo_Directo_24": {
+        "min": 0.58,
+        "max": 0.88,
+        "delegacion": "Coyoacan",
+        "lat": 19.31229923,
+        "lon": -99.16981097
+},
+"Pozo_Terranova": {
+        "min": 0,
+        "max": 2.5,
+        "delegacion": "Coyoacan",
+        "lat": 19.33823582,
+        "lon": -99.18925352
+},
+"Pozo_Pedregal_de_Carrasco": {
+        "min": 0,
+        "max": 2,
+        "delegacion": "Coyoacan",
+        "lat": 19.30900279,
+        "lon": -99.17141839
+},
+"Pozo_Zapotecas": {
+        "min": 0,
+        "max": 2,
+        "delegacion": "Coyoacan",
+        "lat": 19.32468465,
+        "lon": -99.16000229
+},
+"Pozo_Pedregal_de_Sta_Ursula": {
+        "min": 0,
+        "max": 2,
+        "delegacion": "Coyoacan",
+        "lat": 19.31194068,
+        "lon": -99.15639826
+},
+"Pozo_AuxXote8B": {
+        "min": 0,
+        "max": 2,
+        "delegacion": "Coyoacan",
+        "lat": 19.30760809,
+        "lon": -99.18002931
+},
+"Pozo_Directo_21": {
+        "min": 0,
+        "max": 2,
+        "delegacion": "Coyoacan",
+        "lat": 19.30249706,
+        "lon": -99.19334773
+},
+"Pozo_Ajusco": {
+        "min": 0,
+        "max": 2,
+        "delegacion": "Coyoacan",
+        "lat": 19.32015211,
+        "lon": -99.15854437
+},
+"Pozo_AuxXote11A": {
+        "min": 0.01,
+        "max": 0.71,
+        "delegacion": "Coyoacan",
+        "lat": 19.31777488,
+        "lon": -99.16440259
+}
+
 
 
 }
