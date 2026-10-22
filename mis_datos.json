@@ -12351,6 +12351,440 @@
         "delegacion": "Benito Juarez",
         "lat": 19.38344205,
         "lon": -99.18711203
+},
+"POZOS_A_PR_7": {
+        "min": 0,
+        "max": 2.44,
+        "delegacion": "Tlalpan",
+        "lat": 19.2662,
+        "lon": -99.1415
+},
+"POZOS_ACOXPA_31": {
+        "min": 0.9,
+        "max": 1.71,
+        "delegacion": "Tlalpan",
+        "lat": 19.29813033,
+        "lon": -99.13887716
+},
+"POZOS_ACOXPA_32": {
+        "min": 0.88,
+        "max": 1,
+        "delegacion": "Tlalpan",
+        "lat": 19.29632044,
+        "lon": -99.1342167
+},
+"POZOS_ARTESANIAS": {
+        "min": 1.01,
+        "max": 3.57,
+        "delegacion": "Tlalpan",
+        "lat": 19.29563602,
+        "lon": -99.18661225
+},
+"POZOS_BELISARIO_DGUEZ": {
+        "min": 12.17,
+        "max": 12.24,
+        "delegacion": "Tlalpan",
+        "lat": 19.29352045,
+        "lon": -99.17839584
+},
+"POZOS_BOSQUES_TLALPAN1": {
+        "min": 3.71,
+        "max": 3.76,
+        "delegacion": "Tlalpan",
+        "lat": 19.29646749,
+        "lon": -99.19522711
+},
+"POZOS_CAMINERO": {
+        "min": 0,
+        "max": 1.2,
+        "delegacion": "Tlalpan",
+        "lat": 19.27683124,
+        "lon": -99.16581532
+},
+"POZOS_CANAL13": {
+        "min": 3.76,
+        "max": 11.19,
+        "delegacion": "Tlalpan",
+        "lat": 19.30502264,
+        "lon": -99.20636454
+},
+"POZOS_CLUB_GOLF_2": {
+        "min": 4,
+        "max": 4.86,
+        "delegacion": "Tlalpan",
+        "lat": 19.28396542,
+        "lon": -99.15114662
+},
+"POZOS_CLUB_GOLF_3": {
+        "min": 3,
+        "max": 4,
+        "delegacion": "Tlalpan",
+        "lat": 19.28427733,
+        "lon": -99.15636247
+},
+"POZOS_CLUB_GOLF4": {
+        "min": 0,
+        "max": 1.2,
+        "delegacion": "Tlalpan",
+        "lat": 19.28032866,
+        "lon": -99.15558782
+},
+"POZOS_DEPORTIVO_VIBANCO": {
+        "min": 1,
+        "max": 1.7,
+        "delegacion": "Tlalpan",
+        "lat": 19.29180058,
+        "lon": -99.17186472
+},
+"POZOS_DEPORTIVO_XOCHITL": {
+        "min": 5.82,
+        "max": 7.04,
+        "delegacion": "Tlalpan",
+        "lat": 19.29002032,
+        "lon": -99.18111414
+},
+"POZOS_FOVISSSTE": {
+        "min": 0,
+        "max": 1.5,
+        "delegacion": "Tlalpan",
+        "lat": 19.27860546,
+        "lon": -99.19064725
+},
+"POZOS_FUENTES_BROTANTES": {
+        "min": 3.38,
+        "max": 3.79,
+        "delegacion": "Tlalpan",
+        "lat": 19.28951999,
+        "lon": -99.17520307
+},
+"POZOS_FUENTES_BROTANTES2": {
+        "min": 1,
+        "max": 1.51,
+        "delegacion": "Tlalpan",
+        "lat": 19.28608115,
+        "lon": -99.17997722
+},
+"POZOS_FUENTES_PEDREGAL": {
+        "min": 0,
+        "max": 1.2,
+        "delegacion": "Tlalpan",
+        "lat": 19.30635427,
+        "lon": -99.22358263
+},
+"POZOS_GALEANA_TLALPAN": {
+        "min": 1,
+        "max": 1.23,
+        "delegacion": "Tlalpan",
+        "lat": 19.28583196,
+        "lon": -99.16636687
+},
+"POZOS_GRANJAS_AGRICOLA": {
+        "min": -0.09,
+        "max": 5.93,
+        "delegacion": "Tlalpan",
+        "lat": 19.29830166,
+        "lon": -99.11820796
+},
+"POZOS_HIDALGO": {
+        "min": 0.08,
+        "max": 2.56,
+        "delegacion": "Tlalpan",
+        "lat": 19.2914643,
+        "lon": -99.18311447
+},
+"POZOS_ISSSFAM": {
+        "min": 12,
+        "max": 12.5,
+        "delegacion": "Tlalpan",
+        "lat": 19.27211037,
+        "lon": -99.15942483
+},
+"POZOS_ISSSTE_COAPA_2": {
+        "min": 0.56,
+        "max": 0.8,
+        "delegacion": "Tlalpan",
+        "lat": 19.29605186,
+        "lon": -99.10805958
+},
+"POZOS_ISSSTE_COAPA": {
+        "min": 0.35,
+        "max": 0.87,
+        "delegacion": "Tlalpan",
+        "lat": 19.29698134,
+        "lon": -99.12499743
+},
+"POZOS_LIMANTITLA": {
+        "min": 12.13,
+        "max": 12.18,
+        "delegacion": "Tlalpan",
+        "lat": 19.28188424,
+        "lon": -99.17433839
+},
+"POZOS_NUEVO_HUIPILCO": {
+        "min": 1.33,
+        "max": 1.8,
+        "delegacion": "Tlalpan",
+        "lat": 19.28627181,
+        "lon": -99.13733874
+},
+"POZOS_PADIERNA_1": {
+        "min": 0,
+        "max": 1.2,
+        "delegacion": "Tlalpan",
+        "lat": 19.31030017,
+        "lon": -99.22200124
+},
+"POZOS_PADIERNA2": {
+        "min": 0,
+        "max": 1.2,
+        "delegacion": "Tlalpan",
+        "lat": 19.30635427,
+        "lon": -99.22358263
+},
+"POZOS_PEDREGAL_AGUILAS": {
+        "min": 1.37,
+        "max": 4.95,
+        "delegacion": "Tlalpan",
+        "lat": 19.27123193,
+        "lon": -99.17021768
+},
+"POZOS_PENA_POBRE": {
+        "min": 1.75,
+        "max": 1.81,
+        "delegacion": "Tlalpan",
+        "lat": 19.29563602,
+        "lon": -99.18661225
+},
+"POZOS_PERIF_10": {
+        "min": 0,
+        "max": 1.2,
+        "delegacion": "Tlalpan",
+        "lat": 19.28504982,
+        "lon": -99.12756325
+},
+"POZOS_PERIF_12": {
+        "min": 1.66,
+        "max": 1.67,
+        "delegacion": "Tlalpan",
+        "lat": 19.29299518,
+        "lon": -99.11144597
+},
+"POZOS_PERIF_6": {
+        "min": 0.01,
+        "max": 0.03,
+        "delegacion": "Tlalpan",
+        "lat": 19.28888171,
+        "lon": -99.15119872
+},
+"POZOS_PERIF_7": {
+        "min": 1.63,
+        "max": 3.98,
+        "delegacion": "Tlalpan",
+        "lat": 19.28624698,
+        "lon": -99.15694491
+},
+"POZOS_PERIFERICO_2": {
+        "min": 12.35,
+        "max": 12.39,
+        "delegacion": "Tlalpan",
+        "lat": 19.30485882,
+        "lon": -99.12889217
+},
+"POZOS_PERIFERICO_5": {
+        "min": 2.97,
+        "max": 5.35,
+        "delegacion": "Tlalpan",
+        "lat": 19.3016613,
+        "lon": -99.16089072
+},
+"POZOS_POZO_ARENAL": {
+        "min": 0,
+        "max": 1.2,
+        "delegacion": "Tlalpan",
+        "lat": 19.27899352,
+        "lon": -99.14152974
+},
+"POZOS_POZO_R_1": {
+        "min": 0,
+        "max": 1.2,
+        "delegacion": "Tlalpan",
+        "lat": 19.26958801,
+        "lon": -99.15768504
+},
+"POZOS_POZO_R_2": {
+        "min": 1.49,
+        "max": 2.99,
+        "delegacion": "Tlalpan",
+        "lat": 19.26896478,
+        "lon": -99.16008795
+},
+"POZOS_POZO_R_4": {
+        "min": 0,
+        "max": 1.2,
+        "delegacion": "Tlalpan",
+        "lat": 19.27099437,
+        "lon": -99.15400876
+},
+"POZOS_POZO_R_9": {
+        "min": 6.3,
+        "max": 6.85,
+        "delegacion": "Tlalpan",
+        "lat": 19.27110683,
+        "lon": -99.14917439
+},
+"POZOS_POZO_SN_PEDRO_M": {
+        "min": 2.98,
+        "max": 5.51,
+        "delegacion": "Tlalpan",
+        "lat": 19.26512727,
+        "lon": -99.16085547
+},
+"POZOS_POZO_TORIELLO_G": {
+        "min": 0.53,
+        "max": 3,
+        "delegacion": "Tlalpan",
+        "lat": 19.28488747,
+        "lon": -99.16142635
+},
+"POZOS_PREPA_5": {
+        "min": 0,
+        "max": 1.2,
+        "delegacion": "Tlalpan",
+        "lat": 19.3043846,
+        "lon": -99.13481238
+},
+"POZOS_R_6": {
+        "min": 0,
+        "max": 1.2,
+        "delegacion": "Tlalpan",
+        "lat": 19.2739953,
+        "lon": -99.14222969
+},
+"POZOS_R10": {
+        "min": 0.74,
+        "max": 1.32,
+        "delegacion": "Tlalpan",
+        "lat": 19.27227868,
+        "lon": -99.15276019
+},
+"POZOS_R16": {
+        "min": 2.53,
+        "max": 3.06,
+        "delegacion": "Tlalpan",
+        "lat": 19.23821717,
+        "lon": -99.00355854
+},
+"POZOS_R3": {
+        "min": 1.03,
+        "max": 2.46,
+        "delegacion": "Tlalpan",
+        "lat": 19.26763018,
+        "lon": -99.15669878
+},
+"POZOS_R8": {
+        "min": 0.82,
+        "max": 1.13,
+        "delegacion": "Tlalpan",
+        "lat": 19.27686505,
+        "lon": -99.14814248
+},
+"POZOS_REINO_AVENTURA": {
+        "min": 3.84,
+        "max": 3.96,
+        "delegacion": "Tlalpan",
+        "lat": 19.29740959,
+        "lon": -99.20953407
+},
+"POZOS_SAN_FERNANDO": {
+        "min": 1.74,
+        "max": 3.5,
+        "delegacion": "Tlalpan",
+        "lat": 19.29551995,
+        "lon": -99.17608511
+},
+"POZOS_SAN_LO_ATEMOAYA_2": {
+        "min": 0.12,
+        "max": 0.37,
+        "delegacion": "Tlalpan",
+        "lat": 19.2476171,
+        "lon": -99.09827843
+},
+"POZOS_SANTA_CATARINA": {
+        "min": 4.21,
+        "max": 4.79,
+        "delegacion": "Tlalpan",
+        "lat": 19.29533285,
+        "lon": -99.18255721
+},
+"POZOS_SN_NICOLAS_TOL": {
+        "min": 1.26,
+        "max": 1.96,
+        "delegacion": "Tlalpan",
+        "lat": 19.29144258,
+        "lon": -99.13547755
+},
+"POZOS_SUR_27_BIS": {
+        "min": 1,
+        "max": 1.98,
+        "delegacion": "Tlalpan",
+        "lat": 19.288 ,
+        "lon": -99.167
+},
+"POZOS_V_TLALPAN_1": {
+        "min": 0,
+        "max": 1.2,
+        "delegacion": "Tlalpan",
+        "lat": 19.28383028,
+        "lon": -99.16122544
+},
+"POZOS_V_TLALPAN_2": {
+        "min": 0.49,
+        "max": 0.53,
+        "delegacion": "Tlalpan",
+        "lat": 19.28101606,
+        "lon": -99.16314936
+},
+"POZOS_VILLA_COAPA_08": {
+        "min": 0.56,
+        "max": 1.47,
+        "delegacion": "Tlalpan",
+        "lat": 19.28944014,
+        "lon": -99.11681158
+},
+"POZOS_VILLA_OLIMP_03": {
+        "min": 0,
+        "max": 3.04,
+        "delegacion": "Tlalpan",
+        "lat": 19.29671448,
+        "lon": -99.19241955
+},
+"POZOS_VILLA_OLIMPICA_2": {
+        "min": 12.5,
+        "max": 12.51,
+        "delegacion": "Tlalpan",
+        "lat": 19.30145847,
+        "lon": -99.18615337
+},
+"POZOS_VILLACOAPA_7": {
+        "min": 12.29,
+        "max": 12.34,
+        "delegacion": "Tlalpan",
+        "lat": 19.29424841,
+        "lon": -99.12964531
+},
+"POZOS_XOCHIMILCO_29": {
+        "min": 0,
+        "max": 1.2,
+        "delegacion": "Tlalpan",
+        "lat": 19.29578198,
+        "lon": -99.14644296
+},
+"POZOS_ZAPOTE": {
+        "min": 0.72,
+        "max": 0.83,
+        "delegacion": "Tlalpan",
+        "lat": 19.30093977,
+        "lon": -99.17875607
 }
 
 
