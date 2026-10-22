@@ -12155,6 +12155,202 @@
         "delegacion": "Coyoacan",
         "lat": 19.31777488,
         "lon": -99.16440259
+},
+"Pozos_Acacias": {
+        "min": 0,
+        "max": 1,
+        "delegacion": "Benito Juarez",
+        "lat": 19.36447844,
+        "lon": -99.17440242
+},
+"Pozos_Alamos_1": {
+        "min": 0,
+        "max": 2,
+        "delegacion": "Benito Juarez",
+        "lat": 19.39788804,
+        "lon": -99.14230844
+},
+"Pozos_Alamos_2": {
+        "min": 0,
+        "max": 2,
+        "delegacion": "Benito Juarez",
+        "lat": 19.40118733,
+        "lon": -99.14142555
+},
+"Pozos_Albert_Berlin": {
+        "min": 44.5,
+        "max": 47.5,
+        "delegacion": "Benito Juarez",
+        "lat": 19.37038011,
+        "lon": -99.14028483
+},
+"Pozos_AMADO_NERVO": {
+        "min": 0,
+        "max": 60.1,
+        "delegacion": "Benito Juarez",
+        "lat": 19.37038011,
+        "lon": -99.14028483
+},
+"Pozos_Campestre": {
+        "min": 0,
+        "max": 2,
+        "delegacion": "Benito Juarez",
+        "lat": 19.35802423,
+        "lon": -99.15381415
+},
+"Pozos_Diagonal_San_Antonio": {
+        "min": 0,
+        "max": 2,
+        "delegacion": "Benito Juarez",
+        "lat": 19.39977021,
+        "lon": -99.15052941
+},
+"Pozos_Jardin_Morelos": {
+        "min": 0,
+        "max": 2,
+        "delegacion": "Benito Juarez",
+        "lat": 19.36049456,
+        "lon": -99.16064364
+},
+"Pozos_Jardin_Pombo": {
+        "min": 0,
+        "max": 2,
+        "delegacion": "Benito Juarez",
+        "lat": 19.39266377,
+        "lon": -99.18347498
+},
+"Pozos_La_Campana": {
+        "min": 0,
+        "max": 2,
+        "delegacion": "Benito Juarez",
+        "lat": 19.37211334,
+        "lon": -99.18379472
+},
+"Pozos_La_Huerta": {
+        "min": 0,
+        "max": 2,
+        "delegacion": "Benito Juarez",
+        "lat": 19.37854914,
+        "lon": -99.16281351
+},
+"Pozos_Mariscal_Sucre": {
+        "min": 0,
+        "max": 2,
+        "delegacion": "Benito Juarez",
+        "lat": 19.34079901,
+        "lon": -99.16428032
+},
+"Pozos_Martires_de_Tacubaya": {
+        "min": 0,
+        "max": 2,
+        "delegacion": "Benito Juarez",
+        "lat": 19.39684081,
+        "lon": -99.184797
+},
+"Pozos_Miguel_Aleman_Nuevo": {
+        "min": 0,
+        "max": 2,
+        "delegacion": "Benito Juarez",
+        "lat": 19.39007885,
+        "lon": -99.14355876
+},
+"Pozos_Miraflores": {
+        "min": 0,
+        "max": 2,
+        "delegacion": "Benito Juarez",
+        "lat": 19.38788198,
+        "lon": -99.18453625
+},
+"Pozos_Miravalle": {
+        "min": 0,
+        "max": 2,
+        "delegacion": "Benito Juarez",
+        "lat": 19.36138694,
+        "lon": -99.14164829
+},
+"Pozos_Moderna": {
+        "min": 0,
+        "max": 2,
+        "delegacion": "Benito Juarez",
+        "lat": 19.39496539,
+        "lon": -99.13520109
+},
+"Pozos_Musical_Sucre": {
+        "min": 55.75,
+        "max": 58.75,
+        "delegacion": "Benito Juarez",
+        "lat": 19.34079901,
+        "lon": -99.16428032
+},
+"Pozos_Nativitas_Don_Luis": {
+        "min": 0,
+        "max": 2,
+        "delegacion": "Benito Juarez",
+        "lat": 19.38057839,
+        "lon": -99.13472258
+},
+"Pozos_Nativitas": {
+        "min": 0,
+        "max": 2,
+        "delegacion": "Benito Juarez",
+        "lat": 19.37979891,
+        "lon": -99.13775025
+},
+"Pozos_Normandia": {
+        "min": 0,
+        "max": 2,
+        "delegacion": "Benito Juarez",
+        "lat": 19.37388063,
+        "lon": -99.13623118
+},
+"Pozos_Ortiz_Rubio": {
+        "min": 0,
+        "max": 2,
+        "delegacion": "Benito Juarez",
+        "lat": 19.37458073,
+        "lon": -99.14250721
+},
+"Pozos_Parque_de_los_Venados": {
+        "min": 0,
+        "max": 2,
+        "delegacion": "Benito Juarez",
+        "lat": 19.37243795,
+        "lon": -99.15472279
+},
+"Pozos_Parroquia_1": {
+        "min": 0,
+        "max": 2,
+        "delegacion": "Benito Juarez",
+        "lat": 19.37115763,
+        "lon": -99.16069763
+},
+"Pozos_Parroquia_2": {
+        "min": 0,
+        "max": 2,
+        "delegacion": "Benito Juarez",
+        "lat": 19.36999583,
+        "lon": -99.17273818
+},
+"Pozos_Portales": {
+        "min": 0,
+        "max": 2,
+        "delegacion": "Benito Juarez",
+        "lat": 19.36357905,
+        "lon": -99.14663974
+},
+"Pozos_Radio_Mil": {
+        "min": 0,
+        "max": 2,
+        "delegacion": "Benito Juarez",
+        "lat": 19.38729782,
+        "lon": -99.15167028
+},
+"Pozos_Resendo_Arnaiz": {
+        "min": 43.75,
+        "max": 45.5,
+        "delegacion": "Benito Juarez",
+        "lat": 19.38344205,
+        "lon": -99.18711203
 }
 
 
