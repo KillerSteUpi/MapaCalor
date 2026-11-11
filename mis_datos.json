@@ -12407,6 +12407,329 @@
         "lat": 19.55244,
         "lon": -99.12459
 },
+"FRANCISCO_I_MADERO_Y_ALVARO_OBREGON": {
+        "min": 0,
+        "max": 2,
+        "delegacion": "Gustavo A Madero",
+        "lat": 19.53114,
+        "lon": -99.13772
+},
+"TIERRA_Y_SATURNO": {
+        "min": 0,
+        "max": 4.7,
+        "delegacion": "Coyoacan",
+        "lat": 19.30211,
+        "lon": -99.15976
+},
+"NAHUATLACAS_Y_REY_MOCTEZUMA": {
+        "min": 0,
+        "max": 1.6,
+        "delegacion": "Coyoacan",
+        "lat": 19.32582,
+        "lon": -99.15277
+},
+"TOPACIO_Y_VILLA_URRUTIA": {
+        "min": 0,
+        "max": 0.8,
+        "delegacion": "Cuauhtemoc",
+        "lat": 19.41228,
+        "lon": -99.12943
+},
+"JOSE_TORIBIO_MEDINA_Y_ANTONO_PLAZA": {
+        "min": 0,
+        "max": 1,
+        "delegacion": "Cuauhtemoc",
+        "lat": 19.40516,
+        "lon": -99.14079
+},
+"CERRO_DEL_HOMBRE_Y_CERRO_2_CONEJOS": {
+        "min": 0,
+        "max": 2.4,
+        "delegacion": "Coyoacan",
+        "lat": 19.34335,
+        "lon": -99.17715
+},
+"PDTE_VENUSTIANO_CARRANZA_Y_SAN_FRANCISCO_FIGURACO": {
+        "min": 0,
+        "max": 2,
+        "delegacion": "Coyoacan",
+        "lat": 19.34692,
+        "lon": -99.16086
+},
+"PROL_MOCTEZUMA_OTE_Y_PROL_MOCTEZUMA": {
+        "min": 0,
+        "max": 2,
+        "delegacion": "Coyoacan",
+        "lat": 19.34234,
+        "lon": -99.16802
+},
+"BUENAVISTA_Y_EUROPA": {
+        "min": 1,
+        "max": 2.5,
+        "delegacion": "Coyoacan",
+        "lat": 19.34285,
+        "lon": -99.15734
+},
+"AV_ESCUINAPA_Y_TEJAMANIL": {
+        "min": 0,
+        "max": 2.5,
+        "delegacion": "Coyoacan",
+        "lat": 19.3306,
+        "lon": -99.16528
+},
+"MEXICO_1968_Y_PARIS_1900": {
+        "min": 1,
+        "max": 4.7,
+        "delegacion": "Coyoacan",
+        "lat": 19.30304,
+        "lon": -99.16816
+},
+"CABO_BUENA_ESPERANZA_Y_DANIEL_BARRERA": {
+        "min": 0,
+        "max": 6.3,
+        "delegacion": "Gustavo A Madero",
+        "lat": 19.50165,
+        "lon": -99.09923
+},
+"CABO_FINISTERRE_Y_CABO_DE_GATA": {
+        "min": 0,
+        "max": 6.8,
+        "delegacion": "Gustavo A Madero",
+        "lat": 19.49488,
+        "lon": -99.09996
+},
+"MEXICO_1968_Y_CDA_LONDRES_1948": {
+        "min": 0,
+        "max": 2.5,
+        "delegacion": "Coyoacan",
+        "lat": 19.3068,
+        "lon": -99.17059
+},
+"ALBACETE_16": {
+        "min": 0,
+        "max": 0.8,
+        "delegacion": "Azcapotzalco",
+        "lat": 19.48882,
+        "lon": -99.18698
+},
+"CABO_BUENA_ESPERANZA_Y_PABLO_LIVA": {
+        "min": 0,
+        "max": 4,
+        "delegacion": "Gustavo A Madero",
+        "lat": 19.50249,
+        "lon": -99.10141
+},
+"AV_SANTIAGO_Y_TOMAS_VAZQUEZ": {
+        "min": 0,
+        "max": 0.9,
+        "delegacion": "Iztacalco",
+        "lat": 19.3912,
+        "lon": -99.13164
+},
+"EMILIO_CARRANZA_Y_ALVARO_OBREGON": {
+        "min": 0,
+        "max": 0.4,
+        "delegacion": "Iztacalco",
+        "lat": 19.39961,
+        "lon": -99.11971
+},
+"ERMITA_IZTAPALAPA_Y_LAZARO_CARDENAS": {
+        "min": 0,
+        "max": 2,
+        "delegacion": "Iztapalapa",
+        "lat": 19.34457,
+        "lon": -99.02822
+},
+"PASCUAL_OROZCO_Y_FRANCISCO_I_MADERO": {
+        "min": 0,
+        "max": 0.6,
+        "delegacion": "Iztacalco",
+        "lat": 19.39118,
+        "lon": -99.1175
+},
+"AV_GIRASOL_Y_CORTEZA": {
+        "min": 0,
+        "max": 2,
+        "delegacion": "Iztacalco",
+        "lat": 19.38436,
+        "lon": -99.10772
+},
+"SAN_JUAN_Y_AV_DE_LAS_TORRES": {
+        "min": 0,
+        "max": 6.5,
+        "delegacion": "Iztapalapa",
+        "lat": 19.32742,
+        "lon": -99.02878
+},
+"CORDILLERAS_Y_CORALES": {
+        "min": 1,
+        "max": 3.7,
+        "delegacion": "Iztacalco",
+        "lat": 19.38708,
+        "lon": -99.10992
+},
+"CAFETAL_Y_CHICLE": {
+        "min": 0,
+        "max": 1.9,
+        "delegacion": "Iztacalco",
+        "lat": 19.39993,
+        "lon": -99.10648
+},
+"BREA_Y_AZAFRAN": {
+        "min": 0,
+        "max": 0.6,
+        "delegacion": "Iztacalco",
+        "lat": 19.40259,
+        "lon": -99.11058
+},
+"RESINA_Y_AVENA": {
+        "min": 0,
+        "max": 2.2,
+        "delegacion": "Iztacalco",
+        "lat": 19.40101,
+        "lon": -99.09305
+},
+"SUR_171_Y_OTE_102": {
+        "min": 0,
+        "max": 0.4,
+        "delegacion": "Iztacalco",
+        "lat": 19.39358,
+        "lon": -99.09301
+},
+"OTE_233_Y_SUR_16B": {
+        "min": 0,
+        "max": 0.4,
+        "delegacion": "Iztacalco",
+        "lat": 19.39392,
+        "lon": -99.07917
+},
+"OTE_235C_Y_FERROCARRIL_DEL_RIO_FRIO": {
+        "min": 0,
+        "max": 0.4,
+        "delegacion": "Coyoacan",
+        "lat": 19.38952,
+        "lon": -99.07781
+},
+"OTE_239B_Y_SUR_18": {
+        "min": 0,
+        "max": 0.4,
+        "delegacion": "Coyoacan",
+        "lat": 19.39364,
+        "lon": -99.07461
+},
+"OTE_237_Y_SUR_4D": {
+        "min": 0,
+        "max": 0.7,
+        "delegacion": "Iztacalco",
+        "lat": 19.402,
+        "lon": -99.07438
+},
+"CALLE_UNO_Y_AV_GUADALUPE": {
+        "min": 0,
+        "max": 0.9,
+        "delegacion": "Coyoacan",
+        "lat": 19.4157,
+        "lon": -99.06846
+},
+"OTE_118_Y_EJE_4_OTE_AV_RIO_CHURUBUSCO": {
+        "min": 0,
+        "max": 0.1,
+        "delegacion": "Iztacalco",
+        "lat": 19.38675,
+        "lon": -99.09148
+},
+"PUENTE_BARBERENA_Y_PUENTE_JUAN_CARBONERO": {
+        "min": 0,
+        "max": 0.4,
+        "delegacion": "Iztacalco",
+        "lat": 19.38759,
+        "lon": -99.09144
+},
+"OTE_12_Y_SUR_177": {
+        "min": 0,
+        "max": 0.4,
+        "delegacion": "Iztacalco",
+        "lat": 19.38575,
+        "lon": -99.09292
+},
+"DR_MARQUEZ_PUERTA_9": {
+        "min": 0,
+        "max": 0.6,
+        "delegacion": "Cuauhtemoc",
+        "lat": 19.41153,
+        "lon": -99.1521
+},
+"5_DE_MAYO_58": {
+        "min": 3,
+        "max": 9,
+        "delegacion": "Magdalena Contreras",
+        "lat": 19.3069,
+        "lon": -99.25051
+},
+"REYNOCO_3": {
+        "min": 0,
+        "max": 3.6,
+        "delegacion": "Magdalena Contreras",
+        "lat": 19.30379,
+        "lon": -99.24925
+},
+"5_DE_MAYO_10": {
+        "min": 4,
+        "max": 10.8,
+        "delegacion": "Magdalena Contreras",
+        "lat": 19.30637,
+        "lon": -99.249
+},
+"REYNOCO_15": {
+        "min": 0,
+        "max": 3.4,
+        "delegacion": "Magdalena Contreras",
+        "lat": 19.30361,
+        "lon": -99.2507
+},
+"SERAPIO_RENDON_9": {
+        "min": 1,
+        "max": 7.1,
+        "delegacion": "Magdalena Contreras",
+        "lat": 19.30705,
+        "lon": -99.25222
+},
+"CERRADA_PINOS_7": {
+        "min": 2,
+        "max": 4.2,
+        "delegacion": "Magdalena Contreras",
+        "lat": 19.30694,
+        "lon": -99.25907
+},
+"ANDADOR_BELLOTA_MZ_94_LT_2": {
+        "min": 1,
+        "max": 6.9,
+        "delegacion": "Magdalena Contreras",
+        "lat": 19.3076,
+        "lon": -99.25392
+},
+"PAISAJISTAS_Y_FCO_DE_PASO_Y_TRANCOSO": {
+        "min": 0,
+        "max": 0.4,
+        "delegacion": "Iztapalapa",
+        "lat": 19.37813,
+        "lon": -99.10886
+},
+"JOSE_DEL_RIO_Y_FRANCISCO_NOBLE": {
+        "min": 0,
+        "max": 2.3,
+        "delegacion": "Iztapalapa",
+        "lat": 19.37187,
+        "lon": -99.02012
+},
+"VASCO_DE_QUIROGA_Y_FELIX_ORTIZ": {
+        "min": 0.2,
+        "max": 1.2,
+        "delegacion": "Iztapalapa",
+        "lat": 19.33588,
+        "lon": -99.06368
+},
+
 "Primaria_1_ACANTILADO_345": {
     "min": 0.3,
     "max": 3.04,
