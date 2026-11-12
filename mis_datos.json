@@ -12743,6 +12743,22 @@
         "lat": 19.3268,
         "lon": -99.05639
 },
+"JOSE_VASCONSELOS_Y_ANDRES_OSUNA": {
+        "uid": "4f360d24-ea6a-4bb0-bbf1-b746212e0db9",
+        "min": 0,
+        "max": 1.9,
+        "delegacion": "Gustavo A Madero",
+        "lat": 19.505884,
+        "lon": -99.106531
+},
+"FRANCISCO_TAMAGNO_Y_DONIZETTI": {
+        "uid": "4cf253fc-b940-409d-bb49-45868fd23c56",
+        "min": 0,
+        "max": 1.9,
+        "delegacion": "Gustavo A Madero",
+        "lat": 19.46734,
+        "lon": -99.132454
+},
 
 "Primaria_1_ACANTILADO_345": {
     "min": 0.3,
