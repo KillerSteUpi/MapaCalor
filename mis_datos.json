@@ -7007,14 +7007,6 @@
     "lon": -99.3064991
   },
 
-  "PLANTA POTABILIZADORA PANTEON CIVIL 1 Y 2": {
-    "min": 0.5,
-    "max": 1,
-    "delegacion": "Iztapalapa",
-    "lat": 19.33889,
-    "lon": -99.0749853
-  },
-
   "FRANCISCO VILLA #6": {
     "min": 0.5,
     "max": 1,
