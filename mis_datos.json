@@ -12729,6 +12729,20 @@
         "lat": 19.33588,
         "lon": -99.06368
 },
+"AV_6_Y_C_29": {
+        "min": 0,
+        "max": 0.5,
+        "delegacion": "Iztapalapa",
+        "lat": 19.34718,
+        "lon": -99.039
+},
+"LUNA_Y_ARROYO_FRIO": {
+        "min": 0,
+        "max": 1,
+        "delegacion": "Iztapalapa",
+        "lat": 19.3268,
+        "lon": -99.05639
+},
 
 "Primaria_1_ACANTILADO_345": {
     "min": 0.3,
